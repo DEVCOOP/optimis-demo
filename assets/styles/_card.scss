@@ -52,6 +52,11 @@
       border-radius: 5px 5px 0px 0px;
       text-align: left;
 
+      .mat-form-field-wrapper{
+        margin-bottom: -1.25em;
+        color: mat-contrast($primary, 900) !important;
+      }
+
       &.inline {
         display: flex;
         justify-content: space-between;
