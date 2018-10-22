@@ -52,5 +52,35 @@ button {
   }
 }
 
+.list {
+  > div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+
+    > div {
+      flex: 2 1 100%;
+      box-sizing: border-box;
+      align-items: center;
+      max-width: 80%;
+    }
+    > div:last-child {
+      flex: 1 2 100%;
+    }
+  }
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.mat-fab.fab-button {
+  position: fixed;
+  right: 20px;
+  bottom: 65px;
+  z-index: 50;
+}
+
 
 
