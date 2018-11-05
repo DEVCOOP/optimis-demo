@@ -1,0 +1,24 @@
+td.mat-cell.statut {
+  padding: 0;
+}
+td.mat-cell.statut {
+  border-left: 15px solid white;
+  &.WAITING_VALIDATION {
+    border-left-color: orangered;
+  }
+  &.PRE_VALIDATED {
+    border-left-color: yellow;
+  }
+  &.INFORMATION_REQUEST, &.INFORMATION_REQUEST_POST_VALIDATION {
+    border-left-color: blueviolet;
+  }
+  &.COMPLEX_REQUEST {
+    border-left-color: $red-color;
+  }
+  &.VALIDATED {
+    border-left-color: $green-color;
+  }
+  &.ACCEPTED {
+    border-left-color: cornflowerblue;
+  }
+}

@@ -82,6 +82,14 @@ $dark-accent: mat-palette($mat-cyan, 500, 300, 900);
 $dark-warn: mat-palette($mat-red);
 $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 
+$red-color: #eb1730;
+$yellow-color: #ffb865;
+$green-color: #9fce6f;
+$black-color: #3d404b;
+$grey-color: #757575;
+$grey-light-color: #dedede;
+$blue-light-color: #f2f7ff;
+
 $optimcare-typography: mat-typography-config(
   $font-family: 'Nunito'
 );
