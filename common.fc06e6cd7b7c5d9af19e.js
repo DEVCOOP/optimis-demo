@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{JJpL:function(n,t,o){"use strict";o.d(t,"a",function(){return e}),o("nBlJ");var e=function(){function n(){}return n.prototype.transform=function(n,t){return n?(n.title?n.title.code:"")+" "+n.lastName+" "+n.firstName:""},n}()}}]);
