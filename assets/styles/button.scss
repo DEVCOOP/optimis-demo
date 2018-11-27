@@ -1,0 +1,20 @@
+.mat-mini-fab.micro {
+  line-height: 26px;
+  width: 30px;
+  height: 30px;
+
+  .mat-button-wrapper {
+    padding: 4px 0;
+    display: inline-block;
+    line-height: 24px;
+
+    .mat-icon {
+      background-repeat: no-repeat;
+      display: inline-block;
+      fill: currentColor;
+      height: 20px;
+      width: 20px;
+      font-size: 18px;
+    }
+  }
+}

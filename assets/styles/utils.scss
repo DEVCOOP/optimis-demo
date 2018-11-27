@@ -1,3 +1,4 @@
+@import '~@angular/material/theming';
 
 .center {
   text-align: center;
@@ -105,6 +106,22 @@ mat-table.compress {
 
 .comment {
   white-space: pre-wrap;
+}
+
+.mat-list {
+  padding-top: 0;
+  .mat-list-item, .mat-list-item.mat-list-item-with-avatar {
+    height: 40px;
+  }
+}
+
+mat-icon{
+  &.success {
+    color : $green-color;
+  }
+  &.error {
+    color : $red-color;
+  }
 }
 
 
