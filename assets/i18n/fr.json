@@ -1,5 +1,4 @@
 {
-	"FHz de saisie": "",
 	"address": {
 		"additional": "Complément",
 		"cedex": "Cedex",
@@ -33,6 +32,7 @@
 		}
 	},
 	"button": {
+		"activateMonitoring": "Sélectionner",
 		"back": "Retour",
 		"cancel": "Annuler",
 		"close": "Fermer",
@@ -78,8 +78,8 @@
 		"newCenterButton": "Nouveau centre",
 		"phone": "Téléphone",
 		"publicId": "Identifiant public",
-		"teleexpertise": "Télé-expertise",
-		"telemonitoring": "Télé-surveillance",
+		"teleexpertise": "Adaptation de posologie",
+		"telemonitoring": "Télésurveillance",
 		"title": "Centre"
 	},
 	"common": {
@@ -132,8 +132,8 @@
 		"submitButton": "Valider",
 		"title": "Authentification"
 	},
-	"max": "",
 	"menu": {
+		"activateTelemonitoring": "Activer la TS",
 		"center": "Centres",
 		"forms": "Formulaires",
 		"newPatient": "Nouveau patient",
@@ -146,7 +146,6 @@
 		"tools": "Outils disponibles",
 		"user": "Utilisateurs"
 	},
-	"min": "",
 	"otp": {
 		"message": "Vous allez recevoir un code de sécurité par mail, merci de le saisir pour vous authentifier",
 		"title": "Code de vérification"
@@ -164,7 +163,7 @@
 		"birthDate": "Date de naissance",
 		"birthName": "Nom de naissance",
 		"button": {
-			"activateMonitoring": "",
+			"activateMonitoring": "Activer la télésurveillance",
 			"edit": "Modifier le patient",
 			"editAlert": "Paramétrage des alertes",
 			"share": "Partager le dossier"
@@ -175,7 +174,7 @@
 			}
 		},
 		"consent": {
-			"Telemonitoring": "La patient a donné son consentement pour la télé-surveillance",
+			"Telemonitoring": "La patient a donné son consentement pour la télésurveillance",
 			"teleexpertise": "La patient a donné son consentement pour la télé-expertise"
 		},
 		"create": {
@@ -233,10 +232,18 @@
 			"weight": "Poids"
 		},
 		"monitoring": {
-			"activate": "",
-			"threshold": ""
+			"activate": "Activer la télésurveillance",
+			"frequency": "Fréquence",
+			"ps": {
+				"followers": "Professionnels en charge de l’accompagnement thérapeutique",
+				"prescriber": "Médecin prescripteur",
+				"responsibles": "Médecins en charge de la télésurveillance"
+			},
+			"selectData": "Sélectionner une nouvelle donnée à suivre",
+			"shared": "Professionnels de santé ayant accès au dossier",
+			"threshold": "Données à suivre et seuils d'alerte"
 		},
-		"name": "",
+		"name": "Patient",
 		"nationalId": "Numéro National (code NIR)",
 		"newPatientButton": "Nouveau patient",
 		"psychologicaldata": {
@@ -245,9 +252,10 @@
 		"rank": "Rang de naissance",
 		"teleexpertise": {
 			"displayAll": "Tout afficher",
-			"title": "Télé-expertise"
+			"title": "Adaptation de posologie"
 		},
 		"telemonitoring": {
+			"noActivated": "La télésurveillance n'a pas encore été activée, cliquez sur le lien suivant si vous souhaitez l'initialiser : ",
 			"title": "Télésurveillance"
 		}
 	},
@@ -319,7 +327,7 @@
 			"samples": {
 				"concentration": "Concentration",
 				"intervalDoseSampling": "Temps depuis la dose",
-				"optimalDoseSampling": "Interval optimal",
+				"optimalDoseSampling": "Intervalle optimale",
 				"realSamplingTime": "Heure de prélèvement réelle",
 				"warning": {
 					"concentration": {
@@ -345,6 +353,15 @@
 		},
 		"center": {
 			"label": "Centre"
+		},
+		"charts": {
+			"axis": {
+				"concentration": "Concentration (mg/l)"
+			},
+			"legend": {
+				"standardDeviation": "",
+				"values": ""
+			}
 		},
 		"close": {
 			"comment": "Commentaire",
@@ -485,8 +502,8 @@
 	"rights": {
 		"title": "Rôles"
 	},
-	"teleexpertise": "Télé-expertise",
-	"telemonitoring": "Télé-surveillance",
+	"teleexpertise": "Adaptation de posologie",
+	"telemonitoring": "Télésurveillance",
 	"unit": {
 		"day": "Jour(s)"
 	},
