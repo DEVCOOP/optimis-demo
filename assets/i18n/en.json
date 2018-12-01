@@ -1,561 +1,310 @@
 {
-	"address": {
-		"additional": "Additional",
-		"cedex": "Cedex",
-		"city": "City",
-		"country": "Country",
-		"number": "N°",
-		"postalBox": "Postal box ",
-		"postalCode": "Postal code",
-		"street": "Street",
-		"title": ""
-	},
-	"backoffice": {
-		"center": {
-			"patients": {
-				"title": ""
-			},
-			"users": {
-				"title": ""
-			}
-		},
-		"menu": {
-			"patient": ""
-		},
-		"users": {
-			"newUserButton": "New user",
-			"tabs": {
-				"toValidate": "To validate",
-				"validated": "Validated"
-			},
-			"title": ""
-		}
-	},
-	"button": {
-		"activateMonitoring": "",
-		"back": "Back",
-		"cancel": "Cancel",
-		"close": "Close",
-		"edit": "",
-		"next": "Next",
-		"ok": "",
-		"previous": "Previous",
-		"submit": "Submit",
-		"validate": ""
-	},
-	"center": {
-		"activitySector": "",
-		"address": {
-			"city": "",
-			"complete": "",
-			"country": "",
-			"title": ""
-		},
-		"code": "",
-		"confirm": {
-			"content": "",
-			"title": ""
-		},
-		"create": {
-			"search": {
-				"finess": "",
-				"google": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"edit": {
-			"title": ""
-		},
-		"fax": "",
-		"finess": "",
-		"license": "",
-		"list": {
-			"search": "",
-			"title": ""
-		},
-		"name": "Center",
-		"newCenterButton": "",
-		"phone": "",
-		"publicId": "",
-		"teleexpertise": "",
-		"telemonitoring": "",
-		"title": ""
-	},
-	"common": {
-		"alerts": "Alerts",
-		"notifications": "Notifications"
-	},
-	"form": {
-		"field": {
-			"emailInvalid": "email invalid",
-			"required": "You must enter a value"
-		}
-	},
-	"header": {
-		"about": "",
-		"alert": "Show alerts",
-		"backoffice": "",
-		"home": "Home",
-		"login": "",
-		"logout": "Logout",
-		"myProfile": "My profile",
-		"notification": "Show notifications",
-		"patient": "",
-		"register": "",
-		"teleexpertise": "Teleexpertise",
-		"telemonitoring": "Telemonitoring"
-	},
-	"home": {
-		"alert": {
-			"title": ""
-		},
-		"button": {
-			"learnmore": ""
-		},
-		"teleexpertise": {
-			"content": "",
-			"subtitle": "",
-			"title": ""
-		},
-		"telemonitoring": {
-			"content": "",
-			"subtitle": "",
-			"title": ""
-		},
-		"welcome": ""
-	},
-	"login": {
-		"createAccountButton": "Create account",
-		"createAccountTitle": "You don't have an account ?",
-		"passwordForgotten": "Forgot password?",
-		"submitButton": "Submit",
-		"title": "Authentication"
-	},
-	"menu": {
-		"activateTelemonitoring": "",
-		"center": "",
-		"forms": "",
-		"newPatient": "",
-		"newRequest": "",
-		"nomenclature": "",
-		"patients": "",
-		"requests": "",
-		"rights": "",
-		"settings": "",
-		"tools": "",
-		"user": ""
-	},
-	"otp": {
-		"message": "Vous allez recevoir un code de sécurité par mail, merci de le saisir pour vous authentifier",
-		"title": "Check code"
-	},
-	"patient": {
-		"address": {
-			"selection": ""
-		},
-		"administrativeInformation": {
-			"title": ""
-		},
-		"biologicaldata": {
-			"title": ""
-		},
-		"birthDate": "",
-		"birthName": "",
-		"button": {
-			"activateMonitoring": "",
-			"edit": "",
-			"editAlert": "",
-			"share": ""
-		},
-		"center": {
-			"choice": {
-				"info": ""
-			}
-		},
-		"consent": {
-			"Telemonitoring": "",
-			"teleexpertise": ""
-		},
-		"create": {
-			"confirm": {
-				"content": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"data": {
-			"alert": ""
-		},
-		"email": "",
-		"error": {
-			"nationalId": ""
-		},
-		"externalId": "",
-		"firstName": "",
-		"follow": "",
-		"gender": "",
-		"healthInsurance": {
-			"codeOrganisation": ""
-		},
-		"lastName": "",
-		"learning": {
-			"title": ""
-		},
-		"list": {
-			"search": "",
-			"title": ""
-		},
-		"medicalInformation": {
-			"addButton": "",
-			"consent": {
-				"title": ""
-			},
-			"indication": {
-				"comment": "",
-				"date": "",
-				"name": "",
-				"transplantation": {
-					"date": ""
-				},
-				"treatment": {
-					"date": ""
-				}
-			},
-			"otherIndications": "",
-			"removeButton": "",
-			"title": ""
-		},
-		"medicaldata": {
-			"bloodPressure": "",
-			"title": "",
-			"weight": ""
-		},
-		"monitoring": {
-			"activate": "",
-			"frequency": "",
-			"ps": {
-				"followers": "",
-				"prescriber": "",
-				"responsibles": ""
-			},
-			"selectData": "",
-			"shared": "",
-			"threshold": ""
-		},
-		"name": "",
-		"nationalId": "",
-		"newPatientButton": "",
-		"psychologicaldata": {
-			"title": ""
-		},
-		"rank": "",
-		"teleexpertise": {
-			"displayAll": "",
-			"title": ""
-		},
-		"telemonitoring": {
-			"noActivated": "",
-			"title": ""
-		}
-	},
-	"register": {
-		"address": {
-			"selection": ""
-		},
-		"center": {
-			"choice": {
-				"explanation": "",
-				"info": "Center"
-			},
-			"create": {
-				"button": "New center",
-				"explanation": "New center"
-			}
-		},
-		"confirm": {
-			"content": "",
-			"title": "Request saved"
-		},
-		"title": "Register",
-		"user": {
-			"authentication": {
-				"emailOtp": {
-					"explain": ""
-				},
-				"mode": {
-					"cps": "",
-					"explain": "",
-					"otp": "",
-					"title": ""
-				}
-			},
-			"center": {
-				"new": ""
-			},
-			"country": "",
-			"foreign": "Other",
-			"french": "French",
-			"identifiant": {
-				"explain": "",
-				"label": ""
-			},
-			"roles": {
-				"label": "",
-				"title": ""
-			}
-		}
-	},
-	"request": {
-		"accept": {
-			"comment": "",
-			"title": ""
-		},
-		"administrativeInformation": "",
-		"askForInformation": {
-			"comment": ""
-		},
-		"askInformationToExpert": {
-			"title": ""
-		},
-		"askInformationToRequester": {
-			"title": ""
-		},
-		"bloodSample": {
-			"assayMethod": "",
-			"drugIntakeTime": "",
-			"samples": {
-				"concentration": "",
-				"intervalDoseSampling": "",
-				"optimalDoseSampling": "",
-				"realSamplingTime": "",
-				"warning": {
-					"concentration": {
-						"minmax": ""
-					},
-					"time": {
-						"minmax": ""
-					}
-				}
-			},
-			"samplingDate": ""
-		},
-		"button": {
-			"accept": "",
-			"askForInformation": "",
-			"askInformation": "",
-			"back": "",
-			"close": "",
-			"exportPdf": "",
-			"launchCalculation": "",
-			"print": "",
-			"validate": ""
-		},
-		"center": {
-			"label": ""
-		},
-		"charts": {
-			"axis": {
-				"concentration": ""
-			},
-			"legend": {
-				"standardDeviation": "",
-				"values": ""
-			}
-		},
-		"close": {
-			"comment": "",
-			"title": ""
-		},
-		"comments": {
-			"title": ""
-		},
-		"consent": "",
-		"context": {
-			"additionalInformation": "",
-			"reason": ""
-		},
-		"create": {
-			"centerStepTitle": "",
-			"confirm": {
-				"content": "",
-				"title": ""
-			},
-			"contextStepTitle": "",
-			"indicationStepTitle": "",
-			"patient": {
-				"explanation": ""
-			},
-			"patientStepTitle": "",
-			"samples": {
-				"addButton": "",
-				"removeButton": ""
-			},
-			"samplingStepTitle": "",
-			"treatmentStepTitle": ""
-		},
-		"creationDate": "",
-		"diabetic": "",
-		"edit": {
-			"title": ""
-		},
-		"indication": {
-			"comment": "",
-			"date": "",
-			"name": "",
-			"transplantation": {
-				"date": ""
-			},
-			"treatment": {
-				"date": ""
-			}
-		},
-		"infoRequest": {
-			"comment": "",
-			"confirm": {
-				"content": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"label": "",
-		"lastComments": {
-			"displayAll": "",
-			"noComment": "",
-			"title": ""
-		},
-		"launchCalculation": {
-			"error": {
-				"atLeast3Sample": ""
-			},
-			"selectSample": "",
-			"title": ""
-		},
-		"list": {
-			"search": "",
-			"title": ""
-		},
-		"mucoviscidose": "",
-		"newRequestButton": "New request",
-		"number": "",
-		"patient": {
-			"create": {
-				"button": ""
-			},
-			"label": ""
-		},
-		"prescriber": "",
-		"requester": "",
-		"result": {
-			"AUC": "",
-			"best": "",
-			"cMax": "",
-			"compare": "",
-			"delai": "",
-			"inputData": {
-				"description": "",
-				"title": ""
-			},
-			"log": {
-				"title": ""
-			},
-			"name": "",
-			"noResult": "",
-			"numberOfTakens": "",
-			"posologyActual": "",
-			"posologyEstimate": "",
-			"tauxResiduel": "",
-			"title": ""
-		},
-		"resultGroup": {
-			"date": ""
-		},
-		"samples": {
-			"subtitle": "",
-			"title": ""
-		},
-		"selectPopulation": {
-			"populations": ""
-		},
-		"status": "",
-		"treatment": {
-			"administrationRoute": "",
-			"coTreatments": "",
-			"doses": "",
-			"drug": "",
-			"drugCommercialName": "",
-			"numberOfTakes": "",
-			"warning": {
-				"dose": {
-					"minmax": "",
-					"step": ""
-				}
-			}
-		},
-		"validate": {
-			"comments": "",
-			"populationSelected": "",
-			"resultGroupSelected": "",
-			"title": ""
-		}
-	},
-	"rights": {
-		"title": ""
-	},
+	"address.additional": "Additional",
+	"address.cedex": "Cedex",
+	"address.city": "City",
+	"address.country": "Country",
+	"address.number": "N°",
+	"address.postalBox": "Postal box ",
+	"address.postalCode": "Postal code",
+	"address.street": "Street",
+	"address.title": "",
+	"backoffice.center.patients.title": "",
+	"backoffice.center.users.title": "",
+	"backoffice.menu.patient": "",
+	"backoffice.users.newUserButton": "New user",
+	"backoffice.users.tabs.toValidate": "To validate",
+	"backoffice.users.tabs.validated": "Validated",
+	"backoffice.users.title": "",
+	"button.activateMonitoring": "",
+	"button.back": "Back",
+	"button.cancel": "Cancel",
+	"button.close": "Close",
+	"button.edit": "",
+	"button.next": "Next",
+	"button.ok": "",
+	"button.previous": "Previous",
+	"button.submit": "Submit",
+	"button.validate": "",
+	"center.activitySector": "",
+	"center.address.city": "",
+	"center.address.complete": "",
+	"center.address.country": "",
+	"center.address.title": "",
+	"center.code": "",
+	"center.confirm.content": "",
+	"center.confirm.title": "",
+	"center.create.search.finess": "",
+	"center.create.search.google": "",
+	"center.create.search.title": "",
+	"center.create.title": "",
+	"center.edit.title": "",
+	"center.fax": "",
+	"center.finess": "",
+	"center.license": "",
+	"center.list.search": "",
+	"center.list.title": "",
+	"center.name": "Center",
+	"center.newCenterButton": "",
+	"center.phone": "",
+	"center.publicId": "",
+	"center.teleexpertise": "",
+	"center.telemonitoring": "",
+	"center.title": "",
+	"common.alerts": "Alerts",
+	"common.notifications": "Notifications",
+	"form.field.emailInvalid": "email invalid",
+	"form.field.required": "You must enter a value",
+	"header.about": "",
+	"header.alert": "Show alerts",
+	"header.backoffice": "",
+	"header.home": "Home",
+	"header.login": "",
+	"header.logout": "Logout",
+	"header.myProfile": "My profile",
+	"header.notification": "Show notifications",
+	"header.patient": "",
+	"header.register": "",
+	"header.teleexpertise": "Teleexpertise",
+	"header.telemonitoring": "Telemonitoring",
+	"home.alert.title": "",
+	"home.button.learnmore": "",
+	"home.teleexpertise.content": "",
+	"home.teleexpertise.subtitle": "",
+	"home.teleexpertise.title": "",
+	"home.telemonitoring.content": "",
+	"home.telemonitoring.subtitle": "",
+	"home.telemonitoring.title": "",
+	"home.welcome": "",
+	"login.createAccountButton": "Create account",
+	"login.createAccountTitle": "You don't have an account ?",
+	"login.passwordForgotten": "Forgot password?",
+	"login.submitButton": "Submit",
+	"login.title": "Authentication",
+	"menu.activateTelemonitoring": "",
+	"menu.center": "",
+	"menu.forms": "",
+	"menu.newPatient": "",
+	"menu.newRequest": "",
+	"menu.nomenclature": "",
+	"menu.patients": "",
+	"menu.requests": "",
+	"menu.rights": "",
+	"menu.settings": "",
+	"menu.tools": "",
+	"menu.user": "",
+	"otp.message": "Vous allez recevoir un code de sécurité par mail, merci de le saisir pour vous authentifier",
+	"otp.title": "Check code",
+	"patient.address.selection": "",
+	"patient.administrativeInformation.title": "",
+	"patient.biologicaldata.title": "",
+	"patient.birthDate": "",
+	"patient.birthName": "",
+	"patient.button.activateMonitoring": "",
+	"patient.button.edit": "",
+	"patient.button.editAlert": "",
+	"patient.button.share": "",
+	"patient.center.choice.info": "",
+	"patient.consent.Telemonitoring": "",
+	"patient.consent.teleexpertise": "",
+	"patient.create.confirm.content": "",
+	"patient.create.confirm.title": "",
+	"patient.create.title": "",
+	"patient.data.alert": "",
+	"patient.email": "",
+	"patient.error.nationalId": "",
+	"patient.externalId": "",
+	"patient.firstName": "",
+	"patient.follow": "",
+	"patient.gender": "",
+	"patient.healthInsurance.codeOrganisation": "",
+	"patient.lastName": "",
+	"patient.learning.title": "",
+	"patient.list.search": "",
+	"patient.list.title": "",
+	"patient.medicalInformation.addButton": "",
+	"patient.medicalInformation.consent.title": "",
+	"patient.medicalInformation.indication.comment": "",
+	"patient.medicalInformation.indication.date": "",
+	"patient.medicalInformation.indication.name": "",
+	"patient.medicalInformation.indication.transplantation.date": "",
+	"patient.medicalInformation.indication.treatment.date": "",
+	"patient.medicalInformation.otherIndications": "",
+	"patient.medicalInformation.removeButton": "",
+	"patient.medicalInformation.title": "",
+	"patient.medicaldata.bloodPressure": "",
+	"patient.medicaldata.title": "",
+	"patient.medicaldata.weight": "",
+	"patient.monitoring.activate": "",
+	"patient.monitoring.frequency": "",
+	"patient.monitoring.ps.followers": "",
+	"patient.monitoring.ps.prescriber": "",
+	"patient.monitoring.ps.responsibles": "",
+	"patient.monitoring.selectData": "",
+	"patient.monitoring.shared": "",
+	"patient.monitoring.threshold": "",
+	"patient.name": "",
+	"patient.nationalId": "",
+	"patient.newPatientButton": "",
+	"patient.psychologicaldata.title": "",
+	"patient.rank": "",
+	"patient.teleexpertise.displayAll": "",
+	"patient.teleexpertise.noRequests": "",
+	"patient.teleexpertise.title": "",
+	"patient.telemonitoring.noActivated": "",
+	"patient.telemonitoring.title": "",
+	"register.address.selection": "",
+	"register.center.choice.explanation": "",
+	"register.center.choice.info": "Center",
+	"register.center.create.button": "New center",
+	"register.center.create.explanation": "New center",
+	"register.confirm.content": "",
+	"register.confirm.title": "Request saved",
+	"register.title": "Register",
+	"register.user.authentication.emailOtp.explain": "",
+	"register.user.authentication.mode.cps": "",
+	"register.user.authentication.mode.explain": "",
+	"register.user.authentication.mode.otp": "",
+	"register.user.authentication.mode.title": "",
+	"register.user.center.new": "",
+	"register.user.country": "",
+	"register.user.foreign": "Other",
+	"register.user.french": "French",
+	"register.user.identifiant.explain": "",
+	"register.user.identifiant.label": "",
+	"register.user.roles.label": "",
+	"register.user.roles.title": "",
+	"request.accept.comment": "",
+	"request.accept.title": "",
+	"request.administrativeInformation": "",
+	"request.askForInformation.comment": "",
+	"request.askInformationToExpert.title": "",
+	"request.askInformationToRequester.title": "",
+	"request.bloodSample.assayMethod": "",
+	"request.bloodSample.drugIntakeTime": "",
+	"request.bloodSample.samples.concentration": "",
+	"request.bloodSample.samples.intervalDoseSampling": "",
+	"request.bloodSample.samples.optimalDoseSampling": "",
+	"request.bloodSample.samples.realSamplingTime": "",
+	"request.bloodSample.samples.warning.concentration.minmax": "",
+	"request.bloodSample.samples.warning.time.minmax": "",
+	"request.bloodSample.samplingDate": "",
+	"request.button.accept": "",
+	"request.button.askForInformation": "",
+	"request.button.askInformation": "",
+	"request.button.back": "",
+	"request.button.close": "",
+	"request.button.exportPdf": "",
+	"request.button.launchCalculation": "",
+	"request.button.print": "",
+	"request.button.validate": "",
+	"request.center.label": "",
+	"request.charts.axis.concentration": "",
+	"request.charts.legend.standardDeviation": "",
+	"request.charts.legend.values": "",
+	"request.close.comment": "",
+	"request.close.title": "",
+	"request.comments.title": "",
+	"request.consent": "",
+	"request.context.additionalInformation": "",
+	"request.context.reason": "",
+	"request.create.centerStepTitle": "",
+	"request.create.confirm.content": "",
+	"request.create.confirm.title": "",
+	"request.create.contextStepTitle": "",
+	"request.create.indicationStepTitle": "",
+	"request.create.patient.explanation": "",
+	"request.create.patientStepTitle": "",
+	"request.create.samples.addButton": "",
+	"request.create.samples.removeButton": "",
+	"request.create.samplingStepTitle": "",
+	"request.create.treatmentStepTitle": "",
+	"request.creationDate": "",
+	"request.diabetic": "",
+	"request.edit.title": "",
+	"request.indication.comment": "",
+	"request.indication.date": "",
+	"request.indication.name": "",
+	"request.indication.transplantation.date": "",
+	"request.indication.treatment.date": "",
+	"request.infoRequest.comment": "",
+	"request.infoRequest.confirm.content": "",
+	"request.infoRequest.confirm.title": "",
+	"request.infoRequest.title": "",
+	"request.label": "",
+	"request.lastComments.displayAll": "",
+	"request.lastComments.noComment": "",
+	"request.lastComments.title": "",
+	"request.launchCalculation.error.atLeast3Sample": "",
+	"request.launchCalculation.selectSample": "",
+	"request.launchCalculation.title": "",
+	"request.list.search": "",
+	"request.list.title": "",
+	"request.mucoviscidose": "",
+	"request.newRequestButton": "New request",
+	"request.number": "",
+	"request.patient.create.button": "",
+	"request.patient.label": "",
+	"request.prescriber": "",
+	"request.requester": "",
+	"request.result.AUC": "",
+	"request.result.best": "",
+	"request.result.cMax": "",
+	"request.result.compare": "",
+	"request.result.delai": "",
+	"request.result.inputData.description": "",
+	"request.result.inputData.title": "",
+	"request.result.log.title": "",
+	"request.result.name": "",
+	"request.result.noResult": "",
+	"request.result.numberOfTakens": "",
+	"request.result.posologyActual": "",
+	"request.result.posologyEstimate": "",
+	"request.result.tauxResiduel": "",
+	"request.result.title": "",
+	"request.resultGroup.date": "",
+	"request.samples.subtitle": "",
+	"request.samples.title": "",
+	"request.selectPopulation.populations": "",
+	"request.status": "",
+	"request.treatment.administrationRoute": "",
+	"request.treatment.coTreatments": "",
+	"request.treatment.doses": "",
+	"request.treatment.drug": "",
+	"request.treatment.drugCommercialName": "",
+	"request.treatment.numberOfTakes": "",
+	"request.treatment.warning.dose.minmax": "",
+	"request.treatment.warning.dose.step": "",
+	"request.validate.comments": "",
+	"request.validate.populationSelected": "",
+	"request.validate.resultGroupSelected": "",
+	"request.validate.title": "",
+	"rights.title": "",
 	"teleexpertise": "",
 	"telemonitoring": "",
-	"unit": {
-		"day": ""
-	},
-	"user": {
-		"administrativeInformation": {
-			"title": ""
-		},
-		"authentication": {
-			"mode": {
-				"label": "",
-				"title": ""
-			}
-		},
-		"center": "",
-		"create": {
-			"title": ""
-		},
-		"department": "Department",
-		"edit": {
-			"confirm": {
-				"content": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"email": "Email",
-		"emailOtp": "",
-		"firstName": "First name",
-		"lastName": "Last name",
-		"nationalId": "",
-		"rights": {
-			"title": ""
-		},
-		"role": {
-			"none": ""
-		},
-		"roles": "",
-		"specialty": "",
-		"title": "Title",
-		"validate": {
-			"title": ""
-		},
-		"validation": {
-			"confirm": {
-				"content": "",
-				"title": ""
-			}
-		}
-	},
-	"valueset": {
-		"addButton": "",
-		"removeButton": "",
-		"title": ""
-	}
+	"unit.day": "",
+	"user.administrativeInformation.title": "",
+	"user.authentication.mode.label": "",
+	"user.authentication.mode.title": "",
+	"user.center": "",
+	"user.create.title": "",
+	"user.department": "Department",
+	"user.edit.confirm.content": "",
+	"user.edit.confirm.title": "",
+	"user.edit.title": "",
+	"user.email": "Email",
+	"user.emailOtp": "",
+	"user.firstName": "First name",
+	"user.lastName": "Last name",
+	"user.nationalId": "",
+	"user.rights.title": "",
+	"user.role.none": "",
+	"user.roles": "",
+	"user.specialty": "",
+	"user.title": "Title",
+	"user.validate.title": "",
+	"user.validation.confirm.content": "",
+	"user.validation.confirm.title": "",
+	"valueset.addButton": "",
+	"valueset.removeButton": "",
+	"valueset.title": ""
 }
