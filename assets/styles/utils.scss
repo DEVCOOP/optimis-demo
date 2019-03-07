@@ -9,12 +9,15 @@
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
+
 .pull-right {
-  float : right;
+  float: right;
 }
+
 .pull-left {
-  float : left;
+  float: left;
 }
+
 .right {
   text-align: right;
   margin-right: 1em;
@@ -39,7 +42,6 @@ h2 {
 }
 
 h3 {
-  font-weight: bold !important;
   color: mat-color($accent);
 }
 
@@ -62,7 +64,7 @@ button {
 .list {
   h3 {
     color: mat-color($accent);
-    margin: 0px;
+    margin: 0;
     padding: 16px 0 0 0;
   }
   &.list-section {
@@ -70,19 +72,32 @@ button {
       background-color: $blue-light-color;
     }
   }
+  > mat-table {
+    background-color: $blue-light-color !important;
+  }
   > div:not(.list):not(.inline) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     > div {
-      flex: 2 1 100%;
+      flex: 0 0 auto;
       box-sizing: border-box;
       align-items: center;
       max-width: 80%;
+      min-width: 50%;
     }
     > div:last-child {
-      flex: 1 2 100%;
+      flex: 0 0 auto;
+      //display: contents;
+    }
+  }
+}
+
+.list.auc {
+  > div:not(.list):not(.inline) {
+    > div {
+      min-width: 70%;
     }
   }
 }
@@ -100,12 +115,14 @@ button {
 }
 
 mat-table.compress {
-  mat-footer-row, mat-row, mat-header-row {min-height: 24px;
+  mat-footer-row, mat-row, mat-header-row {
+    min-height: 24px;
   }
 }
 
 .comment {
   white-space: pre-wrap;
+  font-style: italic;
 }
 
 .mat-list {
@@ -115,12 +132,12 @@ mat-table.compress {
   }
 }
 
-mat-icon{
+mat-icon {
   &.success {
-    color : $green-color;
+    color: $green-color;
   }
   &.error {
-    color : $red-color;
+    color: $red-color;
   }
 }
 

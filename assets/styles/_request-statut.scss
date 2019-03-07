@@ -1,24 +1,81 @@
-td.mat-cell.statut {
+$WAITING_VALIDATION-color: orangered;
+$PRE_VALIDATED-color: yellow;
+$INFORMATION_REQUEST-color: blueviolet;
+$INFORMATION_REQUEST_POST_VALIDATION-color: blueviolet;
+$COMPLEX_REQUEST-color: $red-color;
+$VALIDATED-color: $green-color;
+$ACCEPTED-color: cornflowerblue;
+
+td.mat-cell.status {
   padding: 0;
 }
-td.mat-cell.statut {
+td.mat-cell.status {
   border-left: 15px solid white;
   &.WAITING_VALIDATION {
-    border-left-color: orangered;
+    border-left-color: $WAITING_VALIDATION-color;
   }
   &.PRE_VALIDATED {
-    border-left-color: yellow;
+    border-left-color: $PRE_VALIDATED-color;
   }
   &.INFORMATION_REQUEST, &.INFORMATION_REQUEST_POST_VALIDATION {
-    border-left-color: blueviolet;
+    border-left-color: $INFORMATION_REQUEST-color;
   }
   &.COMPLEX_REQUEST {
-    border-left-color: $red-color;
+    border-left-color: $COMPLEX_REQUEST-color;
   }
   &.VALIDATED {
-    border-left-color: $green-color;
+    border-left-color: $VALIDATED-color;
   }
   &.ACCEPTED {
-    border-left-color: cornflowerblue;
+    border-left-color: $ACCEPTED-color;
+  }
+}
+
+mat-toolbar {
+  .status {
+    color:#ffffff;
+
+    &.WAITING_VALIDATION {
+      background:linear-gradient(to right, #F5F5F5, $WAITING_VALIDATION-color);
+      button {
+        color:#ffffff;
+        background-color: $WAITING_VALIDATION-color;
+      }
+    }
+    &.PRE_VALIDATED {
+      background:linear-gradient(to right, #F5F5F5, $PRE_VALIDATED-color);
+      button {
+        color:#ffffff;
+        background-color: $PRE_VALIDATED-color;
+      }
+    }
+    &.INFORMATION_REQUEST, &.INFORMATION_REQUEST_POST_VALIDATION {
+      background:linear-gradient(to right, #F5F5F5, $INFORMATION_REQUEST-color);
+      button {
+        color:#ffffff;
+        background-color: $INFORMATION_REQUEST-color;
+      }
+    }
+    &.COMPLEX_REQUEST {
+      background:linear-gradient(to right, #F5F5F5, $COMPLEX_REQUEST-color);
+      button {
+        color:#ffffff;
+        background-color: $COMPLEX_REQUEST-color;
+      }
+    }
+    &.VALIDATED {
+      background:linear-gradient(to right, #F5F5F5, $VALIDATED-color);
+      button {
+        color:#ffffff;
+        background-color: $VALIDATED-color;
+      }
+    }
+    &.ACCEPTED {
+      background:linear-gradient(to right, #F5F5F5, $ACCEPTED-color);
+      button {
+        color:#ffffff;
+        background-color: $ACCEPTED-color;
+      }
+    }
   }
 }
