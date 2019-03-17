@@ -141,5 +141,13 @@ mat-icon {
   }
 }
 
+.clickable {
+  /* Define the hover highlight color for the table row */
+  tbody>tr:hover {
+    background-color: mat-color($accent, 0.2);
+    cursor: pointer;
+  }
+}
+
 
 

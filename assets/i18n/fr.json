@@ -3,10 +3,6 @@
 		"GT_18": "Adulte",
 		"LT_18": "Enfant"
 	},
-	"OTHER_INDICATION": {
-		"CYSTIC_FIBROSIS": "Mucoviscidose",
-		"DIABETIC": "Diabète"
-	},
 	"address": {
 		"additional": "Complément d'adresse",
 		"cedex": "Cedex",
@@ -133,6 +129,17 @@
 		"publicId": "Identifiant public",
 		"title": "Centre"
 	},
+	"chart": {
+		"axis": {
+			"bloodPressure": "Tension",
+			"date": "Date",
+			"weight": "Poids"
+		},
+		"threshold": "Seuils",
+		"tooltip": {
+			"weight": "Poids"
+		}
+	},
 	"common": {
 		"alerts": "Alertes",
 		"noNotification": "Aucune notification",
@@ -208,7 +215,7 @@
 		"newRequest": "Nouvelle demande",
 		"nomenclature": "Nomenclatures",
 		"patients": "Patients",
-		"requests": "Historique des demandes",
+		"requests": "Liste des demandes",
 		"rights": "Droits",
 		"settings": "Paramétrage",
 		"tools": "Temps optimaux",
@@ -238,6 +245,10 @@
 			"validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
 			"waiting_validation": "La demande pour le patient \"{{patient}}\" est en attente de validation"
 		}
+	},
+	"otherIndication": {
+		"CYSTIC_FIBROSIS": "Mucoviscidose",
+		"DIABETIC": "Diabète"
 	},
 	"patient": {
 		"access": {
@@ -330,12 +341,16 @@
 		},
 		"medicaldata": {
 			"bloodPressure": "Tension",
+			"noData": "",
 			"title": "Données cliniques",
 			"weight": "Poids"
 		},
 		"monitoring": {
 			"activate": "Initier la télésurveillance",
-			"frequency": "Fréquence",
+			"frequency": {
+				"unit": "Fréquence",
+				"value": "Tous les"
+			},
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
 				"responsibles": "Médecins ayant les droits de gestion"
@@ -450,7 +465,8 @@
 					}
 				}
 			},
-			"samplingDate": "Date de prélèvement"
+			"samplingDate": "Date de prélèvement",
+			"startTreatment": "Début de perfusion"
 		},
 		"button": {
 			"accept": "Accuser réception du résultat",
@@ -713,6 +729,12 @@
 		"emailOtp": "Email pour recevoir le mot de passe unique (si vous avez choisi cette option)",
 		"entityRightFilters": "Indications suivies",
 		"firstName": "Prénom",
+		"language": {
+			"application": "Langue de l'application",
+			"english": "Anglais",
+			"french": "Français",
+			"title": "Langue"
+		},
 		"lastName": "Nom",
 		"licenses": {
 			"asked": "License"

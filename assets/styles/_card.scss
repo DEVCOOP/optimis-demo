@@ -176,6 +176,12 @@
     padding: 10px;
   }
 
+  .card-title {
+    margin-bottom: 0px;
+    color: mat-color($primary);
+    @include mat-typography-level-to-styles($config, title);
+  }
+
 }
 
 

@@ -3,10 +3,6 @@
 		"GT_18": "Adult",
 		"LT_18": "Pediatric"
 	},
-	"OTHER_INDICATION": {
-		"CYSTIC_FIBROSIS": "cystic fibrosis",
-		"DIABETIC": "Diabetes"
-	},
 	"address": {
 		"additional": "Adress line 2 (building, floor...)",
 		"cedex": "Cedex",
@@ -107,9 +103,6 @@
 			"startDate": "",
 			"title": ""
 		},
-		"contracts": {
-			"title": ""
-		},
 		"create": {
 			"search": {
 				"finess": "Search from Finess repertory",
@@ -135,6 +128,17 @@
 		"phone": "",
 		"publicId": "",
 		"title": ""
+	},
+	"chart": {
+		"axis": {
+			"bloodPressure": "",
+			"date": "",
+			"weight": ""
+		},
+		"threshold": "",
+		"tooltip": {
+			"weight": ""
+		}
 	},
 	"common": {
 		"alerts": "Alerts",
@@ -242,6 +246,10 @@
 			"waiting_validation": ""
 		}
 	},
+	"otherIndication": {
+		"CYSTIC_FIBROSIS": "cystic fibrosis",
+		"DIABETIC": "Diabetes"
+	},
 	"patient": {
 		"access": {
 			"description": "To give access to the application to a patient, you have to fill in his/her email in order that the patient can receive his/her ID and the link to upload the application",
@@ -333,12 +341,16 @@
 		},
 		"medicaldata": {
 			"bloodPressure": "Blood pressure",
+			"noData": "",
 			"title": "Clinical data",
 			"weight": "weight"
 		},
 		"monitoring": {
 			"activate": "Activate the telemonitoring",
-			"frequency": "Frequency",
+			"frequency": {
+				"unit": "",
+				"value": ""
+			},
 			"ps": {
 				"followers": "",
 				"responsibles": ""
@@ -453,7 +465,8 @@
 					}
 				}
 			},
-			"samplingDate": "Sampling date"
+			"samplingDate": "Sampling date",
+			"startTreatment": ""
 		},
 		"button": {
 			"accept": "Acknowledge the result",
@@ -716,6 +729,12 @@
 		"emailOtp": "email for one time password (if you have chosen this option)",
 		"entityRightFilters": "",
 		"firstName": "First name",
+		"language": {
+			"application": "Application language",
+			"english": "English",
+			"french": "French",
+			"title": "Language"
+		},
 		"lastName": "Last name",
 		"licenses": {
 			"asked": ""
