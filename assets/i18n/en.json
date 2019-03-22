@@ -348,8 +348,8 @@
 		"monitoring": {
 			"activate": "Activate the telemonitoring",
 			"frequency": {
-				"unit": "",
-				"value": ""
+				"unit": "Frequency",
+				"value": "every"
 			},
 			"ps": {
 				"followers": "",

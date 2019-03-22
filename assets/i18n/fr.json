@@ -348,8 +348,8 @@
 		"monitoring": {
 			"activate": "Initier la télésurveillance",
 			"frequency": {
-				"unit": "",
-				"value": ""
+				"unit": "Fréquence",
+				"value": "tous les"
 			},
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
