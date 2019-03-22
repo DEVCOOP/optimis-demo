@@ -24,17 +24,17 @@
 			"showHistory": "Show all",
 			"title": "Alerts"
 		},
-		"patient": ""
+		"patient": "Patient"
 	},
 	"auth": {
-		"authenticateByCps": "",
+		"authenticateByCps": "Authentication CPS card (HCP working in France only)",
 		"createAccount": {
-			"title": ""
+			"title": "Don't have an account yet?"
 		},
 		"forgotPassword": {
-			"title": ""
+			"title": "Reset your password"
 		},
-		"login": "",
+		"login": "Id (email)",
 		"lostLogin": "Forgot ID? Please contact Optim'Care admin@optim'care.fr",
 		"otp": {
 			"message": "A One Time Password has been sent to your email adress, please enter it for authentification",
@@ -42,7 +42,7 @@
 		},
 		"password": "Password",
 		"passwordForgotten": "Forgot password?",
-		"title": "Authentification"
+		"title": "Authentication"
 	},
 	"backoffice": {
 		"center": {
@@ -81,7 +81,7 @@
 		"validate": "Validate"
 	},
 	"center": {
-		"activitySector": "",
+		"activitySector": "Business segment",
 		"address": {
 			"city": "City",
 			"country": "Country",
@@ -93,15 +93,15 @@
 		},
 		"contract": {
 			"button": {
-				"add": "",
-				"remove": ""
+				"add": "Add a center",
+				"remove": "Delete a contract"
 			},
-			"date": "",
-			"endDate": "",
+			"date": "Date",
+			"endDate": "End date",
 			"entityRightFilters": "",
-			"license": "",
-			"startDate": "",
-			"title": ""
+			"license": "License",
+			"startDate": "Start Date",
+			"title": "Contract"
 		},
 		"create": {
 			"search": {
@@ -112,22 +112,22 @@
 			"title": "Create a center"
 		},
 		"edit": {
-			"title": ""
+			"title": "Change in the center"
 		},
-		"fax": "",
-		"finess": "",
+		"fax": "FAX",
+		"finess": "FINESS",
 		"licenses": {
-			"title": ""
+			"title": "Licences"
 		},
 		"list": {
-			"search": "",
-			"title": ""
+			"search": "Search",
+			"title": "List of centers"
 		},
 		"name": "Center",
-		"newCenterButton": "",
-		"phone": "",
-		"publicId": "",
-		"title": ""
+		"newCenterButton": "New center",
+		"phone": "Phone",
+		"publicId": "Public ID",
+		"title": "Center"
 	},
 	"chart": {
 		"axis": {
@@ -181,58 +181,58 @@
 			"title": "Alerts/Notifications"
 		},
 		"button": {
-			"learnmore": "More"
+			"learnmore": "More",
+			"seeAlert": "More alerts",
+			"seeRequests": "More requests"
 		},
 		"teleexpertise": {
-			"content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n",
-			"subtitle": "",
+			"content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
 			"title": "Immunosuppressants dose adjustment"
 		},
 		"telemonitoring": {
-			"content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>",
-			"subtitle": "Dose adjustment",
+			"content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
 			"title": "Telemonitoring"
 		},
 		"welcome": "Welcome "
 	},
 	"informationConfiguration": {
-		"ceMarking": "",
+		"ceMarking": "ABout the platform",
 		"confirm": {
-			"content": "",
-			"title": ""
+			"content": "Data has been saved",
+			"title": "Information"
 		},
-		"gcu": "",
-		"title": "",
-		"userGuide": ""
+		"gcu": "Terms of use",
+		"title": "Information",
+		"userGuide": "User Guide"
 	},
 	"menu": {
 		"activateTelemonitoring": "Telemonitoring activation",
 		"alertHistory": "Alerts",
 		"center": "Centers",
 		"forms": "Forms",
-		"informationConfiguration": "",
+		"informationConfiguration": "Config",
 		"newPatient": "New patient",
 		"newRequest": "New request",
 		"nomenclature": "Nomenclatures",
 		"patients": "Patients",
-		"requests": "Requests history",
+		"requests": "List of Requests ",
 		"rights": "Rights",
 		"settings": "Configuration",
 		"tools": "Optimal time",
-		"user": ""
+		"user": "Users"
 	},
 	"monitoring": {
 		"intervenants": {
-			"email": "",
-			"follower": "",
-			"monitor": "",
-			"prescriber": "",
+			"email": "email to provide information on account creation.",
+			"follower": "Professional in charge of therapeutic education",
+			"monitor": "Physician in charge of the Telemonitoring",
+			"prescriber": "Prescriber",
 			"title": ""
 		}
 	},
 	"notification": {
 		"monitoringAlert": " {{patient}} ' {{dataType}} is {{description}}  : {{dataValue}}",
-		"noData": "{{dataType}}:   {{patient}} has not provided the needed data. ",
+		"noData": "No data",
 		"request": {
 			"accepted": "Acknowledgment of the request for patient  {{patient}}\"  ",
 			"closed": "The request for patientt \"{{patient}}\" has been rejected",
@@ -243,7 +243,7 @@
 			"new_waiting_validation": "New request for patient  \"{{patient}}",
 			"prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
 			"validated": "Patient  \"{{patient}}\" results are available",
-			"waiting_validation": ""
+			"waiting_validation": "The request for patient  \"{{patient}}\" is waiting for validation"
 		}
 	},
 	"otherIndication": {
@@ -291,10 +291,10 @@
 			},
 			"duplicate": {
 				"button": {
-					"ignore": ""
+					"ignore": "Create a patient"
 				},
-				"content": "",
-				"title": ""
+				"content": "The patient you want to create seems to be a already existing, please check in the below list. If the patient is a duplicate, please click on the patient to select him else click on the button \"create a patient\" to confirm his validation.",
+				"title": "Potential duplicate(s):"
 			},
 			"title": "Patient creation"
 		},
@@ -309,11 +309,11 @@
 		"follow": "Monitoring",
 		"gender": "Sex",
 		"healthInsurance": {
-			"codeOrganisation": ""
+			"codeOrganisation": "Health insurance organization"
 		},
 		"lastName": "last name",
 		"learning": {
-			"title": ""
+			"title": "Therapeutic education"
 		},
 		"list": {
 			"search": "Search",
@@ -426,10 +426,10 @@
 				"label": "National ID (RPPS number)"
 			},
 			"licenses": {
-				"label": ""
+				"label": "Access to solutions:"
 			},
 			"roles": {
-				"title": "Please select the services for which you want an access:"
+				"title": "Please select the solutions for which you want an access:"
 			}
 		}
 	},
@@ -437,6 +437,9 @@
 		"accept": {
 			"comment": "Comment",
 			"title": "Acknowledge the results"
+		},
+		"answerInformationToRequester": {
+			"title": "Answer"
 		},
 		"askForInformation": {
 			"comment": "Comment"
@@ -470,6 +473,7 @@
 		},
 		"button": {
 			"accept": "Acknowledge the result",
+			"answerInformation": "Answer to requester",
 			"askForInformation": "Information request",
 			"askInformation": "Information request",
 			"back": "Black",
@@ -487,8 +491,8 @@
 		},
 		"charts": {
 			"axis": {
-				"concentration": "Concentration (",
-				"time": ""
+				"concentration": "Concentration ({{unit}})",
+				"time": "Time({{unit}})"
 			},
 			"legend": {
 				"standardDeviation": "",
@@ -499,6 +503,9 @@
 			"comments": "Comments",
 			"predefinedComments": "Pre-defined comments",
 			"title": "Close the request"
+		},
+		"closed": {
+			"title": "The request has been closed"
 		},
 		"comments": {
 			"title": "Comments"
@@ -589,7 +596,7 @@
 		},
 		"launchCalculation": {
 			"error": {
-				"atLeast3Sample": "Vous have to select at least 3 blood samplings"
+				"atLeast3Sample": "You have to select at least 3 blood samplings"
 			},
 			"selectSample": "Select the blood samplings for the calculation",
 			"title": "Launch calculation"
@@ -614,7 +621,7 @@
 				"dragDrop": "Drag and drop the prescription here",
 				"or": "OR"
 			},
-			"patientAccessButton": "",
+			"patientAccessButton": "Create Patient access",
 			"removeButton": "Delete",
 			"title": "Prescription"
 		},
@@ -650,35 +657,35 @@
 		},
 		"samples": {
 			"endTreatment": "After the end of the perfusion",
-			"startTreatment": "",
-			"subtitle": "",
-			"title": ""
+			"startTreatment": "After the start of the perfusion",
+			"subtitle": "You must enter at least {{min}} samplings",
+			"title": "Samplings"
 		},
 		"selectPopulation": {
-			"populations": ""
+			"populations": "Model"
 		},
-		"status": "",
+		"status": "Status",
 		"treatment": {
-			"administrationRoute": "",
-			"coTreatments": "",
-			"comment": "",
-			"doses": "",
-			"drug": "",
-			"drugCommercialName": "",
-			"numberOfTakes": "",
+			"administrationRoute": "Rout of administration/form\n",
+			"coTreatments": "Other treatment",
+			"comment": "Please specify",
+			"doses": "Dose",
+			"drug": "Treatment",
+			"drugCommercialName": "Specialty",
+			"numberOfTakes": "Number of intakes per day",
 			"warning": {
 				"dose": {
-					"minmax": "",
-					"step": ""
+					"minmax": "Please check the dose",
+					"step": "The value must be a multiple of {{step}}"
 				}
 			}
 		},
 		"validate": {
-			"comments": "",
-			"populationSelected": "",
-			"predefinedComments": "",
-			"resultGroupSelected": "",
-			"title": ""
+			"comments": "Comments",
+			"populationSelected": "Selected model",
+			"predefinedComments": "Pre-defined comments",
+			"resultGroupSelected": "Selected group of results",
+			"title": "Validation of the request"
 		}
 	},
 	"rights": {
@@ -700,7 +707,7 @@
 		"authentication": {
 			"mode": {
 				"label": "Authentication methods",
-				"title": "Authentification"
+				"title": "Authentication"
 			}
 		},
 		"button": {
@@ -727,7 +734,7 @@
 		"email": "Email",
 		"emailNotification": "Email for notifications",
 		"emailOtp": "email for one time password (if you have chosen this option)",
-		"entityRightFilters": "",
+		"entityRightFilters": "Medical conditions you are managing:",
 		"firstName": "First name",
 		"language": {
 			"application": "Application language",
@@ -737,7 +744,7 @@
 		},
 		"lastName": "Last name",
 		"licenses": {
-			"asked": ""
+			"asked": "License"
 		},
 		"list": {
 			"noElement": "No user found"
@@ -772,11 +779,11 @@
 		},
 		"warning": {
 			"licenses": {
-				"TELE_EXPERTISE": "",
-				"TELE_MONITORING": ""
+				"TELE_EXPERTISE": "Warning: this center has not yet been validated for teleexpertise. Please check if this center is eligible for this activity",
+				"TELE_MONITORING": "Warning: this center has not yet been validated for telemonitoring. Please check if this center is eligible for this activity"
 			},
-			"noCreatedWithCps": "",
-			"noFrenchUser": "",
+			"noCreatedWithCps": "Warning: The CPS card was not used for the authentication, please check the relevance of information before validation.",
+			"noFrenchUser": "Please do check that the requester is an HCP and check the relevance of information before validating",
 			"rppsNotFound": "Warning: the national ID \"{{rppsName}}\" has not been found in the ASIP repertory",
 			"rppsNotMatch": "Warning: The name doesn't match with national ID \"{{rppsName}}\""
 		}

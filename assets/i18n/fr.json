@@ -99,7 +99,7 @@
 			"date": "Date",
 			"endDate": "Date de fin",
 			"entityRightFilters": "",
-			"license": "License",
+			"license": "Licence",
 			"startDate": "Date de début",
 			"title": "Contrats"
 		},
@@ -117,7 +117,7 @@
 		"fax": "Fax",
 		"finess": "Finess",
 		"licenses": {
-			"title": "Licenses"
+			"title": "Licences"
 		},
 		"list": {
 			"search": "Recherche",
@@ -181,27 +181,27 @@
 			"title": "Alertes / Notifications"
 		},
 		"button": {
-			"learnmore": "En savoir plus"
+			"learnmore": "En savoir plus",
+			"seeAlert": "Voir les alertes",
+			"seeRequests": "Voir les demandes"
 		},
 		"teleexpertise": {
-			"content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>",
-			"subtitle": "",
+			"content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: julie-vandenbergue@optim'care.com\n",
 			"title": "Adaptation de posologie des immunosuppresseurs"
 		},
 		"telemonitoring": {
-			"content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\n\n",
-			"subtitle": "Adaptation de posologie",
+			"content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter Optim'Care: julie-vandenbergue@optim'care.com\n",
 			"title": "Télésurveillance médicale"
 		},
 		"welcome": "Bienvenue sur la plateforme Optim’Care"
 	},
 	"informationConfiguration": {
-		"ceMarking": "CE",
+		"ceMarking": "About",
 		"confirm": {
 			"content": "Les données ont été enregistrées",
 			"title": "Informations"
 		},
-		"gcu": "CGU",
+		"gcu": "Conditions générales d'utilisation",
 		"title": "Informations",
 		"userGuide": "Guide utilisateur"
 	},
@@ -240,7 +240,7 @@
 			"information": "Vous avez reçu une demande d'informations complémentaires  pour le Patient \"{{patient}}\" ",
 			"information_post_validation": "Vous avez reçu une demande d'informations complémentaires sur les résultats du patient \"{{patient}}\"",
 			"new_complex": "La demande du patient \"{{patient}}\" est passée au statut complexe  ",
-			"new_waiting_validation": "Nouvelle demande  pour le patient \"{{patient}}\"",
+			"new_waiting_validation": "Nouvelle demande pour le patient \"{{patient}}\"",
 			"prevalidated": "La demande pour le patient \"{{patient}}\" a été pré-validée",
 			"validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
 			"waiting_validation": "La demande pour le patient \"{{patient}}\" est en attente de validation"
@@ -254,7 +254,7 @@
 		"access": {
 			"description": "Pour que votre patient ait accès à l'application, vous devez renseigner son email afin qu'il reçoive son identifiant et le lien pour télécharger l'application",
 			"email": "Email",
-			"title": "génération des accès patient"
+			"title": ""
 		},
 		"address": {
 			"selection": "Renseigner l'adresse du patient pour qu'ils reçoivent le tensiomètre et/ou la balance."
@@ -348,8 +348,8 @@
 		"monitoring": {
 			"activate": "Initier la télésurveillance",
 			"frequency": {
-				"unit": "Fréquence",
-				"value": "Tous les"
+				"unit": "",
+				"value": ""
 			},
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
@@ -426,10 +426,10 @@
 				"label": "Identifiant national (numéro RPPS)"
 			},
 			"licenses": {
-				"label": "Modules"
+				"label": "Accès aux solutions:"
 			},
 			"roles": {
-				"title": "Sélectionner les services auxquels vous voulez accéder:"
+				"title": "Sélectionner les solutions auxquelles vous voulez accéder:"
 			}
 		}
 	},
@@ -437,6 +437,9 @@
 		"accept": {
 			"comment": "Commentaire",
 			"title": "Accuser réception du résultat"
+		},
+		"answerInformationToRequester": {
+			"title": "Réponse au demandeur"
 		},
 		"askForInformation": {
 			"comment": "Commentaire"
@@ -470,6 +473,7 @@
 		},
 		"button": {
 			"accept": "Accuser réception du résultat",
+			"answerInformation": "Répondre au demandeur",
 			"askForInformation": "Demande d'information",
 			"askInformation": "Demande d'informations",
 			"back": "Retour",
@@ -499,6 +503,9 @@
 			"comments": "Commentaires",
 			"predefinedComments": "Commentaires pré-definis",
 			"title": "Clore la demande"
+		},
+		"closed": {
+			"title": "La demande a été clôturée"
 		},
 		"comments": {
 			"title": "Commentaires"
@@ -657,7 +664,7 @@
 		"selectPopulation": {
 			"populations": "Populations"
 		},
-		"status": "État",
+		"status": "Statut",
 		"treatment": {
 			"administrationRoute": "Voie d'administration/forme",
 			"coTreatments": "Autre(s) traitement(s)",
@@ -668,14 +675,14 @@
 			"numberOfTakes": "Nombre de prises par jour",
 			"warning": {
 				"dose": {
-					"minmax": "Dose usuelle comprise entre {{min}} et {{max}}",
+					"minmax": "Merci de vérifier la dose renseignée",
 					"step": "La valeur devrait être un multiple de {{step}}"
 				}
 			}
 		},
 		"validate": {
 			"comments": "Commentaire",
-			"populationSelected": "Population sélectionnée",
+			"populationSelected": "Modèle sélectionné",
 			"predefinedComments": "Commentaire pré-définis",
 			"resultGroupSelected": "Groupe de résultats sélectionné",
 			"title": "Validation de la demande"
@@ -686,7 +693,7 @@
 	},
 	"tools": {
 		"allSpecialties": "Toutes les spécialités",
-		"description": "Les temps de prélèvements optimaux dépendent de l'indication et de l'IS pour lesquels l'adaptation est demandée.\nVous trouverez ci dessous les temps optimaux pour chaque combinaison indication/IS. Merci de les respecter pour avoir une bonne qualité de résultats.",
+		"description": "Les temps de prélèvements optimaux dépendent de l'indication et de l'IS pour lesquels l'adaptation est demandée.\n\nVous trouverez ci dessous les temps optimaux pour chaque combinaison indication/IS. Merci de les respecter pour avoir une bonne qualité de résultats.",
 		"specialtyFilter": "Filtrer sur la spécialité",
 		"title": "Temps optimaux"
 	},
@@ -727,7 +734,7 @@
 		"email": "Email",
 		"emailNotification": "Email pour les notifications",
 		"emailOtp": "Email pour recevoir le mot de passe unique (si vous avez choisi cette option)",
-		"entityRightFilters": "Indications suivies",
+		"entityRightFilters": "Pathologies que vous suivez:",
 		"firstName": "Prénom",
 		"language": {
 			"application": "Langue de l'application",
@@ -737,7 +744,7 @@
 		},
 		"lastName": "Nom",
 		"licenses": {
-			"asked": "License"
+			"asked": "Licence"
 		},
 		"list": {
 			"noElement": "Aucun utilisateur trouvé"
@@ -775,8 +782,8 @@
 				"TELE_EXPERTISE": "Attention ce centre n'est pas validé pour la téléexpertise. Vérifier qu'il est éligible à la téléexpertise",
 				"TELE_MONITORING": "Attention ce centre n'est pas validé pour la télésurveillance. Ne pas le valider tant que les formalités ne sont pas remplies"
 			},
-			"noCreatedWithCps": "Attention ce professionnel de santé ne s'est pas authentifié avec sa carte CPS, vérifier la consistence des informations avant de valider.",
-			"noFrenchUser": "Merci de vérifier que le demandeur est bien un  Professionnel de santé et vérifier la consistence des informations avant de valider.",
+			"noCreatedWithCps": "Attention ce professionnel de santé ne s'est pas authentifié avec sa carte CPS, vérifier la consistance des informations avant de valider.",
+			"noFrenchUser": "Merci de vérifier que le demandeur est bien un  Professionnel de santé et vérifier la consistance des informations avant de valider.",
 			"rppsNotFound": "Attention: L'identifiant national saisi \"{{rppsName}}\" n'a pas été trouvé dans l'annuaire ASIP",
 			"rppsNotMatch": "Attention: Le nom saisi ne correspond pas à l'identifiant national \"{{rppsName}}\""
 		}
