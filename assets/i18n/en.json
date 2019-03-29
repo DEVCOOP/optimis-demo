@@ -269,8 +269,10 @@
 		"birthName": "Birth name",
 		"button": {
 			"activateMonitoring": "Activate the telemonitoring",
+			"deletePatient": "",
 			"edit": "Change patient information",
 			"editAlert": "Alert configuration",
+			"exportData": "",
 			"goToTelemonitoring": "",
 			"share": "Share  data with another healthcare professional"
 		},
@@ -301,6 +303,12 @@
 		"data": {
 			"alert": "Alerts"
 		},
+		"delete": {
+			"confirm": {
+				"content": "",
+				"title": ""
+			}
+		},
 		"email": "Email",
 		"error": {
 			"nationalId": "Expected format 1 or 2 + 12 numbers"
@@ -313,7 +321,11 @@
 		},
 		"lastName": "last name",
 		"learning": {
+			"taskTodo": "",
 			"title": "Therapeutic education"
+		},
+		"learningdata": {
+			"title": ""
 		},
 		"list": {
 			"search": "Search",
@@ -348,9 +360,11 @@
 		"monitoring": {
 			"activate": "Activate the telemonitoring",
 			"frequency": {
+				"once": "",
 				"unit": "Frequency",
 				"value": "every"
 			},
+			"noDataFollowed": "",
 			"ps": {
 				"followers": "",
 				"responsibles": ""
@@ -398,6 +412,7 @@
 		},
 		"title": "Sign up",
 		"user": {
+			"ageRightFilters": "Types of patient followed",
 			"authentication": {
 				"emailNotification": {
 					"explain": "email for notifications/alerts"
@@ -416,15 +431,13 @@
 				"new": "New center"
 			},
 			"country": "For Healthcare Professional working in a french center, you can create an account with your CPS card, it will be easier.",
-			"entityRightFilters": {
-				"label": ""
-			},
 			"foreign": "Other",
 			"french": "French",
 			"identifiant": {
 				"explain": "",
 				"label": "National ID (RPPS number)"
 			},
+			"indicationRightFilters": "Indications followed",
 			"licenses": {
 				"label": "Access to solutions:"
 			},
@@ -704,6 +717,10 @@
 		"administrativeInformation": {
 			"title": "Administrative Data"
 		},
+		"ageRightFilters": {
+			"label": "Type of patient followed",
+			"none": "none"
+		},
 		"authentication": {
 			"mode": {
 				"label": "Authentication methods",
@@ -734,8 +751,11 @@
 		"email": "Email",
 		"emailNotification": "Email for notifications",
 		"emailOtp": "email for one time password (if you have chosen this option)",
-		"entityRightFilters": "Medical conditions you are managing:",
 		"firstName": "First name",
+		"indicationRightFilters": {
+			"label": "Indications followed",
+			"none": "None"
+		},
 		"language": {
 			"application": "Application language",
 			"english": "English",

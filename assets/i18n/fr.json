@@ -269,8 +269,10 @@
 		"birthName": "Nom de naissance",
 		"button": {
 			"activateMonitoring": "Initier la télésurveillance",
+			"deletePatient": "Suppression définitive du patient",
 			"edit": "Modifier les informations patient",
 			"editAlert": "Paramétrage des alertes",
+			"exportData": "Export des données",
 			"goToTelemonitoring": "",
 			"share": "Partager les données avec un autre professionnel de santé"
 		},
@@ -301,6 +303,12 @@
 		"data": {
 			"alert": "Alertes"
 		},
+		"delete": {
+			"confirm": {
+				"content": "Attention cette suppression est définitive, pour confirmer la suppression merci de saisir le nom du patient",
+				"title": "Suppression définitive du patient"
+			}
+		},
 		"email": "Email",
 		"error": {
 			"nationalId": "Format attendu 1 ou 2 + 12 chiffres"
@@ -313,7 +321,11 @@
 		},
 		"lastName": "Nom usuel",
 		"learning": {
+			"taskTodo": "Tâche(s) à faire",
 			"title": "Accompagnement thérapeutique"
+		},
+		"learningdata": {
+			"title": "Apprentissage"
 		},
 		"list": {
 			"search": "Recherche",
@@ -348,9 +360,11 @@
 		"monitoring": {
 			"activate": "Initier la télésurveillance",
 			"frequency": {
+				"once": "dans",
 				"unit": "Fréquence",
 				"value": "tous les"
 			},
+			"noDataFollowed": "Aucune données suivies",
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
 				"responsibles": "Médecins ayant les droits de gestion"
@@ -398,6 +412,7 @@
 		},
 		"title": "Création compte",
 		"user": {
+			"ageRightFilters": "Types de patient suivis",
 			"authentication": {
 				"emailNotification": {
 					"explain": "email sur lequel vous recevrez vos notifications"
@@ -416,15 +431,13 @@
 				"new": "Nouveau centre"
 			},
 			"country": "Pour les Professionnels de santé travaillant dans un centre français, la création de compte avec votre carte CPS est possible et sera plus simple.",
-			"entityRightFilters": {
-				"label": "Indications suivies"
-			},
 			"foreign": "Autre",
 			"french": "Centre français",
 			"identifiant": {
 				"explain": "",
 				"label": "Identifiant national (numéro RPPS)"
 			},
+			"indicationRightFilters": "Indications suivies",
 			"licenses": {
 				"label": "Accès aux solutions:"
 			},
@@ -704,6 +717,10 @@
 		"administrativeInformation": {
 			"title": "Données administratives"
 		},
+		"ageRightFilters": {
+			"label": "Types de patient suivis",
+			"none": "Aucun"
+		},
 		"authentication": {
 			"mode": {
 				"label": "Mode d'authentification",
@@ -734,8 +751,11 @@
 		"email": "Email",
 		"emailNotification": "Email pour les notifications",
 		"emailOtp": "Email pour recevoir le mot de passe unique (si vous avez choisi cette option)",
-		"entityRightFilters": "Pathologies que vous suivez:",
 		"firstName": "Prénom",
+		"indicationRightFilters": {
+			"label": "Indications suivies",
+			"none": "Aucune"
+		},
 		"language": {
 			"application": "Langue de l'application",
 			"english": "Anglais",
