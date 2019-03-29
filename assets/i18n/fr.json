@@ -126,7 +126,7 @@
 		"name": "Centre",
 		"newCenterButton": "Nouveau centre",
 		"phone": "Téléphone",
-		"publicId": "Identifiant public",
+		"publicId": "Identifiant public ",
 		"title": "Centre"
 	},
 	"chart": {
@@ -164,7 +164,7 @@
 	},
 	"header": {
 		"about": "A propos",
-		"alert": "Telesurveillance: Alertes",
+		"alert": "Télésurveillance: Alertes",
 		"backoffice": "Administration",
 		"home": "Accueil",
 		"login": "Se connecter",
@@ -227,7 +227,7 @@
 			"follower": "Professionnel en charge de l'accompagnement thérapeutique",
 			"monitor": "Médecin en charge de la télésurveillance",
 			"prescriber": "Médecin prescripteur",
-			"title": "Professionnels de santé intervenant "
+			"title": "Professionnels de santé impliqués:"
 		}
 	},
 	"notification": {
@@ -269,10 +269,8 @@
 		"birthName": "Nom de naissance",
 		"button": {
 			"activateMonitoring": "Initier la télésurveillance",
-			"deletePatient": "Suppression définitive du patient",
 			"edit": "Modifier les informations patient",
 			"editAlert": "Paramétrage des alertes",
-			"exportData": "Export des données",
 			"goToTelemonitoring": "",
 			"share": "Partager les données avec un autre professionnel de santé"
 		},
@@ -303,12 +301,6 @@
 		"data": {
 			"alert": "Alertes"
 		},
-		"delete": {
-			"confirm": {
-				"content": "Attention cette suppression est définitive, pour confirmer la suppression merci de saisir le nom du patient",
-				"title": "Suppression définitive du patient"
-			}
-		},
 		"email": "Email",
 		"error": {
 			"nationalId": "Format attendu 1 ou 2 + 12 chiffres"
@@ -321,11 +313,7 @@
 		},
 		"lastName": "Nom usuel",
 		"learning": {
-			"taskTodo": "Tâche(s) à faire",
 			"title": "Accompagnement thérapeutique"
-		},
-		"learningdata": {
-			"title": "Apprentissage"
 		},
 		"list": {
 			"search": "Recherche",
@@ -360,11 +348,9 @@
 		"monitoring": {
 			"activate": "Initier la télésurveillance",
 			"frequency": {
-				"once": "dans",
 				"unit": "Fréquence",
 				"value": "tous les"
 			},
-			"noDataFollowed": "Aucune données suivies",
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
 				"responsibles": "Médecins ayant les droits de gestion"
@@ -494,7 +480,7 @@
 			"delete": "Supprimer le brouillon",
 			"draft": "Enregistrer en brouillon",
 			"exportPdf": "Export PDF",
-			"launchCalculation": "Lancer un autre calcul",
+			"launchCalculation": "Lancer un calcul",
 			"modificationHistory": "Historique des évènements",
 			"print": "Export PDF",
 			"validate": "Valider le résultat"
@@ -612,7 +598,7 @@
 				"atLeast3Sample": "Vous devez sélectionner au moins 3 prélèvements"
 			},
 			"selectSample": "Sélection des prélèvements à prendre en compte dans le calcul",
-			"title": "Lancement du calcul"
+			"title": "Lancement du calcul:\nAttention le lancement d'un calcul est sous votre entière responsabilité."
 		},
 		"list": {
 			"search": "Recherche",
@@ -669,8 +655,8 @@
 			"date": "Date"
 		},
 		"samples": {
-			"endTreatment": "Après la fin de la perfusion",
-			"startTreatment": "Après le début de la perfusion",
+			"endTreatment": "Fin de la perfusion",
+			"startTreatment": "Début de la perfusion",
 			"subtitle": "Vous devez saisir au moins {{min}} prélèvement(s)",
 			"title": "Prélèvements"
 		},

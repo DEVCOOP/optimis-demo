@@ -117,7 +117,7 @@
 		"fax": "FAX",
 		"finess": "FINESS",
 		"licenses": {
-			"title": "Licences"
+			"title": "Licenses"
 		},
 		"list": {
 			"search": "Search",
@@ -131,13 +131,13 @@
 	},
 	"chart": {
 		"axis": {
-			"bloodPressure": "",
-			"date": "",
-			"weight": ""
+			"bloodPressure": "Blood Pressure",
+			"date": "Date",
+			"weight": "Weight"
 		},
-		"threshold": "",
+		"threshold": "Thresholds",
 		"tooltip": {
-			"weight": ""
+			"weight": "Weight"
 		}
 	},
 	"common": {
@@ -170,10 +170,10 @@
 		"login": "Log in",
 		"logout": "Log out",
 		"myProfile": "My profile",
-		"notification": "Dose Titration: Notifications",
+		"notification": "Dose Ajustment: Notifications",
 		"patient": "My patients",
 		"register": "Sign up",
-		"teleexpertise": "Teleexpertise",
+		"teleexpertise": "IS Dose Adjustment",
 		"telemonitoring": "Telemonitoring"
 	},
 	"home": {
@@ -181,7 +181,7 @@
 			"title": "Alerts/Notifications"
 		},
 		"button": {
-			"learnmore": "More",
+			"learnmore": "Learn more",
 			"seeAlert": "More alerts",
 			"seeRequests": "More requests"
 		},
@@ -196,7 +196,7 @@
 		"welcome": "Welcome "
 	},
 	"informationConfiguration": {
-		"ceMarking": "ABout the platform",
+		"ceMarking": "About our platform",
 		"confirm": {
 			"content": "Data has been saved",
 			"title": "Information"
@@ -218,7 +218,7 @@
 		"requests": "List of Requests ",
 		"rights": "Rights",
 		"settings": "Configuration",
-		"tools": "Optimal time",
+		"tools": "Optimal times",
 		"user": "Users"
 	},
 	"monitoring": {
@@ -227,7 +227,7 @@
 			"follower": "Professional in charge of therapeutic education",
 			"monitor": "Physician in charge of the Telemonitoring",
 			"prescriber": "Prescriber",
-			"title": ""
+			"title": "Healthcare Professionals involved:"
 		}
 	},
 	"notification": {
@@ -269,10 +269,8 @@
 		"birthName": "Birth name",
 		"button": {
 			"activateMonitoring": "Activate the telemonitoring",
-			"deletePatient": "",
 			"edit": "Change patient information",
 			"editAlert": "Alert configuration",
-			"exportData": "",
 			"goToTelemonitoring": "",
 			"share": "Share  data with another healthcare professional"
 		},
@@ -282,14 +280,14 @@
 			}
 		},
 		"consent": {
-			"Telemonitoring": "Patient has given his/her consente for the processing of his/her personal data needed for telemonitoring",
+			"Telemonitoring": "Patient has given his/her consent for the processing of his/her personal data needed for telemonitoring",
 			"docModel": "Consent template",
 			"teleexpertise": "Patient has given his/her consent for the processing of his/her personal data needed for dose adaptation request."
 		},
 		"create": {
 			"confirm": {
 				"content": "Patient file has been created.",
-				"title": "Patient creation"
+				"title": "Patient has been created"
 			},
 			"duplicate": {
 				"button": {
@@ -303,12 +301,6 @@
 		"data": {
 			"alert": "Alerts"
 		},
-		"delete": {
-			"confirm": {
-				"content": "",
-				"title": ""
-			}
-		},
 		"email": "Email",
 		"error": {
 			"nationalId": "Expected format 1 or 2 + 12 numbers"
@@ -321,11 +313,7 @@
 		},
 		"lastName": "last name",
 		"learning": {
-			"taskTodo": "",
 			"title": "Therapeutic education"
-		},
-		"learningdata": {
-			"title": ""
 		},
 		"list": {
 			"search": "Search",
@@ -360,18 +348,16 @@
 		"monitoring": {
 			"activate": "Activate the telemonitoring",
 			"frequency": {
-				"once": "",
 				"unit": "Frequency",
 				"value": "every"
 			},
-			"noDataFollowed": "",
 			"ps": {
-				"followers": "",
+				"followers": "Professionals with read only access",
 				"responsibles": ""
 			},
 			"selectData": "Select the data to monitor",
 			"shared": {
-				"title": ""
+				"title": "List of Professionals having an access to your file."
 			},
 			"threshold": "Data to monitor and alert threshold"
 		},
@@ -415,13 +401,13 @@
 			"ageRightFilters": "Types of patient followed",
 			"authentication": {
 				"emailNotification": {
-					"explain": "email for notifications/alerts"
+					"explain": "email for notifications"
 				},
 				"emailOtp": {
 					"explain": "email for one time password"
 				},
 				"mode": {
-					"cps": "Authentification CPS Card",
+					"cps": "Authentication CPS Card",
 					"explain": "You can choose the following authentication methods:\n- an ID and a strong password\n- an ID, a strong password and a one time password sent by email (OTP)",
 					"otp": "One time password authentication",
 					"title": "Authentication methods"
@@ -482,7 +468,7 @@
 				}
 			},
 			"samplingDate": "Sampling date",
-			"startTreatment": ""
+			"startTreatment": "Start of the perfusion"
 		},
 		"button": {
 			"accept": "Acknowledge the result",
@@ -494,7 +480,7 @@
 			"delete": "Delete the draft",
 			"draft": "Save draft",
 			"exportPdf": "Export pdf",
-			"launchCalculation": "Launch another calculation",
+			"launchCalculation": "Launch a calculation",
 			"modificationHistory": "Events history",
 			"print": "Export PDF",
 			"validate": "Validate the results"
@@ -574,7 +560,7 @@
 		},
 		"events": {
 			"modification": {
-				"message": "Warning: The request has been modified by the requester, please click on xx to track the changes"
+				"message": "Warning: The request has been modified by the requester, please click on the button to track the changes"
 			},
 			"title": "History of events on the request"
 		},
@@ -590,7 +576,7 @@
 				"date": "Transplant date"
 			},
 			"treatment": {
-				"date": "Date of first IS prescription"
+				"date": "Date of first IS administration"
 			}
 		},
 		"infoRequest": {
@@ -612,7 +598,7 @@
 				"atLeast3Sample": "You have to select at least 3 blood samplings"
 			},
 			"selectSample": "Select the blood samplings for the calculation",
-			"title": "Launch calculation"
+			"title": "Launch calculation:\nWarning the launch of the calculation is under your liability."
 		},
 		"list": {
 			"search": "Search",
@@ -669,8 +655,8 @@
 			"date": "Date"
 		},
 		"samples": {
-			"endTreatment": "After the end of the perfusion",
-			"startTreatment": "After the start of the perfusion",
+			"endTreatment": "End of the perfusion",
+			"startTreatment": "Start of the perfusion",
 			"subtitle": "You must enter at least {{min}} samplings",
 			"title": "Samplings"
 		},
@@ -679,7 +665,7 @@
 		},
 		"status": "Status",
 		"treatment": {
-			"administrationRoute": "Rout of administration/form\n",
+			"administrationRoute": "Rout of administration/form",
 			"coTreatments": "Other treatment",
 			"comment": "Please specify",
 			"doses": "Dose",
