@@ -98,7 +98,7 @@
 			},
 			"date": "Date",
 			"endDate": "Date de fin",
-			"entityRightFilters": "",
+			"indicationRightFilters": "",
 			"license": "Licence",
 			"startDate": "Date de début",
 			"title": "Contrats"
