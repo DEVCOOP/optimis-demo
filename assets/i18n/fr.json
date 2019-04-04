@@ -629,7 +629,7 @@
       },
       "label": "Patient"
     },
-    "prescriber": "Prescripteur",
+    "prescriber": "Prescripteur (et centre du prescripteur, si différent)",
     "prescription": {
       "description": "",
       "downloadInstruction": "Télécharger le manuel patient",
