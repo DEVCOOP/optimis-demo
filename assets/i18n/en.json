@@ -1,802 +1,823 @@
 {
-	"AGE": {
-		"GT_18": "Adult",
-		"LT_18": "Pediatric"
-	},
-	"address": {
-		"additional": "Adress line 2 (building, floor...)",
-		"cedex": "Cedex",
-		"city": "City",
-		"country": "Country",
-		"number": "N°",
-		"postalBox": "PO box ",
-		"postalCode": "ZIP/Postal code",
-		"street": "Adress line 1 (street)",
-		"title": "Adress"
-	},
-	"alert": {
-		"action": "Action",
-		"creationDate": "Date",
-		"description": "Description",
-		"list": {
-			"noElement": "No alert",
-			"search": "Search",
-			"showHistory": "Show all",
-			"title": "Alerts"
-		},
-		"patient": "Patient"
-	},
-	"auth": {
-		"authenticateByCps": "Authentication CPS card (HCP working in France only)",
-		"createAccount": {
-			"title": "Don't have an account yet?"
-		},
-		"forgotPassword": {
-			"title": "Reset your password"
-		},
-		"login": "Id (email)",
-		"lostLogin": "Forgot ID? Please contact Optim'Care admin@optim'care.fr",
-		"otp": {
-			"message": "A One Time Password has been sent to your email adress, please enter it for authentification",
-			"title": "One Time Password"
-		},
-		"password": "Password",
-		"passwordForgotten": "Forgot password?",
-		"title": "Authentication"
-	},
-	"backoffice": {
-		"center": {
-			"patients": {
-				"title": "Patients of the Center"
-			},
-			"users": {
-				"title": "Users of the center"
-			}
-		},
-		"menu": {
-			"patient": "Patients"
-		},
-		"users": {
-			"newUserButton": "New user",
-			"tabs": {
-				"closed": "Closed",
-				"toValidate": "To be validated",
-				"validated": "Approved"
-			},
-			"title": "Users"
-		}
-	},
-	"button": {
-		"activateMonitoring": "Select",
-		"back": "Back",
-		"cancel": "Cancel",
-		"close": "Close",
-		"createAccount": "Create an account",
-		"edit": "Change",
-		"next": "Next",
-		"ok": "OK",
-		"previous": "Previous",
-		"submit": "Submit",
-		"uploadFile": "Upload a document",
-		"validate": "Validate"
-	},
-	"center": {
-		"activitySector": "Business segment",
-		"address": {
-			"city": "City",
-			"country": "Country",
-			"title": "Adress"
-		},
-		"confirm": {
-			"content": "Center information has been updated",
-			"title": "Update center information"
-		},
-		"contract": {
-			"button": {
-				"add": "Add a center",
-				"remove": "Delete a contract"
-			},
-			"date": "Date",
-			"endDate": "End date",
-			"indicationRightFilters": "",
-			"license": "License",
-			"startDate": "Start Date",
-			"title": "Contract"
-		},
-		"create": {
-			"search": {
-				"finess": "Search from Finess repertory",
-				"google": "Search from Google",
-				"title": "Search a center"
-			},
-			"title": "Create a center"
-		},
-		"edit": {
-			"title": "Change in the center"
-		},
-		"fax": "FAX",
-		"finess": "FINESS",
-		"licenses": {
-			"title": "Licenses"
-		},
-		"list": {
-			"search": "Search",
-			"title": "List of centers"
-		},
-		"name": "Center",
-		"newCenterButton": "New center",
-		"phone": "Phone",
-		"publicId": "Public ID",
-		"title": "Center"
-	},
-	"chart": {
-		"axis": {
-			"bloodPressure": "Blood Pressure",
-			"date": "Date",
-			"weight": "Weight"
-		},
-		"threshold": "Thresholds",
-		"tooltip": {
-			"weight": "Weight"
-		}
-	},
-	"common": {
-		"alerts": "Alerts",
-		"noNotification": "No notification",
-		"notifications": "Notifications"
-	},
-	"error": {
-		"noInternet": "No internet access",
-		"noRights": "You don't have the rights for this action",
-		"unexpectedError": "An unexpected error occured, please do contact "
-	},
-	"forgotPassword": {
-		"confirm": {
-			"content": "An email with a link to reset your password has been sent to you.",
-			"title": "You new password has been saved"
-		}
-	},
-	"form": {
-		"field": {
-			"emailInvalid": "invalid email ",
-			"required": "You must enter a value"
-		}
-	},
-	"header": {
-		"about": "About the platform",
-		"alert": "Telemonitoring: Alerts",
-		"backoffice": "Administration",
-		"home": "Home",
-		"login": "Log in",
-		"logout": "Log out",
-		"myProfile": "My profile",
-		"notification": "Dose Ajustment: Notifications",
-		"patient": "My patients",
-		"register": "Sign up",
-		"teleexpertise": "IS Dose Adjustment",
-		"telemonitoring": "Telemonitoring"
-	},
-	"home": {
-		"alert": {
-			"title": "Alerts/Notifications"
-		},
-		"button": {
-			"learnmore": "Learn more",
-			"seeAlert": "More alerts",
-			"seeRequests": "More requests"
-		},
-		"teleexpertise": {
-			"content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
-			"title": "Immunosuppressants dose adjustment"
-		},
-		"telemonitoring": {
-			"content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
-			"title": "Telemonitoring"
-		},
-		"welcome": "Welcome "
-	},
-	"informationConfiguration": {
-		"ceMarking": "About our platform",
-		"confirm": {
-			"content": "Data has been saved",
-			"title": "Information"
-		},
-		"gcu": "Terms of use",
-		"title": "Information",
-		"userGuide": "User Guide"
-	},
-	"menu": {
-		"activateTelemonitoring": "Telemonitoring activation",
-		"alertHistory": "Alerts",
-		"center": "Centers",
-		"forms": "Forms",
-		"informationConfiguration": "Config",
-		"newPatient": "New patient",
-		"newRequest": "New request",
-		"nomenclature": "Nomenclatures",
-		"patients": "Patients",
-		"requests": "List of Requests ",
-		"rights": "Rights",
-		"settings": "Configuration",
-		"tools": "Optimal times",
-		"user": "Users"
-	},
-	"monitoring": {
-		"intervenants": {
-			"email": "email to provide information on account creation.",
-			"follower": "Professional in charge of therapeutic education",
-			"monitor": "Physician in charge of the Telemonitoring",
-			"prescriber": "Prescriber",
-			"title": "Healthcare Professionals involved:"
-		}
-	},
-	"notification": {
-		"monitoringAlert": " {{patient}} ' {{dataType}} is {{description}}  : {{dataValue}}",
-		"noData": "No data",
-		"request": {
-			"accepted": "Acknowledgment of the request for patient  {{patient}}\"  ",
-			"closed": "The request for patientt \"{{patient}}\" has been rejected",
-			"complex": "You have received a complex request for Patient \"{{patient}}\" ",
-			"information": "You have received a request for additional information for the patient {{patient}}\" ",
-			"information_post_validation": "You have received a request for additional information on patient {{patient}}\" ' results",
-			"new_complex": "The request for patient \"{{patient}}\" became a complex request",
-			"new_waiting_validation": "New request for patient  \"{{patient}}",
-			"prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
-			"validated": "Patient  \"{{patient}}\" results are available",
-			"waiting_validation": "The request for patient  \"{{patient}}\" is waiting for validation"
-		}
-	},
-	"otherIndication": {
-		"CYSTIC_FIBROSIS": "cystic fibrosis",
-		"DIABETIC": "Diabetes"
-	},
-	"patient": {
-		"access": {
-			"description": "To give access to the application to a patient, you have to fill in his/her email in order that the patient can receive his/her ID and the link to upload the application",
-			"email": "email",
-			"title": ""
-		},
-		"address": {
-			"selection": "Please fill in the patient's adress"
-		},
-		"administrativeInformation": {
-			"title": "Administrative information"
-		},
-		"biologicaldata": {
-			"title": "Biological data"
-		},
-		"birthDate": "Date of birth",
-		"birthName": "Birth name",
-		"button": {
-			"activateMonitoring": "Activate the telemonitoring",
-			"edit": "Change patient information",
-			"editAlert": "Alert configuration",
-			"goToTelemonitoring": "",
-			"share": "Share  data with another healthcare professional"
-		},
-		"center": {
-			"choice": {
-				"info": "Selection of the center"
-			}
-		},
-		"consent": {
-			"Telemonitoring": "Patient has given his/her consent for the processing of his/her personal data needed for telemonitoring",
-			"docModel": "Consent template",
-			"teleexpertise": "Patient has given his/her consent for the processing of his/her personal data needed for dose adaptation request."
-		},
-		"create": {
-			"confirm": {
-				"content": "Patient file has been created.",
-				"title": "Patient has been created"
-			},
-			"duplicate": {
-				"button": {
-					"ignore": "Create a patient"
-				},
-				"content": "The patient you want to create seems to be a already existing, please check in the below list. If the patient is a duplicate, please click on the patient to select him else click on the button \"create a patient\" to confirm his validation.",
-				"title": "Potential duplicate(s):"
-			},
-			"title": "Patient creation"
-		},
-		"data": {
-			"alert": "Alerts"
-		},
-		"email": "Email",
-		"error": {
-			"nationalId": "Expected format 1 or 2 + 12 numbers"
-		},
-		"firstName": "First name",
-		"follow": "Monitoring",
-		"gender": "Sex",
-		"healthInsurance": {
-			"codeOrganisation": "Health insurance organization"
-		},
-		"lastName": "last name",
-		"learning": {
-			"title": "Therapeutic education"
-		},
-		"list": {
-			"search": "Search",
-			"title": "List of patients"
-		},
-		"medicalInformation": {
-			"addButton": "Add a medical information",
-			"consent": {
-				"title": "Consents"
-			},
-			"indication": {
-				"comment": "Please specify",
-				"date": "Indication date",
-				"name": "Indication",
-				"transplantation": {
-					"date": "Transplant date"
-				},
-				"treatment": {
-					"date": "First IS prescription date"
-				}
-			},
-			"otherIndications": "Other indications",
-			"removeButton": "Delete",
-			"title": "Medical information"
-		},
-		"medicaldata": {
-			"bloodPressure": "Blood pressure",
-			"noData": "",
-			"title": "Clinical data",
-			"weight": "weight"
-		},
-		"monitoring": {
-			"activate": "Activate the telemonitoring",
-			"frequency": {
-				"unit": "Frequency",
-				"value": "every"
-			},
-			"ps": {
-				"followers": "Professionals with read only access",
-				"responsibles": ""
-			},
-			"selectData": "Select the data to monitor",
-			"shared": {
-				"title": "List of Professionals having an access to your file."
-			},
-			"threshold": "Data to monitor and alert threshold"
-		},
-		"name": "Patient",
-		"nationalId": "Social security number",
-		"newPatientButton": "New Patient",
-		"phone": "Phone",
-		"psychologicaldata": {
-			"title": "Psychological data"
-		},
-		"teleexpertise": {
-			"displayAll": "Show all",
-			"noRequests": "No dose adaptation request",
-			"title": "dose adaptation"
-		},
-		"telemonitoring": {
-			"noActivated": "The telemonitoring has not been activated, please click on the below link to initiate it.",
-			"title": "Telemonitoring"
-		}
-	},
-	"register": {
-		"address": {
-			"selection": "Search your center"
-		},
-		"center": {
-			"choice": {
-				"explanation": "Select a center in the list or click on + to create a new center",
-				"info": "Center"
-			},
-			"create": {
-				"button": "New center",
-				"explanation": "New center"
-			}
-		},
-		"confirm": {
-			"content": "You will receive an email once your account will be validated.",
-			"title": "Account validated"
-		},
-		"title": "Sign up",
-		"user": {
-			"ageRightFilters": "Types of patient followed",
-			"authentication": {
-				"emailNotification": {
-					"explain": "email for notifications"
-				},
-				"emailOtp": {
-					"explain": "email for one time password"
-				},
-				"mode": {
-					"cps": "Authentication CPS Card",
-					"explain": "You can choose the following authentication methods:\n- an ID and a strong password\n- an ID, a strong password and a one time password sent by email (OTP)",
-					"otp": "One time password authentication",
-					"title": "Authentication methods"
-				}
-			},
-			"center": {
-				"new": "New center"
-			},
-			"country": "For Healthcare Professional working in a french center, you can create an account with your CPS card, it will be easier.",
-			"foreign": "Other",
-			"french": "French",
-			"identifiant": {
-				"explain": "",
-				"label": "National ID (RPPS number)"
-			},
-			"indicationRightFilters": "Indications followed",
-			"licenses": {
-				"label": "Access to solutions:"
-			},
-			"roles": {
-				"title": "Please select the solutions for which you want an access:"
-			}
-		}
-	},
-	"request": {
-		"accept": {
-			"comment": "Comment",
-			"title": "Acknowledge the results"
-		},
-		"answerInformationToRequester": {
-			"title": "Answer"
-		},
-		"askForInformation": {
-			"comment": "Comment"
-		},
-		"askInformationToExpert": {
-			"title": "Request for information on results"
-		},
-		"askInformationToRequester": {
-			"title": "Ask for information on request"
-		},
-		"bloodSample": {
-			"assayMethod": "Assay Method",
-			"drugIntakeTime": "Time of drug intake",
-			"endTreatment": "End of the perfusion",
-			"samples": {
-				"concentration": "Concentration",
-				"intervalDoseSampling": "interval between the dose and the sampling",
-				"optimalDoseSampling": "Optimal Sampling Time",
-				"realSamplingTime": "real sampling time",
-				"warning": {
-					"concentration": {
-						"minmax": "Please check this concentration"
-					},
-					"time": {
-						"minmax": "Please check this sampling time."
-					}
-				}
-			},
-			"samplingDate": "Sampling date",
-			"startTreatment": "Start of the perfusion"
-		},
-		"button": {
-			"accept": "Acknowledge the result",
-			"answerInformation": "Answer to requester",
-			"askForInformation": "Information request",
-			"askInformation": "Information request",
-			"back": "Black",
-			"close": "Close the request",
-			"delete": "Delete the draft",
-			"draft": "Save draft",
-			"exportPdf": "Export pdf",
-			"launchCalculation": "Launch a calculation",
-			"modificationHistory": "Events history",
-			"print": "Export PDF",
-			"validate": "Validate the results"
-		},
-		"center": {
-			"label": "Center"
-		},
-		"charts": {
-			"axis": {
-				"concentration": "Concentration ({{unit}})",
-				"time": "Time({{unit}})"
-			},
-			"legend": {
-				"standardDeviation": "",
-				"values": ""
-			}
-		},
-		"close": {
-			"comments": "Comments",
-			"predefinedComments": "Pre-defined comments",
-			"title": "Close the request"
-		},
-		"closed": {
-			"title": "The request has been closed"
-		},
-		"comments": {
-			"title": "Comments"
-		},
-		"consent": "Patient has given his/her consent for the processing of personal data needed for this telemedicine act. ",
-		"context": {
-			"additionalInformation": "Additional information",
-			"reason": "Reason for the request"
-		},
-		"create": {
-			"centerStepTitle": "Center",
-			"confirm": {
-				"content": "The request has been sent to Limoges Hospital Pharmacologists",
-				"title": "New request"
-			},
-			"contextStepTitle": "General information on the request",
-			"indicationStepTitle": "Indication",
-			"patient": {
-				"explanation": "If you don't find the patient in this list, click on + to create a new patient."
-			},
-			"patientStepTitle": "Select a patient",
-			"samples": {
-				"addButton": "Add a blood sampling",
-				"removeButton": "Delete a blood sampling"
-			},
-			"samplingStepTitle": "Information about blood sample collection",
-			"treatmentStepTitle": "Treatments"
-		},
-		"creationDate": "Date of creation",
-		"draft": {
-			"confirm": {
-				"content": "The request has been saved as a draft",
-				"title": "Draft"
-			},
-			"delete": {
-				"confirm": {
-					"content": "Are you sure you want to delete this draft",
-					"title": "Delete draft"
-				}
-			}
-		},
-		"edit": {
-			"title": "Information about the request"
-		},
-		"event": {
-			"action": "Action",
-			"author": "Author",
-			"date": "Date",
-			"newData": "New data",
-			"oldData": "Old data",
-			"oldStatus": "Old status",
-			"status": "New status"
-		},
-		"events": {
-			"modification": {
-				"message": "Warning: The request has been modified by the requester, please click on the button to track the changes"
-			},
-			"title": "History of events on the request"
-		},
-		"history": {
-			"title": "History of requests for this patient"
-		},
-		"indication": {
-			"comment": "Please specify",
-			"date": "Date",
-			"name": "Indication",
-			"pathology": "",
-			"transplantation": {
-				"date": "Transplant date"
-			},
-			"treatment": {
-				"date": "Date of first IS administration"
-			}
-		},
-		"infoRequest": {
-			"comment": "Comments",
-			"confirm": {
-				"content": "Your request for information has been sent",
-				"title": "Request for information"
-			},
-			"content": "You can modify some of the information of this request by clicking on button in the \"Information about the request\" part",
-			"title": "Request for information"
-		},
-		"lastComments": {
-			"displayAll": "View all comments",
-			"noComment": "No comment",
-			"title": "All comments"
-		},
-		"launchCalculation": {
-			"error": {
-				"atLeast3Sample": "You have to select at least 3 blood samplings"
-			},
-			"selectSample": "Select the blood samplings for the calculation",
-			"title": "Launch calculation:\nWarning the launch of the calculation is under your liability."
-		},
-		"list": {
-			"search": "Search",
-			"title": "List of requests"
-		},
-		"newRequestButton": "New request",
-		"number": "Number",
-		"patient": {
-			"create": {
-				"button": "Create a patient"
-			},
-			"label": "Patient"
-		},
-		"prescriber": "Prescriber",
-		"prescription": {
-			"description": "",
-			"downloadInstruction": "Dowload Patient user guide.",
-			"file": {
-				"dragDrop": "Drag and drop the prescription here",
-				"or": "OR"
-			},
-			"patientAccessButton": "Create Patient access",
-			"removeButton": "Delete",
-			"title": "Prescription"
-		},
-		"requester": "Requester",
-		"result": {
-			"AUC": "AUC (0-{{hour}}h) estimated by Bayesian method",
-			"best": "Best result",
-			"cMax": "C max estimated by bayesian method",
-			"compare": "Comparison of results",
-			"delai": "Post transplant/1st IS prescription period",
-			"inputData": {
-				"description": "Description",
-				"title": "Data used for the calculation"
-			},
-			"log": {
-				"title": "Logs"
-			},
-			"name": "Result name",
-			"noResult": "No result",
-			"numberOfTakens": "Number of intakes per day",
-			"popName": "population",
-			"posologyActual": "Actual dose (per intake)",
-			"posologyEstimate": "Estimated dose for an AUC of {{value}}",
-			"posologyTarget1": "1- Co target {{value}}",
-			"posologyTarget2": "2- Corresponding targeted AUCs",
-			"posologyTarget3": "3- Recommended doses for these targets",
-			"tauxResiduel": "Residual rate estimated by Bayesian Method",
-			"title": "Results",
-			"validatedby": "Results validated by"
-		},
-		"resultGroup": {
-			"date": "Date"
-		},
-		"samples": {
-			"endTreatment": "End of the perfusion",
-			"startTreatment": "Start of the perfusion",
-			"subtitle": "You must enter at least {{min}} samplings",
-			"title": "Samplings"
-		},
-		"selectPopulation": {
-			"populations": "Model"
-		},
-		"status": "Status",
-		"treatment": {
-			"administrationRoute": "Rout of administration/form",
-			"coTreatments": "Other treatment",
-			"comment": "Please specify",
-			"doses": "Dose",
-			"drug": "Treatment",
-			"drugCommercialName": "Specialty",
-			"numberOfTakes": "Number of intakes per day",
-			"warning": {
-				"dose": {
-					"minmax": "Please check the dose",
-					"step": "The value must be a multiple of {{step}}"
-				}
-			}
-		},
-		"validate": {
-			"comments": "Comments",
-			"populationSelected": "Selected model",
-			"predefinedComments": "Pre-defined comments",
-			"resultGroupSelected": "Selected group of results",
-			"title": "Validation of the request"
-		}
-	},
-	"rights": {
-		"title": "Rights"
-	},
-	"tools": {
-		"allSpecialties": "All drug specialties",
-		"description": "Optimal sampling times depend on the indication and the IS for which the adaptation is requested.\n\nBelow are the optimal sampling times for each dose adaptation for each combination of indication and IS. Please respect them to ensure a good quality of the results.\n",
-		"specialtyFilter": "Filters on drug specialty",
-		"title": "Optimal times"
-	},
-	"unit": {
-		"day": "Day(s)"
-	},
-	"user": {
-		"administrativeInformation": {
-			"title": "Administrative Data"
-		},
-		"ageRightFilters": {
-			"label": "Type of patient followed",
-			"none": "none"
-		},
-		"authentication": {
-			"mode": {
-				"label": "Authentication methods",
-				"title": "Authentication"
-			}
-		},
-		"button": {
-			"close": "Close the account",
-			"edit": "Edit Account"
-		},
-		"center": "Center",
-		"close": {
-			"content": "Are you sure you want to close this account?",
-			"message": "The account has been closed",
-			"title": "Account deletion"
-		},
-		"create": {
-			"title": "Create an user"
-		},
-		"department": "Department",
-		"edit": {
-			"confirm": {
-				"content": "The user information has been updated",
-				"title": "Edit user account"
-			},
-			"title": "Edit user account"
-		},
-		"email": "Email",
-		"emailNotification": "Email for notifications",
-		"emailOtp": "email for one time password (if you have chosen this option)",
-		"firstName": "First name",
-		"indicationRightFilters": {
-			"label": "Indications followed",
-			"none": "None"
-		},
-		"language": {
-			"application": "Application language",
-			"english": "English",
-			"french": "French",
-			"title": "Language"
-		},
-		"lastName": "Last name",
-		"licenses": {
-			"asked": "License"
-		},
-		"list": {
-			"noElement": "No user found"
-		},
-		"nationalId": "National ID",
-		"phone": "Phone number",
-		"profil": {
-			"contactAdmin": "For a modification other than on emails, please do contact Optim'Care : admin@optimcare.com"
-		},
-		"rights": {
-			"title": "Rights"
-		},
-		"role": {
-			"none": "No Right"
-		},
-		"roles": "Right",
-		"specialty": "Specialty",
-		"title": "Title",
-		"validate": {
-			"title": "User Account validation"
-		},
-		"validation": {
-			"confirm": {
-				"content": "The user account has been validated. An email with a link to create a password has been sent to him.",
-				"title": "User account has been validated"
-			},
-			"reject": {
-				"button": "Reject",
-				"comment": "Reason for rejection",
-				"title": "Reject the request"
-			}
-		},
-		"warning": {
-			"licenses": {
-				"TELE_EXPERTISE": "Warning: this center has not yet been validated for teleexpertise. Please check if this center is eligible for this activity",
-				"TELE_MONITORING": "Warning: this center has not yet been validated for telemonitoring. Please check if this center is eligible for this activity"
-			},
-			"noCreatedWithCps": "Warning: The CPS card was not used for the authentication, please check the relevance of information before validation.",
-			"noFrenchUser": "Please do check that the requester is an HCP and check the relevance of information before validating",
-			"rppsNotFound": "Warning: the national ID \"{{rppsName}}\" has not been found in the ASIP repertory",
-			"rppsNotMatch": "Warning: The name doesn't match with national ID \"{{rppsName}}\""
-		}
-	},
-	"valueset": {
-		"addButton": "Edit nomenclature",
-		"removeButton": "Delete a nomenclature",
-		"title": "Nomenclature"
-	}
+  "AGE": {
+    "GT_18": "Adult (>18yo)",
+    "LT_18": "Children (<18yo)"
+  },
+  "address": {
+    "additional": "Adress line 2 (building, floor...)",
+    "cedex": "Cedex",
+    "city": "City",
+    "country": "Country",
+    "number": "N°",
+    "postalBox": "PO box ",
+    "postalCode": "ZIP/Postal code",
+    "street": "Adress line 1 (street)",
+    "title": "Adress"
+  },
+  "alert": {
+    "action": "Action",
+    "creationDate": "Date",
+    "description": "Description",
+    "list": {
+      "noElement": "No alert",
+      "search": "Search",
+      "showHistory": "Show all",
+      "title": "Alerts"
+    },
+    "patient": "Patient"
+  },
+  "auth": {
+    "authenticateByCps": "Authentication CPS card (HCP working in France only)",
+    "createAccount": {
+      "title": "Don't have an account yet?"
+    },
+    "forgotPassword": {
+      "title": "Reset your password"
+    },
+    "login": "Id (email)",
+    "lostLogin": "Forgot ID? Please contact Optim'Care admin@optim'care.fr",
+    "otp": {
+      "message": "A One Time Password has been sent to your email adress, please enter it for authentication.",
+      "title": "One Time Password"
+    },
+    "password": "Password",
+    "passwordForgotten": "Forgot password?",
+    "title": "Authentication"
+  },
+  "backoffice": {
+    "center": {
+      "patients": {
+        "title": "Patients of the Center"
+      },
+      "users": {
+        "title": "Users of the center"
+      }
+    },
+    "menu": {
+      "patient": "Patients"
+    },
+    "users": {
+      "newUserButton": "New user",
+      "tabs": {
+        "closed": "Closed",
+        "toValidate": "To be validated",
+        "validated": "Approved"
+      },
+      "title": "Users"
+    }
+  },
+  "button": {
+    "activateMonitoring": "Select",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "createAccount": "Create an account",
+    "edit": "Change",
+    "next": "Next",
+    "ok": "OK",
+    "previous": "Previous",
+    "submit": "Submit",
+    "uploadFile": "Upload a document",
+    "validate": "Validate"
+  },
+  "center": {
+    "activitySector": "Business segment",
+    "address": {
+      "city": "City",
+      "country": "Country",
+      "title": "Adress"
+    },
+    "confirm": {
+      "content": "Center information has been updated",
+      "title": "Update center information"
+    },
+    "contract": {
+      "button": {
+        "add": "Add a center",
+        "remove": "Delete a contract"
+      },
+      "date": "Date",
+      "endDate": "End date",
+      "entityRightFilters": "",
+      "license": "License",
+      "startDate": "Start Date",
+      "title": "Contract"
+    },
+    "create": {
+      "search": {
+        "finess": "Search from Finess repertory",
+        "google": "Search from Google",
+        "title": "Search a center"
+      },
+      "title": "Create a center"
+    },
+    "edit": {
+      "title": "Change in the center"
+    },
+    "fax": "FAX",
+    "finess": "FINESS",
+    "licenses": {
+      "title": "Licenses"
+    },
+    "list": {
+      "search": "Search",
+      "title": "List of centers"
+    },
+    "name": "Center",
+    "newCenterButton": "New center",
+    "phone": "Phone",
+    "publicId": "Public ID",
+    "title": "Center"
+  },
+  "chart": {
+    "axis": {
+      "bloodPressure": "Blood Pressure",
+      "date": "Date",
+      "weight": "Weight"
+    },
+    "threshold": "Thresholds",
+    "tooltip": {
+      "weight": "Weight"
+    }
+  },
+  "common": {
+    "alerts": "Alerts",
+    "noNotification": "No notification",
+    "notifications": "Notifications"
+  },
+  "error": {
+    "noInternet": "No internet access",
+    "noRights": "You don't have the rights for this action.",
+    "unexpectedError": "An unexpected error occurred, please do contact Optim'Care if the problem occurs again."
+  },
+  "forgotPassword": {
+    "confirm": {
+      "content": "An email with a link to reset your password has been sent to you.",
+      "title": "You new password has been saved"
+    }
+  },
+  "form": {
+    "field": {
+      "emailInvalid": "invalid email ",
+      "required": "You must enter a value"
+    }
+  },
+  "header": {
+    "about": "About the platform",
+    "alert": "Telemonitoring: Alerts",
+    "backoffice": "Administration",
+    "home": "Home",
+    "login": "Log in",
+    "logout": "Log out",
+    "myProfile": "My profile",
+    "notification": "Dose Adjustment: Notifications",
+    "patient": "My patients",
+    "register": "Sign up",
+    "teleexpertise": "IS Dose Adjustment",
+    "telemonitoring": "Telemonitoring"
+  },
+  "home": {
+    "alert": {
+      "title": "Alerts/Notifications"
+    },
+    "button": {
+      "learnmore": "Learn more",
+      "seeAlert": "More alerts",
+      "seeRequests": "More requests"
+    },
+    "teleexpertise": {
+      "content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "title": "Immunosuppressants dose adjustment"
+    },
+    "telemonitoring": {
+      "content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "title": "Telemonitoring"
+    },
+    "welcome": "Welcome "
+  },
+  "informationConfiguration": {
+    "ceMarking": "About our platform",
+    "confirm": {
+      "content": "Data has been saved",
+      "title": "Information"
+    },
+    "gcu": "Terms of use",
+    "title": "Information",
+    "userGuide": "User Guide"
+  },
+  "menu": {
+    "activateTelemonitoring": "Telemonitoring activation",
+    "alertHistory": "Alerts",
+    "center": "Centers",
+    "forms": "Forms",
+    "informationConfiguration": "Config",
+    "newPatient": "New patient",
+    "newRequest": "New request",
+    "nomenclature": "Nomenclatures",
+    "patients": "Patients",
+    "requests": "List of Requests ",
+    "rights": "Rights",
+    "settings": "Configuration",
+    "tools": "Optimal times",
+    "user": "Users"
+  },
+  "monitoring": {
+    "intervenants": {
+      "email": "email to provide information on account creation.",
+      "follower": "Professional in charge of therapeutic education",
+      "monitor": "Physician in charge of the Telemonitoring",
+      "prescriber": "Prescriber",
+      "title": "Healthcare Professionals involved:"
+    }
+  },
+  "notification": {
+    "monitoringAlert": " {{patient}} ' {{dataType}} is {{description}}  : {{dataValue}}",
+    "noData": "No data",
+    "request": {
+      "accepted": "Acknowledgment of the request for patient  {{patient}}\"  ",
+      "closed": "The request for patientt \"{{patient}}\" has been rejected",
+      "complex": "You have received a complex request for Patient \"{{patient}}\" ",
+      "information": "You have received a request for additional information for the patient {{patient}}\" ",
+      "information_post_validation": "You have received a request for additional information on patient {{patient}}\" ' results",
+      "new_complex": "The request for patient \"{{patient}}\" became a complex request",
+      "new_waiting_validation": "New request for patient  \"{{patient}}",
+      "prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
+      "validated": "Patient  \"{{patient}}\" results are available",
+      "waiting_validation": "The request for patient  \"{{patient}}\" is waiting for validation"
+    }
+  },
+  "otherIndication": {
+    "CYSTIC_FIBROSIS": "cystic fibrosis",
+    "DIABETIC": "Diabetes"
+  },
+  "patient": {
+    "access": {
+      "description": "To give access to the application to a patient, you have to fill in his/her email in order that the patient can receive his/her ID and the link to upload the application",
+      "email": "email",
+      "title": ""
+    },
+    "address": {
+      "selection": "Please fill in the patient's adress."
+    },
+    "administrativeInformation": {
+      "title": "Administrative information"
+    },
+    "biologicaldata": {
+      "title": "Biological data"
+    },
+    "birthDate": "Date of birth",
+    "birthName": "Birth name",
+    "button": {
+      "activateMonitoring": "Activate the telemonitoring",
+      "deletePatient": "Delete patient",
+      "edit": "Change patient information",
+      "editAlert": "Alert configuration",
+      "exportData": "Export patient data",
+      "goToTelemonitoring": "",
+      "share": "Share  data with another healthcare professional"
+    },
+    "center": {
+      "choice": {
+        "info": "Selection of the center"
+      }
+    },
+    "consent": {
+      "Telemonitoring": "Patient has given his/her consent for the processing of his/her personal data needed for telemonitoring",
+      "docModel": "Consent template",
+      "teleexpertise": "Patient has given his/her consent for the processing of his/her personal data needed for dose adaptation request."
+    },
+    "create": {
+      "confirm": {
+        "content": "Patient file has been created.",
+        "title": "Patient has been created."
+      },
+      "duplicate": {
+        "button": {
+          "ignore": "Create a patient"
+        },
+        "content": "The patient you want to create seems to be a already existing, please check in the below list. If the patient is a duplicate, please click on the patient to select him else click on the button \"create a patient\" to confirm his validation.",
+        "title": "Potential duplicate(s):"
+      },
+      "title": "Patient creation"
+    },
+    "data": {
+      "alert": "Alerts"
+    },
+    "delete": {
+      "confirm": {
+        "content": "Warning: The deletion is permanent, to confirm the deletion, please enter patient name.",
+        "title": "Permanent deletion of the patient"
+      }
+    },
+    "edit": {
+      "title": "Edit patient"
+    },
+    "email": "Email",
+    "error": {
+      "nationalId": "Expected format 1 or 2 + 12 numbers"
+    },
+    "firstName": "First name",
+    "follow": "Monitoring",
+    "gender": "Sex",
+    "healthInsurance": {
+      "codeOrganisation": "Health insurance organization"
+    },
+    "lastName": "last name",
+    "learning": {
+      "taskTodo": "Tasks todo",
+      "title": "Therapeutic education"
+    },
+    "learningdata": {
+      "title": "Larning"
+    },
+    "list": {
+      "search": "Search",
+      "title": "List of patients"
+    },
+    "medicalInformation": {
+      "addButton": "Add a medical information",
+      "consent": {
+        "title": "Consents"
+      },
+      "indication": {
+        "comment": "Please specify",
+        "date": "Indication date",
+        "name": "Indication",
+        "transplantation": {
+          "date": "Transplant date"
+        },
+        "treatment": {
+          "date": "First IS prescription date"
+        }
+      },
+      "otherIndications": "Other indications",
+      "removeButton": "Delete",
+      "title": "Medical information"
+    },
+    "medicaldata": {
+      "bloodPressure": "Blood pressure",
+      "noData": "",
+      "title": "Clinical data",
+      "weight": "weight"
+    },
+    "monitoring": {
+      "activate": "Activate the telemonitoring",
+      "frequency": {
+        "once": "once",
+        "unit": "Frequency",
+        "value": "every"
+      },
+      "noDataFollowed": "No data followed",
+      "ps": {
+        "followers": "Professionals with read only access",
+        "responsibles": ""
+      },
+      "selectData": "Select the data to monitor",
+      "shared": {
+        "title": "List of Professionals having an access to your file."
+      },
+      "threshold": "Data to monitor and alert threshold"
+    },
+    "name": "Patient",
+    "nationalId": "Social security number",
+    "newPatientButton": "New Patient",
+    "phone": "Phone",
+    "psychologicaldata": {
+      "title": "Psychological data"
+    },
+    "teleexpertise": {
+      "displayAll": "Show all",
+      "noRequests": "No dose adaptation request",
+      "title": "dose adaptation"
+    },
+    "telemonitoring": {
+      "noActivated": "The telemonitoring has not been activated, please click on the below link to initiate it.",
+      "title": "Telemonitoring"
+    }
+  },
+  "register": {
+    "address": {
+      "selection": "Search your center"
+    },
+    "center": {
+      "choice": {
+        "explanation": "Select a center in the list or click on + to create a new center",
+        "info": "Center"
+      },
+      "create": {
+        "button": "New center",
+        "explanation": "New center"
+      }
+    },
+    "confirm": {
+      "content": "You will receive an email once your account will be validated.",
+      "title": "Account validated"
+    },
+    "title": "Sign up",
+    "user": {
+      "ageRightFilters": "Age of your patients*:",
+      "authentication": {
+        "emailNotification": {
+          "explain": "email for notifications"
+        },
+        "emailOtp": {
+          "explain": "email for one time password"
+        },
+        "mode": {
+          "cps": "Authentication CPS Card",
+          "explain": "You can choose the following authentication methods: <p>- an ID and a strong password.</p>  \n<p>- an ID, a strong password and a one time password sent by email (OTP) </p> \n<p>- your CPS card (only available for professionals working in a french center.</p>",
+          "otp": "One time password authentication",
+          "title": "Authentication methods"
+        }
+      },
+      "center": {
+        "new": "New center"
+      },
+      "country": "For Healthcare Professional working in a french center, you can create an account with your CPS card, it will be easier.",
+      "foreign": "Other",
+      "french": "French",
+      "identifiant": {
+        "explain": "",
+        "label": "National ID (RPPS number)"
+      },
+      "indicationRightFilters": "Indications you are in charge of (please select below)*",
+      "licenses": {
+        "label": "Request for an access to solutions (please select below):*"
+      },
+      "roles": {
+        "title": "Solutions you want to have access to and information on the indications you are in charge of:"
+      }
+    }
+  },
+  "request": {
+    "accept": {
+      "comment": "Comment",
+      "title": "Acknowledge the results"
+    },
+    "answerInformationToRequester": {
+      "title": "Answer"
+    },
+    "askForInformation": {
+      "comment": "Comment"
+    },
+    "askInformationToExpert": {
+      "title": "Request for information on results"
+    },
+    "askInformationToRequester": {
+      "title": "Request for information to the requester"
+    },
+    "bloodSample": {
+      "assayMethod": "Assay Method",
+      "drugIntakeTime": "Time of drug intake",
+      "endTreatment": "End of the perfusion",
+      "samples": {
+        "concentration": "Concentration",
+        "intervalDoseSampling": "interval between the dose and the sampling",
+        "optimalDoseSampling": "Optimal Sampling Time",
+        "realSamplingTime": "real sampling time",
+        "warning": {
+          "concentration": {
+            "minmax": "Please check this concentration"
+          },
+          "time": {
+            "minmax": "Please check this sampling time."
+          }
+        }
+      },
+      "samplingDate": "Sampling date",
+      "startTreatment": "Start of the perfusion"
+    },
+    "button": {
+      "accept": "Acknowledge the result",
+      "answerInformation": "Answer to requester",
+      "askForInformation": "Information request",
+      "askInformation": "Information request",
+      "back": "Black",
+      "close": "Close the request",
+      "delete": "Delete the draft",
+      "draft": "Save draft",
+      "exportPdf": "Export pdf",
+      "launchCalculation": "Launch a calculation",
+      "modificationHistory": "Events history",
+      "print": "Export PDF",
+      "validate": "Validate the results"
+    },
+    "center": {
+      "label": "Center"
+    },
+    "charts": {
+      "axis": {
+        "concentration": "Concentration ({{unit}})",
+        "time": "Time({{unit}})"
+      },
+      "legend": {
+        "standardDeviation": "",
+        "values": ""
+      }
+    },
+    "close": {
+      "comments": "Comments",
+      "predefinedComments": "Pre-defined comments",
+      "title": "Close the request"
+    },
+    "closed": {
+      "title": "The request has been closed"
+    },
+    "comments": {
+      "title": "Comments"
+    },
+    "consent": "Patient has given his/her consent for the processing of personal data needed for this telemedicine act. ",
+    "context": {
+      "additionalInformation": "Additional information",
+      "reason": "Reason for the request"
+    },
+    "create": {
+      "centerStepTitle": "Center",
+      "confirm": {
+        "content": "The request has been sent to Limoges Hospital Pharmacologists",
+        "title": "New request"
+      },
+      "contextStepTitle": "General information on the request",
+      "indicationStepTitle": "Indication",
+      "patient": {
+        "explanation": "If you don't find the patient in this list, click on + to create a new patient."
+      },
+      "patientStepTitle": "Select a patient",
+      "samples": {
+        "addButton": "Add a blood sampling",
+        "removeButton": "Delete a blood sampling"
+      },
+      "samplingStepTitle": "Information about blood sample collection",
+      "treatmentStepTitle": "Treatments"
+    },
+    "creationDate": "Date of creation",
+    "draft": {
+      "confirm": {
+        "content": "The request has been saved as a draft",
+        "title": "Draft"
+      },
+      "delete": {
+        "confirm": {
+          "content": "Are you sure you want to delete this draft",
+          "title": "Delete draft"
+        }
+      }
+    },
+    "edit": {
+      "title": "Information about the request"
+    },
+    "event": {
+      "action": "Action",
+      "author": "Author",
+      "date": "Date",
+      "newData": "New data",
+      "oldData": "Old data",
+      "oldStatus": "Old status",
+      "status": "New status"
+    },
+    "events": {
+      "modification": {
+        "message": "Warning: The request has been modified by the requester, please click on the button to track the changes"
+      },
+      "title": "History of events on the request"
+    },
+    "history": {
+      "title": "History of requests for this patient"
+    },
+    "indication": {
+      "comment": "Please specify",
+      "date": "Date",
+      "name": "Indication",
+      "pathology": "",
+      "transplantation": {
+        "date": "Transplant date"
+      },
+      "treatment": {
+        "date": "Date of first IS administration"
+      }
+    },
+    "infoRequest": {
+      "comment": "Comments",
+      "confirm": {
+        "content": "Your request for information has been sent",
+        "title": "Request for information"
+      },
+      "content": "You can modify some of the information of this request by clicking on button in the \"Information about the request\" part",
+      "title": "Request for information"
+    },
+    "lastComments": {
+      "displayAll": "View all comments",
+      "noComment": "No comment",
+      "title": "All comments"
+    },
+    "launchCalculation": {
+      "error": {
+        "atLeast3Sample": "You have to select at least 3 blood samplings"
+      },
+      "selectSample": "Select the blood samplings for the calculation",
+      "title": "Launch calculation:\nWarning the launch of the calculation is under your liability."
+    },
+    "list": {
+      "search": "Search",
+      "title": "List of requests"
+    },
+    "newRequestButton": "New request",
+    "number": "Number",
+    "patient": {
+      "create": {
+        "button": "Create a patient"
+      },
+      "label": "Patient"
+    },
+    "prescriber": "Prescriber",
+    "prescription": {
+      "description": "",
+      "downloadInstruction": "Dowload Patient user guide.",
+      "file": {
+        "dragDrop": "Drag and drop the prescription here",
+        "or": "OR"
+      },
+      "patientAccessButton": "Create Patient access",
+      "removeButton": "Delete",
+      "title": "Prescription"
+    },
+    "requester": "Requester",
+    "result": {
+      "AUC": "AUC (0-{{hour}}h) estimated by Bayesian method",
+      "best": "Best result",
+      "cMax": "C max estimated by bayesian method",
+      "compare": "Comparison of results",
+      "delai": "Post transplant/1st IS prescription period",
+      "inputData": {
+        "description": "Description",
+        "title": "Data used for the calculation"
+      },
+      "log": {
+        "title": "Logs"
+      },
+      "name": "Result name",
+      "noResult": "No result",
+      "numberOfTakens": "Number of intakes per day",
+      "popName": "population",
+      "posologyActual": "Actual dose (per intake)",
+      "posologyEstimate": "Estimated dose for an AUC of {{value}}",
+      "posologyTarget1": "1- Co target {{value}}",
+      "posologyTarget2": "2- Corresponding targeted AUCs",
+      "posologyTarget3": "3- Recommended doses for these targets",
+      "tauxResiduel": "Residual rate estimated by Bayesian Method",
+      "title": "Results",
+      "validatedby": "Results validated by"
+    },
+    "resultGroup": {
+      "date": "Date"
+    },
+    "samples": {
+      "endTreatment": "End of the perfusion",
+      "startTreatment": "Start of the perfusion",
+      "subtitle": "You must enter at least {{min}} samplings",
+      "title": "Samplings"
+    },
+    "selectPopulation": {
+      "populations": "Model"
+    },
+    "status": "Status",
+    "treatment": {
+      "administrationRoute": "Rout of administration/form",
+      "coTreatments": "Other treatment",
+      "comment": "Please specify",
+      "doses": "Dose",
+      "drug": "Treatment",
+      "drugCommercialName": "Specialty",
+      "numberOfTakes": "Number of intakes per day",
+      "warning": {
+        "dose": {
+          "minmax": "Please check the dose",
+          "step": "The value must be a multiple of {{step}}"
+        }
+      }
+    },
+    "validate": {
+      "comments": "Comments",
+      "populationSelected": "Selected model",
+      "predefinedComments": "Pre-defined comments",
+      "resultGroupSelected": "Selected group of results",
+      "title": "Validation of the request"
+    }
+  },
+  "rights": {
+    "title": "Rights"
+  },
+  "tools": {
+    "allSpecialties": "All drug specialties",
+    "description": "Optimal sampling times depend on the indication and the IS for which the adaptation is requested.\n\n<p>Below are the optimal sampling times for each dose adaptation for each combination of indication and IS. Please respect them to ensure an optimal quality of the results.</>\n",
+    "specialtyFilter": "Filters on drug specialty",
+    "title": "Optimal times"
+  },
+  "unit": {
+    "day": "Day(s)"
+  },
+  "user": {
+    "administrativeInformation": {
+      "title": "Administrative Data"
+    },
+    "ageRightFilters": {
+      "label": "Type of patient followed",
+      "none": "none"
+    },
+    "authentication": {
+      "mode": {
+        "label": "Authentication methods",
+        "title": "Authentication"
+      }
+    },
+    "button": {
+      "close": "Close the account",
+      "edit": "Edit Account"
+    },
+    "center": "Center",
+    "close": {
+      "content": "Are you sure you want to close this account?",
+      "message": "The account has been closed",
+      "title": "Account deletion"
+    },
+    "create": {
+      "title": "Create an user"
+    },
+    "department": "Department",
+    "edit": {
+      "confirm": {
+        "content": "The user information has been updated",
+        "title": "Edit user account"
+      },
+      "title": "Edit user account"
+    },
+    "email": "email",
+    "emailNotification": "email for notifications",
+    "emailOtp": "email for one time password (if you have chosen this option)",
+    "firstName": "First name",
+    "indicationRightFilters": {
+      "label": "Indications followed",
+      "none": "None"
+    },
+    "language": {
+      "application": "Application language",
+      "english": "English",
+      "french": "French",
+      "title": "Language"
+    },
+    "lastName": "Last name",
+    "licenses": {
+      "asked": "License"
+    },
+    "list": {
+      "noElement": "No user found"
+    },
+    "nationalId": "National ID",
+    "phone": "Phone number",
+    "profil": {
+      "contactAdmin": "For a modification other than on emails, please do contact Optim'Care : admin@optimcare.com"
+    },
+    "rights": {
+      "title": "Rights"
+    },
+    "role": {
+      "none": "No Right"
+    },
+    "roles": "Right",
+    "specialty": "Specialty",
+    "title": "Title",
+    "validate": {
+      "title": "User Account validation"
+    },
+    "validation": {
+      "confirm": {
+        "content": "The user account has been validated. An email with a link to create a password has been sent to him.",
+        "title": "User account has been validated"
+      },
+      "reject": {
+        "button": "Reject",
+        "comment": "Reason for rejection",
+        "title": "Reject the request"
+      }
+    },
+    "warning": {
+      "licenses": {
+        "TELE_EXPERTISE": "Warning: this center has not yet been validated for teleexpertise. Please check if this center is eligible for this activity.",
+        "TELE_MONITORING": "Warning: this center has not yet been validated for telemonitoring. Please check if this center is eligible for this activity."
+      },
+      "noCreatedWithCps": "Warning: The CPS card was not used for the authentication, please check the relevance of information before validation.",
+      "noFrenchUser": "Please do check that the requester is an HCP and check the relevance of information before validating.",
+      "rppsNotFound": "Warning: the national ID \"{{rppsName}}\" has not been found in the ASIP repertory.",
+      "rppsNotMatch": "Warning: The name doesn't match with national ID \"{{rppsName}}\"."
+    }
+  },
+  "valueset": {
+    "addButton": "Edit nomenclature",
+    "removeButton": "Delete a nomenclature",
+    "title": "Nomenclature"
+  },
+  "welcome": {
+    "content": "Optim’Care has developed a unique, scalable and tailor-made platform that includes various e-health solutions for transplant patients and the health professionals in charge of their care.<br/><br/> As we are committed to patients safety and data protection, the solutions proposed by Optim’Care guarantee optimal reliability.",
+    "title": "<b>Welcome on<br/>Optim'Care</b> platform"
+  }
 }
