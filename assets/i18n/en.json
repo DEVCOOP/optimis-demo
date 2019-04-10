@@ -238,7 +238,7 @@
       "closed": "The request for patientt \"{{patient}}\" has been rejected",
       "complex": "You have received a complex request for Patient \"{{patient}}\" ",
       "information": "You have received a request for additional information for the patient {{patient}}\" ",
-      "information_post_validation": "You have received a request for additional information on patient {{patient}}\" ' results",
+      "information_post_validation": "You have received a request a message on patient {{patient}}\" ' results",
       "new_complex": "The request for patient \"{{patient}}\" became a complex request",
       "new_waiting_validation": "New request for patient  \"{{patient}}",
       "prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
