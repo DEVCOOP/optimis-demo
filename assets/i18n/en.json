@@ -234,16 +234,16 @@
     "monitoringAlert": " {{patient}} ' {{dataType}} is {{description}}  : {{dataValue}}",
     "noData": "No data",
     "request": {
-      "accepted": "Acknowledgment of the request for patient  {{patient}}\"  ",
-      "closed": "The request for patientt \"{{patient}}\" has been rejected",
-      "complex": "You have received a complex request for Patient \"{{patient}}\" ",
-      "information": "You have received a request for additional information for the patient {{patient}}\" ",
-      "information_post_validation": "You have received a request a message on patient {{patient}}\" ' results",
-      "new_complex": "The request for patient \"{{patient}}\" became a complex request",
-      "new_waiting_validation": "New request for patient  \"{{patient}}",
-      "prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
-      "validated": "Patient  \"{{patient}}\" results are available",
-      "waiting_validation": "The request for patient  \"{{patient}}\" is waiting for validation"
+      "accepted": "Acknowledgment of the request for patient {{patient}}\"  ",
+      "closed": "Request for patient \"{{patient}}\" rejected",
+      "complex": "Request for Patient \"{{patient}}\" now complex",
+      "information": "Request for additional information for the patient {{patient}}\"",
+      "information_post_validation": "New message on patient {{patient}}\" ' results",
+      "new_complex": "New complex request for patient \"{{patient}}\"",
+      "new_waiting_validation": "New request for patient \"{{patient}}",
+      "prevalidated": "Request for patient \"{{patient}}\" pre-validated",
+      "validated": "Patient \"{{patient}}\" results available",
+      "waiting_validation": "Additional information on patient \"{{patient}}\" request"
     }
   },
   "otherIndication": {
