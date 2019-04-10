@@ -243,7 +243,7 @@
       "new_waiting_validation": "Nouvelle demande pour le patient \"{{patient}}\"",
       "prevalidated": "Demande pour le patient \"{{patient}}\" pré-validée",
       "validated": "Résultats du patient \"{{patient}}\" disponibles",
-      "waiting_validation": "Nouvelle information apportée sur la demande du patient \"{{patient}}\"",
+      "waiting_validation": "Nouvelle information apportée sur la demande du patient \"{{patient}}\""
     }
   },
   "otherIndication": {
