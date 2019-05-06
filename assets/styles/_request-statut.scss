@@ -1,4 +1,5 @@
 $WAITING_VALIDATION-color: orangered;
+$WAITING_TREATMENT-color: orangered;
 $PRE_VALIDATED-color: yellow;
 $INFORMATION_REQUEST-color: blueviolet;
 $INFORMATION_REQUEST_POST_VALIDATION-color: blueviolet;
@@ -11,6 +12,9 @@ td.mat-cell.status {
 }
 td.mat-cell.status {
   border-left: 15px solid white;
+  &.WAITING_TREATMENT {
+    border-left-color: $WAITING_TREATMENT-color;
+  }
   &.WAITING_VALIDATION {
     border-left-color: $WAITING_VALIDATION-color;
   }
