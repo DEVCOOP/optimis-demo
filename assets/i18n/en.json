@@ -507,7 +507,7 @@
 			"launchCalculation": "Launch a calculation",
 			"modificationHistory": "Events history",
 			"print": "Export PDF",
-			"validate": "Validate the results"
+			"validate": "Validate this result"
 		},
 		"center": {
 			"label": "Center"
