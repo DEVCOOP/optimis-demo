@@ -81,14 +81,13 @@ button {
     justify-content: space-between;
 
     > div {
-      flex: 0 0 auto;
       box-sizing: border-box;
       align-items: center;
       max-width: 80%;
       min-width: 50%;
     }
     > div:last-child {
-      flex: 0 0 auto;
+      //flex: 0 0 auto;
       //display: contents;
     }
   }

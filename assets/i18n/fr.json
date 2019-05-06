@@ -66,6 +66,12 @@
       "title": "Utilisateurs"
     }
   },
+  "billing": {
+    "button": {
+      "export": "Exporter les données"
+    },
+    "title": "Facturation"
+  },
   "button": {
     "activateMonitoring": "Sélectionner",
     "back": "Retour",
@@ -98,7 +104,7 @@
       },
       "date": "Date",
       "endDate": "Date de fin",
-      "entityRightFilters": "",
+      "indicationRightFilters": "Indications suivies",
       "license": "Licence",
       "startDate": "Date de début",
       "title": "Contrats"
@@ -208,6 +214,7 @@
   "menu": {
     "activateTelemonitoring": "Initier la télésurveillance",
     "alertHistory": "Alertes",
+    "billing": "Facturation",
     "center": "Centres",
     "forms": "Formulaires",
     "informationConfiguration": "Configuration",
@@ -235,15 +242,15 @@
     "noData": "Aucun élément",
     "request": {
       "accepted": "Accusé réception de la demande pour le patient \"{{patient}}\" ",
-      "closed": "Demande pour le patient \"{{patient}}\" rejetée",
-      "complex": "Demande du patient \"{{patient}}\" passée au statut complexe",
-      "information": "Demande d'informations complémentaires pour le patient \"{{patient}}\"",
-      "information_post_validation": "Message reçu concernant les résultats du patient \"{{patient}}\"",
-      "new_complex": "Nouvelle demande complexe pour le Patient \"{{patient}}\"",
+      "closed": "La demande pour le patient \"{{patient}}\" a été rejetée ou clôturée.",
+      "complex": "Vous avez reçu une demande complexe pour le Patient \"{{patient}}\" ",
+      "information": "Vous avez reçu une demande d'informations complémentaires  pour le patient \"{{patient}}\" ",
+      "information_post_validation": "Vous avez reçu un message concernant les résultats du patient \"{{patient}}\"",
+      "new_complex": "La demande du patient \"{{patient}}\" est passée au statut complexe  ",
       "new_waiting_validation": "Nouvelle demande pour le patient \"{{patient}}\"",
-      "prevalidated": "Demande pour le patient \"{{patient}}\" pré-validée",
-      "validated": "Résultats du patient \"{{patient}}\" disponibles",
-      "waiting_validation": "Nouvelle information apportée sur la demande du patient \"{{patient}}\""
+      "prevalidated": "La demande pour le patient \"{{patient}}\" a été pré-validée",
+      "validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
+      "waiting_validation": "La demande pour le patient \"{{patient}}\" est en attente de validation"
     }
   },
   "otherIndication": {
@@ -257,7 +264,7 @@
       "title": ""
     },
     "address": {
-      "selection": "Renseigner l'adresse du patient pour qu'ils reçoivent le tensiomètre et/ou la balance."
+      "selection": "Renseigner l'adresse du patient pour qu'il reçoive le tensiomètre et/ou la balance."
     },
     "administrativeInformation": {
       "title": "Informations administratives"
@@ -367,6 +374,7 @@
         "unit": "Fréquence",
         "value": "tous les"
       },
+      "noData": "Aucune donnée",
       "noDataFollowed": "Aucune données suivies",
       "ps": {
         "followers": "Professionnels ayant accès en lecture seule",
@@ -491,12 +499,11 @@
       "accept": "Accuser réception du résultat",
       "answerInformation": "Répondre au demandeur",
       "askForInformation": "Demande d'information",
-      "askInformation": "Demande d'informations",
-      "back": "Retour",
       "close": "Clore la demande",
       "delete": "Supprimer le brouillon",
       "draft": "Enregistrer en brouillon",
       "exportPdf": "Export PDF",
+      "exportRequests": "Exporter les données",
       "launchCalculation": "Lancer un calcul",
       "modificationHistory": "Historique des évènements",
       "print": "Export PDF",
@@ -524,6 +531,7 @@
       "title": "La demande a été clôturée"
     },
     "comments": {
+      "noComment": "Aucun commentaire",
       "title": "Commentaires"
     },
     "consent": "Le patient a donné son consentement concernant le traitement de ses données personnelles dans le cadre de sa prise en charge par téléexpertise.",
@@ -647,7 +655,7 @@
       "best": "Meilleur résultat",
       "cMax": "C max estimée par méthode Bayésienne",
       "compare": "Comparaison des résultats",
-      "delai": "Période post greffe/1ere administration d'IS",
+      "delai": "Délai post greffe/1ere administration d'IS",
       "inputData": {
         "description": "Description",
         "title": "Données prises en compte dans le calcul"
@@ -660,7 +668,7 @@
       "numberOfTakens": "Nombre de prises par jour",
       "popName": "Population",
       "posologyActual": "Posologie actuelle (par prise)",
-      "posologyEstimate": "Posologie estimée pour une AUC de {{value}}",
+      "posologyEstimate": "Posologie recommandée pour une AUC cible de {{value}}",
       "posologyTarget1": "1- Cible de C0 {{value}}",
       "posologyTarget2": "2- AUCs cibles correspondantes  {{value}}",
       "posologyTarget3": "3- Doses recommandées pour ces cibles",
