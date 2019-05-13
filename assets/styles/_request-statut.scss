@@ -41,42 +41,42 @@ mat-toolbar {
 
     &.WAITING_VALIDATION {
       background:linear-gradient(to right, #F5F5F5, $WAITING_VALIDATION-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $WAITING_VALIDATION-color;
       }
     }
     &.PRE_VALIDATED {
       background:linear-gradient(to right, #F5F5F5, $PRE_VALIDATED-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $PRE_VALIDATED-color;
       }
     }
     &.INFORMATION_REQUEST, &.INFORMATION_REQUEST_POST_VALIDATION {
       background:linear-gradient(to right, #F5F5F5, $INFORMATION_REQUEST-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $INFORMATION_REQUEST-color;
       }
     }
     &.COMPLEX_REQUEST {
       background:linear-gradient(to right, #F5F5F5, $COMPLEX_REQUEST-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $COMPLEX_REQUEST-color;
       }
     }
     &.VALIDATED {
       background:linear-gradient(to right, #F5F5F5, $VALIDATED-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $VALIDATED-color;
       }
     }
     &.ACCEPTED {
       background:linear-gradient(to right, #F5F5F5, $ACCEPTED-color);
-      button {
+      mat-chip {
         color:#ffffff;
         background-color: $ACCEPTED-color;
       }

@@ -229,20 +229,30 @@
 		"user": "Users"
 	},
 	"monitoring": {
+		"alert": {
+			"displayManagedAlert": "",
+			"message": ""
+		},
 		"intervenants": {
 			"email": "email to provide information on account creation.",
 			"follower": "Professional in charge of therapeutic education",
 			"monitor": "Physician in charge of the Telemonitoring",
 			"prescriber": "Prescriber",
+			"rights": "",
+			"sharedUser": "",
 			"title": "Healthcare Professionals involved:"
 		}
 	},
 	"notification": {
+		"action": {
+			"by": "",
+			"name": ""
+		},
 		"monitoringAlert": " {{patient}} ' {{dataType}} is {{description}}  : {{dataValue}}",
 		"noData": "No data",
 		"request": {
 			"accepted": "Acknowledgment of the request for patient  {{patient}}\"  ",
-			"closed": "The request for patientt \"{{patient}}\" has been rejected",
+			"closed": "The request for patient \"{{patient}}\" has been rejected by the experts",
 			"complex": "You have received a complex request for Patient \"{{patient}}\" ",
 			"information": "You have received a request for additional information for the patient {{patient}}\" ",
 			"information_post_validation": "You have received a request a message on patient {{patient}}\" ' results",
@@ -328,6 +338,11 @@
 		"gender": "Sex",
 		"healthInsurance": {
 			"codeOrganisation": "Health insurance organization"
+		},
+		"height": {
+			"content": "",
+			"label": "",
+			"title": ""
 		},
 		"lastName": "last name",
 		"learning": {
