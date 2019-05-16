@@ -140,6 +140,10 @@ mat-icon {
   }
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .clickable {
   /* Define the hover highlight color for the table row */
   tbody>tr:hover {

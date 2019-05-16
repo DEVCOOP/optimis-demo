@@ -21,7 +21,6 @@
 		"list": {
 			"noElement": "Aucune alerte",
 			"search": "Recherche",
-			"showHistory": "Voir l'historique",
 			"title": "Alertes"
 		},
 		"patient": "Patient"
@@ -139,6 +138,13 @@
 		"axis": {
 			"bloodPressure": "Tension",
 			"date": "Date",
+			"range": {
+				"all": "Tous",
+				"half_year": "6 mois",
+				"month": "1 mois",
+				"quarter_year": "3 mois",
+				"year": "1 an"
+			},
 			"weight": "Poids"
 		},
 		"threshold": "Seuils",
@@ -218,6 +224,7 @@
 		"center": "Centres",
 		"forms": "Formulaires",
 		"informationConfiguration": "Configuration",
+		"monitoring": "",
 		"newPatient": "Nouveau patient",
 		"newRequest": "Nouvelle demande",
 		"nomenclature": "Nomenclatures",
@@ -233,6 +240,14 @@
 			"displayManagedAlert": "Afficher les alertes traitées",
 			"message": "Les actions ne sont pas transmises au patient"
 		},
+		"confirm": {
+			"content": "Vos modifications ont bien été enregistrée",
+			"title": "Enregistrement"
+		},
+		"endDate": "Date de fin",
+		"indication": {
+			"label": "Indication"
+		},
 		"intervenants": {
 			"email": "Email pour lui envoyer les information de création de compte",
 			"follower": "Professionnel en charge de l'accompagnement thérapeutique",
@@ -241,6 +256,17 @@
 			"rights": "Droits sur le dossier",
 			"sharedUser": "Autre professionnal ayant accès au dossier",
 			"title": "Professionnels de santé impliqués:"
+		},
+		"patient": {
+			"label": "Patient"
+		},
+		"startDate": "Date début",
+		"tab": {
+			"learning": "Apprentissage",
+			"monitoring": "Télésurveillance",
+			"patient": "Patient",
+			"prescription": "Ordonnances",
+			"responsibles": "Professionnels"
 		}
 	},
 	"notification": {
@@ -290,8 +316,7 @@
 			"edit": "Modifier les informations patient",
 			"editAlert": "Paramétrage des alertes",
 			"exportData": "Export des données patient",
-			"goToTelemonitoring": "",
-			"share": "Partager les données avec un autre professionnel de santé"
+			"goToTelemonitoring": "Accéder au dossier de télésurveillance"
 		},
 		"center": {
 			"choice": {
@@ -316,9 +341,6 @@
 				"title": "Doublon(s) potentiel(s)"
 			},
 			"title": "Création d'un patient"
-		},
-		"data": {
-			"alert": "Alertes"
 		},
 		"delete": {
 			"confirm": {
@@ -729,6 +751,19 @@
 	},
 	"rights": {
 		"title": "Rôles"
+	},
+	"settings": {
+		"finess": {
+			"button": "Mettre à jour",
+			"confirm": {
+				"content": "L'annaire finess a bien été mis à jour",
+				"title": "Mise à jour annuaire Finess"
+			},
+			"explain": "Pour mettre à jour l'annuaire, il faut récupérer l'url à cette adresse : <br/><a href='https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/'>Site finess</a> puis copier l'url du block 'Extraction Finess des Etablissements'. <br/><br/>Attention ceci peut prendre plusieurs minutes",
+			"title": "Mise à jour annuaire Finess",
+			"url": "Url"
+		},
+		"title": "Paramètres"
 	},
 	"tools": {
 		"allSpecialties": "Toutes les spécialités",

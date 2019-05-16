@@ -21,7 +21,6 @@
 		"list": {
 			"noElement": "No alert",
 			"search": "Search",
-			"showHistory": "Show all",
 			"title": "Alerts"
 		},
 		"patient": "Patient"
@@ -139,6 +138,13 @@
 		"axis": {
 			"bloodPressure": "Blood Pressure",
 			"date": "Date",
+			"range": {
+				"all": "",
+				"half_year": "",
+				"month": "",
+				"quarter_year": "",
+				"year": ""
+			},
 			"weight": "Weight"
 		},
 		"threshold": "Thresholds",
@@ -218,6 +224,7 @@
 		"center": "Centers",
 		"forms": "Forms",
 		"informationConfiguration": "Config",
+		"monitoring": "",
 		"newPatient": "New patient",
 		"newRequest": "New request",
 		"nomenclature": "Nomenclatures",
@@ -233,6 +240,14 @@
 			"displayManagedAlert": "",
 			"message": ""
 		},
+		"confirm": {
+			"content": "",
+			"title": ""
+		},
+		"endDate": "",
+		"indication": {
+			"label": ""
+		},
 		"intervenants": {
 			"email": "email to provide information on account creation.",
 			"follower": "Professional in charge of therapeutic education",
@@ -241,6 +256,17 @@
 			"rights": "",
 			"sharedUser": "",
 			"title": "Healthcare Professionals involved:"
+		},
+		"patient": {
+			"label": ""
+		},
+		"startDate": "",
+		"tab": {
+			"learning": "",
+			"monitoring": "",
+			"patient": "",
+			"prescription": "",
+			"responsibles": ""
 		}
 	},
 	"notification": {
@@ -290,8 +316,7 @@
 			"edit": "Change patient information",
 			"editAlert": "Alert configuration",
 			"exportData": "Export patient data",
-			"goToTelemonitoring": "",
-			"share": "Share  data with another healthcare professional"
+			"goToTelemonitoring": ""
 		},
 		"center": {
 			"choice": {
@@ -316,9 +341,6 @@
 				"title": "Potential duplicate(s):"
 			},
 			"title": "Patient creation"
-		},
-		"data": {
-			"alert": "Alerts"
 		},
 		"delete": {
 			"confirm": {
@@ -729,6 +751,19 @@
 	},
 	"rights": {
 		"title": "Rights"
+	},
+	"settings": {
+		"finess": {
+			"button": "",
+			"confirm": {
+				"content": "",
+				"title": ""
+			},
+			"explain": "",
+			"title": "",
+			"url": ""
+		},
+		"title": ""
 	},
 	"tools": {
 		"allSpecialties": "All drug specialties",
