@@ -240,9 +240,8 @@
 			"displayManagedAlert": "Afficher les alertes traitées",
 			"message": "Les actions ne sont pas transmises au patient"
 		},
-		"confirm": {
-			"content": "Vos modifications ont bien été enregistrée",
-			"title": "Enregistrement"
+		"button": {
+			"share": "Modifier les professionnels"
 		},
 		"endDate": "Date de fin",
 		"indication": {
@@ -438,6 +437,30 @@
 		"telemonitoring": {
 			"noActivated": "La télésurveillance n'a pas encore été activée, cliquez sur le lien suivant si vous souhaitez l'initialiser : ",
 			"title": "Télésurveillance"
+		}
+	},
+	"prescription": {
+		"button": {
+			"delete": "Supprimer la prescription",
+			"show": "Voir la prescription"
+		},
+		"date": "Date",
+		"delete": {
+			"content": "Etes-vous sûr de vouloir supprimer cette prescription?",
+			"title": "Suppression"
+		},
+		"file": {
+			"dragDrop": "Déposer le fichier ici",
+			"or": "ou"
+		},
+		"name": "Nom",
+		"patient": {
+			"message": "Seule la dernière ordonnance est accessible par le patient",
+			"title": "Ordonnance(s) à destination du patient"
+		},
+		"supplier": {
+			"title": "Ordonnance(s) à destination du fournisseur de la solution",
+      "message": ""
 		}
 	},
 	"register": {

@@ -240,9 +240,8 @@
 			"displayManagedAlert": "",
 			"message": ""
 		},
-		"confirm": {
-			"content": "",
-			"title": ""
+		"button": {
+			"share": ""
 		},
 		"endDate": "",
 		"indication": {
@@ -438,6 +437,29 @@
 		"telemonitoring": {
 			"noActivated": "The telemonitoring has not been activated, please click on the below link to initiate it.",
 			"title": "Telemonitoring"
+		}
+	},
+	"prescription": {
+		"button": {
+			"delete": "",
+			"show": ""
+		},
+		"date": "",
+		"delete": {
+			"content": "",
+			"title": ""
+		},
+		"file": {
+			"dragDrop": "",
+			"or": ""
+		},
+		"name": "",
+		"patient": {
+			"message": "",
+			"title": ""
+		},
+		"supplier": {
+			"title": ""
 		}
 	},
 	"register": {
