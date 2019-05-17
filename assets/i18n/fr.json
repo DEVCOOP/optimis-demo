@@ -238,7 +238,7 @@
 	"monitoring": {
 		"alert": {
 			"displayManagedAlert": "Afficher les alertes traitées",
-			"message": "Les actions ne sont pas transmises au patient"
+			"message": "Les actions ne sont pas partagées avec le patient"
 		},
 		"button": {
 			"share": "Modifier les professionnels"
@@ -287,7 +287,7 @@
 	},
 	"notification": {
 		"action": {
-			"by": "Traité le {{date}} par {{by}}",
+			"by": "Traitée le {{date}} par {{by}}",
 			"name": "Action effectuée"
 		},
 		"monitoringAlert": "{{dataType}} de {{patient}} est {{description}}  : {{dataValue}}",
@@ -429,7 +429,7 @@
 				"value": "tous les"
 			},
 			"noData": "Aucune donnée",
-			"noDataFollowed": "Aucune données suivies",
+			"noDataFollowed": "Aucune donnée suivie",
 			"ps": {
 				"followers": "Professionnels ayant accès en lecture seule",
 				"responsibles": "Médecins ayant les droits de gestion"
