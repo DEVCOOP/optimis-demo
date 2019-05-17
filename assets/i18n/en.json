@@ -243,6 +243,7 @@
 		"button": {
 			"share": ""
 		},
+		"date": "",
 		"endDate": "",
 		"indication": {
 			"label": ""
@@ -266,6 +267,22 @@
 			"patient": "",
 			"prescription": "",
 			"responsibles": ""
+		}
+	},
+	"monitoringDelivery": {
+		"display": {
+			"title": ""
+		},
+		"equipment": {
+			"label": "",
+			"sentDate": "",
+			"serialNumber": "",
+			"toSend": ""
+		},
+		"list": {
+			"noElement": "",
+			"search": "",
+			"title": ""
 		}
 	},
 	"notification": {
@@ -299,6 +316,7 @@
 			"title": ""
 		},
 		"address": {
+			"label": "",
 			"selection": "Please fill in the patient's adress."
 		},
 		"administrativeInformation": {
@@ -453,12 +471,16 @@
 			"dragDrop": "",
 			"or": ""
 		},
+		"list": {
+			"noElement": ""
+		},
 		"name": "",
 		"patient": {
 			"message": "",
 			"title": ""
 		},
 		"supplier": {
+			"message": "",
 			"title": ""
 		}
 	},

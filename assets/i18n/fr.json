@@ -224,7 +224,7 @@
 		"center": "Centres",
 		"forms": "Formulaires",
 		"informationConfiguration": "Configuration",
-		"monitoring": "",
+		"monitoring": "Monitoring",
 		"newPatient": "Nouveau patient",
 		"newRequest": "Nouvelle demande",
 		"nomenclature": "Nomenclatures",
@@ -243,6 +243,7 @@
 		"button": {
 			"share": "Modifier les professionnels"
 		},
+		"date": "Date",
 		"endDate": "Date de fin",
 		"indication": {
 			"label": "Indication"
@@ -266,6 +267,22 @@
 			"patient": "Patient",
 			"prescription": "Ordonnances",
 			"responsibles": "Professionnels"
+		}
+	},
+	"monitoringDelivery": {
+		"display": {
+			"title": "Monitoring"
+		},
+		"equipment": {
+			"label": "Equipement",
+			"sentDate": "Date d'envoi",
+			"serialNumber": "N° série",
+			"toSend": "à envoyer"
+		},
+		"list": {
+			"noElement": "Aucun élement",
+			"search": "Recherche",
+			"title": "Liste des monitoring"
 		}
 	},
 	"notification": {
@@ -299,6 +316,7 @@
 			"title": ""
 		},
 		"address": {
+			"label": "Adresse",
 			"selection": "Renseigner l'adresse du patient pour qu'il reçoive le tensiomètre et/ou la balance."
 		},
 		"administrativeInformation": {
@@ -399,7 +417,7 @@
 		},
 		"medicaldata": {
 			"bloodPressure": "Tension",
-			"noData": "",
+			"noData": "aucune donnée",
 			"title": "Données cliniques",
 			"weight": "Poids"
 		},
@@ -453,14 +471,17 @@
 			"dragDrop": "Déposer le fichier ici",
 			"or": "ou"
 		},
+		"list": {
+			"noElement": "Aucune ordonnance"
+		},
 		"name": "Nom",
 		"patient": {
 			"message": "Seule la dernière ordonnance est accessible par le patient",
 			"title": "Ordonnance(s) à destination du patient"
 		},
 		"supplier": {
-			"title": "Ordonnance(s) à destination du fournisseur de la solution",
-      "message": ""
+			"message": "",
+			"title": "Ordonnance(s) à destination du fournisseur de la solution"
 		}
 	},
 	"register": {
