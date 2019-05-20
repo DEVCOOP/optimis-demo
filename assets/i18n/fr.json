@@ -562,6 +562,7 @@
 			"samples": {
 				"concentration": "Concentration",
 				"intervalDoseSampling": "Temps depuis la dose",
+				"optimalDose": "temps optimal",
 				"optimalDoseSampling": "Temps optimal de prélèvement",
 				"realSamplingTime": "Heure de prélèvement réelle",
 				"warning": {
