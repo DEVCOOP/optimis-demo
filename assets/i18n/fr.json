@@ -422,7 +422,13 @@
 			"weight": "Poids"
 		},
 		"monitoring": {
-			"activate": "Initier la télésurveillance",
+			"activate": {
+				"confirm": {
+					"content": "La télésurveillance pour le patient {{patient}} a bien été initiée, il recevra le lien pour le téléchargement de l'application sur son email.",
+					"title": "Initier la télésurveillance"
+				},
+				"title": "Initier la télésurveillance"
+			},
 			"frequency": {
 				"once": "dans",
 				"unit": "Fréquence",

@@ -422,7 +422,13 @@
 			"weight": "weight"
 		},
 		"monitoring": {
-			"activate": "Activate the telemonitoring",
+			"activate": {
+				"confirm": {
+					"content": "The patient has been initialized, he will receive a link to download the application on his email",
+					"title": "Activate the telemonitoring"
+				},
+				"title": "Activate the telemonitoring"
+			},
 			"frequency": {
 				"once": "once",
 				"unit": "Frequency",
