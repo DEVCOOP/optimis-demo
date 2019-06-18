@@ -138,7 +138,6 @@
   "chart": {
     "axis": {
       "bloodPressure": "Tension",
-      "date": "Date",
       "range": {
         "all": "Tous",
         "half_year": "6 mois",
@@ -326,12 +325,12 @@
         "title": "Réinitialisation des identifiants de connexion"
       }
     },
-    "address": {
-      "label": "Adresse",
-      "selection": "Renseigner l'adresse du patient pour qu'il reçoive le tensiomètre et/ou la balance."
-    },
+    "address": "Adresse",
     "administrativeInformation": {
       "title": "Informations administratives"
+    },
+    "attestationDroit": {
+      "download": "Télécharger attestation carte vitale"
     },
     "biologicaldata": {
       "alertForNewDataUpload": "Recevoir une notification lorsque le patient partage un rapport d'analyse biologique.",

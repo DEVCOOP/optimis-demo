@@ -138,7 +138,6 @@
   "chart": {
     "axis": {
       "bloodPressure": "Blood Pressure",
-      "date": "Date",
       "range": {
         "all": "All",
         "half_year": "6 months",
@@ -326,12 +325,12 @@
         "title": "Reinitialize credentials"
       }
     },
-    "address": {
-      "label": "Adress",
-      "selection": "Please fill in the patient's adress."
-    },
+    "address": "Address",
     "administrativeInformation": {
       "title": "Administrative information"
+    },
+    "attestationDroit": {
+      "download": "Download certificate"
     },
     "biologicaldata": {
       "alertForNewDataUpload": "Receive notification when a patient share a biological  analysis report.",
