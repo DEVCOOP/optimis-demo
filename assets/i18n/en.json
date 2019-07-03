@@ -34,7 +34,7 @@
       "title": "Reset your password"
     },
     "login": "Id (email)",
-    "lostLogin": "Forgot ID? Please contact Optim'Care admin@optim'care.fr",
+    "lostLogin": "Forgot ID? Please contact Optim'Care admin@optim-care.com",
     "otp": {
       "message": "A One Time Password has been sent to your email adress, please enter it for authentication.",
       "title": "One Time Password"
@@ -138,6 +138,7 @@
   "chart": {
     "axis": {
       "bloodPressure": "Blood Pressure",
+      "bmi": "BMI",
       "range": {
         "all": "All",
         "half_year": "6 months",
@@ -149,6 +150,7 @@
     },
     "threshold": "Thresholds",
     "tooltip": {
+      "bmi": "BMI",
       "weight": "Weight"
     }
   },
@@ -198,11 +200,11 @@
       "seeRequests": "More requests"
     },
     "teleexpertise": {
-      "content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: admin@optim-care.com\n",
       "title": "Immunosuppressants dose adjustment"
     },
     "telemonitoring": {
-      "content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: admin@optim-care.com\n",
       "title": "Telemonitoring"
     },
     "welcome": "Welcome "
@@ -326,11 +328,13 @@
       }
     },
     "address": "Address",
+    "addressSelection": "Fill in the patient address",
     "administrativeInformation": {
       "title": "Administrative information"
     },
     "attestationDroit": {
-      "download": "Download certificate"
+      "download": "Download certificate",
+      "label": "Carte vitale"
     },
     "biologicaldata": {
       "alertForNewDataUpload": "Receive notification when a patient share a biological  analysis report.",
@@ -429,6 +433,7 @@
     },
     "medicaldata": {
       "bloodPressure": "Blood pressure",
+      "bmi": "BMI",
       "noData": "No data",
       "title": "Clinical data",
       "weight": "Weight"
@@ -929,7 +934,7 @@
     "nationalId": "National ID",
     "phone": "Phone number",
     "profil": {
-      "contactAdmin": "For a modification other than on emails, please do contact Optim'Care : admin@optimcare.com"
+      "contactAdmin": "For a modification other than on emails, please do contact Optim'Care : admin@optim-care.com"
     },
     "rights": {
       "title": "Rights"

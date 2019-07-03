@@ -34,7 +34,7 @@
       "title": "Demande de mot de passe"
     },
     "login": "Identifiant (email)",
-    "lostLogin": "Identifiant oublié? Veuillez contacter Optim'Care: admin@optimcare.fr",
+    "lostLogin": "Identifiant oublié? Veuillez contacter Optim'Care: admin@optim-care.com",
     "otp": {
       "message": "Un mot de passe à usage unique vient de vous être envoyé sur votre email, merci de le saisir pour vous authentifier.",
       "title": "Mot de passe à usage unique"
@@ -138,6 +138,7 @@
   "chart": {
     "axis": {
       "bloodPressure": "Tension",
+      "bmi": "IMC",
       "range": {
         "all": "Tous",
         "half_year": "6 mois",
@@ -149,6 +150,7 @@
     },
     "threshold": "Seuils",
     "tooltip": {
+      "bmi": "IMC",
       "weight": "Poids"
     }
   },
@@ -198,17 +200,17 @@
       "seeRequests": "Voir les demandes"
     },
     "teleexpertise": {
-      "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
       "title": "Adaptation de posologie des immunosuppresseurs"
     },
     "telemonitoring": {
-      "content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter Optim'Care: julie-vandenbergue@optim'care.com\n",
+      "content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
       "title": "Télésurveillance médicale"
     },
     "welcome": "Bienvenue sur la plateforme Optim’Care"
   },
   "informationConfiguration": {
-    "ceMarking": "About",
+    "ceMarking": "A propos",
     "confirm": {
       "content": "Les données ont été enregistrées",
       "title": "Informations"
@@ -326,11 +328,13 @@
       }
     },
     "address": "Adresse",
+    "addressSelection": "Renseigner l'adresse du patient",
     "administrativeInformation": {
       "title": "Informations administratives"
     },
     "attestationDroit": {
-      "download": "Télécharger attestation carte vitale"
+      "download": "Télécharger attestation carte vitale",
+      "label": "Carte vitale"
     },
     "biologicaldata": {
       "alertForNewDataUpload": "Recevoir une notification lorsque le patient partage un rapport d'analyse biologique.",
@@ -429,6 +433,7 @@
     },
     "medicaldata": {
       "bloodPressure": "Tension",
+      "bmi": "IMC",
       "noData": "Aucune donnée",
       "title": "Données cliniques",
       "weight": "Poids"
@@ -929,7 +934,7 @@
     "nationalId": "Identifiant national",
     "phone": "Téléphone",
     "profil": {
-      "contactAdmin": "Pour les modifications autres que les emails, merci de contacter Optim'Care : admin@optimcare.com"
+      "contactAdmin": "Pour les modifications autres que les emails, merci de contacter Optim'Care : admin@optim-care.com"
     },
     "rights": {
       "title": "Rôles"
