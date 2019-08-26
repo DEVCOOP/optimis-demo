@@ -477,7 +477,7 @@
         },
         "postpone": {
           "button": "Prolonger",
-          "confirmMessage": "Voulez-vous prolonger la télésurveillance?",
+          "confirmMessage": "Voulez-vous prolonger la télésurveillance jusqu'au {{newDate}}?",
           "confirmTitle": "Prolongation"
         },
         "reopen": {

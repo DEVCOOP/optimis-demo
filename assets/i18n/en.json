@@ -477,7 +477,7 @@
         },
         "postpone": {
           "button": "Extend",
-          "confirmMessage": "Do you want to extend the telemonitoring?",
+          "confirmMessage": "Do you want to extend the telemonitoring until {{newDate}}?",
           "confirmTitle": "Extend"
         },
         "reopen": {
