@@ -1,8 +1,4 @@
 {
-  "AGE": {
-    "GT_18": "Adulte (>18 ans)",
-    "LT_18": "Enfant (<18 ans)"
-  },
   "address": {
     "additional": "Complément d'adresse",
     "cedex": "Cedex",
@@ -27,8 +23,23 @@
   },
   "auth": {
     "authenticateByCps": "Authentification carte CPS",
+    "changePassword": {
+      "button": {
+        "askNewLink": "Demande nouveau mot de passe temporaire"
+      },
+      "confirm": {
+        "content": "Votre nouveau mot de passe a bien été enregistré, vous pouvez à présent vous connecter sur l'application",
+        "title": "Nouveau mot de passe"
+      },
+      "title": "Nouveau mot de passe"
+    },
+    "confirmPassword": "Confirmer le mot de passe",
     "createAccount": {
       "title": "Vous n'avez pas de compte?"
+    },
+    "error": {
+      "passwordNotEnoughStrength": "Le mot de passe n'est pas assez robuste (minimum 8 caractères avec au moins une lettre, un chiffre et un caractère spécial)",
+      "passwordsNotSame": "Les 2 mots de passe ne sont pas identiques"
     },
     "forgotPassword": {
       "title": "Demande de mot de passe"
@@ -52,9 +63,6 @@
         "title": "Utilisateurs du centre"
       }
     },
-    "menu": {
-      "patient": "Patients"
-    },
     "users": {
       "newUserButton": "Nouveau utilisateur",
       "tabs": {
@@ -67,7 +75,6 @@
   },
   "billing": {
     "button": {
-      "export": "Exporter les données de téléexpertise",
       "exportMonitoring": "Exporter les données de télésurveillance"
     },
     "title": "Facturation"
@@ -79,9 +86,7 @@
     "close": "Fermer",
     "createAccount": "Créer un compte",
     "edit": "Modifier",
-    "next": "Suivant",
     "ok": "OK",
-    "previous": "Précédent",
     "submit": "Valider",
     "uploadFile": "Télécharger un document",
     "validate": "Valider"
@@ -156,8 +161,20 @@
   },
   "common": {
     "alerts": "Alertes",
-    "noNotification": "Aucune notification",
     "notifications": "Notifications"
+  },
+  "configuration": {
+    "learning": {
+      "confirm": {
+        "content": "Les formulaires ont bien été mis à jour",
+        "title": "Mise à jour des formulaires"
+      },
+      "message": "Configuration des formulaires d'apprentissage par centre (le code affiché est le tag à utiliser dans Wordpress pour lier des articles)",
+      "title": "Formulaires d'apprentissage"
+    },
+    "message": {
+      "noChange": "Aucun changement"
+    }
   },
   "error": {
     "noInternet": "Aucune connexion internet",
@@ -196,8 +213,7 @@
     },
     "button": {
       "learnmore": "En savoir plus",
-      "seeAlert": "Voir les alertes",
-      "seeRequests": "Voir les demandes"
+      "seeAlert": "Voir les alertes"
     },
     "teleexpertise": {
       "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
@@ -224,18 +240,15 @@
     "alertHistory": "Alertes",
     "billing": "Facturation",
     "center": "Centres",
+    "configuration": "Configuration TS",
     "currentTelemonitoring": "Patient: données télésurveillance",
     "forms": "Formulaires",
-    "informationConfiguration": "Configuration",
-    "monitoring": "Télésurveillance",
+    "informationConfiguration": "Liens",
+    "monitoring-delivery": "Télésurveillance",
     "newPatient": "Nouveau patient",
-    "newRequest": "Nouvelle demande",
     "nomenclature": "Nomenclatures",
-    "patients": "Patients",
-    "requests": "Liste des demandes",
     "rights": "Droits",
     "settings": "Paramétrage",
-    "tools": "Temps optimaux",
     "user": "Utilisateurs"
   },
   "monitoring": {
@@ -252,10 +265,12 @@
       "label": "Indication"
     },
     "intervenants": {
+      "addButton": "Ajouter un professionnel",
       "email": "Email pour lui envoyer les information de création de compte",
       "follower": "Professionnel en charge de l'accompagnement thérapeutique",
       "monitor": "Médecin en charge de la télésurveillance",
       "prescriber": "Médecin prescripteur",
+      "removeButton": "Supprimer le professionnel",
       "rights": "Droits sur le dossier",
       "sharedUser": "Autre professionnel ayant accès au dossier",
       "title": "Professionnels de santé impliqués:"
@@ -269,7 +284,14 @@
       "monitoring": "Télésurveillance",
       "patient": "Patient",
       "prescription": "Ordonnances",
-      "responsibles": "Professionnels"
+      "responsibles": "Professionnels",
+      "verbosity": "Paramétrage"
+    },
+    "verbosity": {
+      "allDataFilled": "Recevoir une notification une fois toutes les données saisies",
+      "eachDataFilled": "Recevoir une notification à chaque nouvelle donnée",
+      "title": "Paramétrage des notifications / alertes",
+      "withAlert": "Recevoir les alertes également par mail"
     }
   },
   "monitoringDelivery": {
@@ -293,21 +315,11 @@
       "by": "Traitée le {{date}} par {{by}}",
       "name": "Action effectuée"
     },
-    "monitoringAlert": "{{dataType}} de {{patient}} est {{description}}  : {{dataValue}}",
+    "monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
     "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
+    "monitoringNotification": "{{patient}} {{description}} {{dataType}}",
+    "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
     "noData": "Aucun élément",
-    "request": {
-      "accepted": "Accusé réception de la demande pour le patient \"{{patient}}\" ",
-      "closed": "La demande pour le patient \"{{patient}}\" a été rejetée ou clôturée.",
-      "complex": "Vous avez reçu une demande complexe pour le Patient \"{{patient}}\" ",
-      "information": "Vous avez reçu une demande d'informations complémentaires  pour le patient \"{{patient}}\" ",
-      "information_post_validation": "Vous avez reçu un message concernant les résultats du patient \"{{patient}}\"",
-      "new_complex": "La demande du patient \"{{patient}}\" est passée au statut complexe  ",
-      "new_waiting_validation": "Nouvelle demande pour le patient \"{{patient}}\"",
-      "prevalidated": "La demande pour le patient \"{{patient}}\" a été pré-validée",
-      "validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
-      "waiting_validation": "La demande pour le patient \"{{patient}}\" est en attente de validation"
-    },
     "uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
   },
   "otherIndication": {
@@ -357,13 +369,12 @@
       }
     },
     "consent": {
-      "Telemonitoring": "La patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance",
-      "docModel": "Modèle de consentement",
-      "teleexpertise": "La patient a donné son consentement pour le traitement de ses données personnelles  nécessaire pour la demande d'adaptation de posologie."
+      "Telemonitoring": "le patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance",
+      "docModel": "Modèle de consentement"
     },
     "create": {
       "confirm": {
-        "content": "La patient a bien été créé.",
+        "content": "le patient a bien été créé.",
         "title": "Patient créé."
       },
       "duplicate": {
@@ -376,8 +387,12 @@
       "title": "Création d'un patient"
     },
     "delete": {
-      "confirm": {
+      "askConfirm": {
         "content": "Attention cette suppression est définitive, pour confirmer la suppression merci de saisir le nom du patient.",
+        "title": "Suppression définitive du patient"
+      },
+      "confirm": {
+        "content": "Le patient a bien été supprimé.",
         "title": "Suppression définitive du patient"
       }
     },
@@ -483,8 +498,7 @@
         "reopen": {
           "button": "Rouvrir",
           "confirmMessage": "Voulez-vous rouvrir la télésurveillance?",
-          "confirmTitle": "Ré-ouverture",
-          "newEndDate": "Nouvelle date de fin"
+          "confirmTitle": "Ré-ouverture"
         }
       },
       "threshold": "Données à suivre et seuils d'alerte"
@@ -496,11 +510,6 @@
     "psychologicaldata": {
       "noData": "Aucune donnée",
       "title": "Données psychologiques"
-    },
-    "teleexpertise": {
-      "displayAll": "Tout afficher",
-      "noRequests": "Aucune demande d'adaptation de posologie",
-      "title": "Adaptation de posologie"
     },
     "telemonitoring": {
       "noActivated": "La télésurveillance n'a pas encore été activée, cliquez sur le lien suivant si vous souhaitez l'initialiser : ",
@@ -577,7 +586,7 @@
       "french": "Centre français",
       "identifiant": {
         "explain": "",
-        "label": "Identifiant national (numéro RPPS)"
+        "label": "Identifiant national (numéro RPPS ou Adeli)"
       },
       "indicationRightFilters": "Indications suivies (merci de les sélectionner dans la liste)*",
       "licenses": {
@@ -589,259 +598,26 @@
     }
   },
   "request": {
-    "accept": {
-      "comment": "Commentaire",
-      "title": "Accuser réception du résultat"
-    },
-    "answerInformationToRequester": {
-      "title": "Réponse au demandeur"
-    },
-    "askForInformation": {
-      "comment": "Commentaire"
-    },
-    "askInformationToExpert": {
-      "title": "Demande d'information sur le résultat"
-    },
-    "askInformationToRequester": {
-      "title": "Demande d'information au demandeur"
-    },
-    "bloodSample": {
-      "assayMethod": "Méthode de dosage",
-      "drugIntakeTime": "Heure de prise du médicament",
-      "endTreatment": "Fin de la perfusion",
-      "samples": {
-        "concentration": "Concentration",
-        "intervalDoseSampling": "Temps depuis la dose",
-        "optimalDose": "temps optimal",
-        "optimalDoseSampling": "Temps optimal de prélèvement",
-        "realSamplingTime": "Heure de prélèvement réelle",
-        "warning": {
-          "concentration": {
-            "minmax": "Merci de vérifier cette concentration"
-          },
-          "time": {
-            "minmax": "Merci de vérifier ce temps."
-          }
-        }
-      },
-      "samplingDate": "Date de prélèvement",
-      "startTreatment": "Début de perfusion"
-    },
     "button": {
-      "accept": "Accuser réception du résultat",
-      "answerInformation": "Répondre au demandeur",
-      "askForInformation": "Demande d'information",
-      "close": "Clore la demande",
-      "delete": "Supprimer le brouillon",
-      "draft": "Enregistrer en brouillon",
-      "exportPdf": "Export PDF",
-      "exportRequests": "Exporter les données",
-      "launchCalculation": "Lancer un calcul",
-      "modificationHistory": "Historique des évènements",
-      "print": "Export PDF",
-      "validate": "Valider ce résultat"
-    },
-    "center": {
-      "label": "Centre"
-    },
-    "charts": {
-      "axis": {
-        "concentration": "Concentration ({{unit}})",
-        "time": "Temps ({{unit}})"
-      },
-      "legend": {
-        "standardDeviation": "",
-        "values": ""
-      }
-    },
-    "close": {
-      "comments": "Commentaires",
-      "predefinedComments": "Commentaires pré-définis",
-      "title": "Clore la demande"
-    },
-    "closed": {
-      "title": "La demande a été clôturée"
-    },
-    "comments": {
-      "noComment": "Aucun commentaire",
-      "title": "Commentaires"
-    },
-    "consent": "Le patient a donné son consentement concernant le traitement de ses données personnelles dans le cadre de sa prise en charge par téléexpertise.",
-    "context": {
-      "additionalInformation": "Informations complémentaires",
-      "reason": "Motif de la demande"
+      "print": "Export PDF"
     },
     "create": {
-      "centerStepTitle": "Centre ",
-      "confirm": {
-        "content": "La demande a bien été envoyée aux pharmacologues du CHU de Limoges",
-        "title": "Nouvelle demande"
-      },
-      "contextStepTitle": "Contexte général de la demande",
-      "indicationStepTitle": "Informations concernant l'indication",
       "patient": {
         "explanation": "Si vous ne trouvez pas le patient dans la liste, vous pouvez le créer en cliquant sur le bouton \"+\""
-      },
-      "patientStepTitle": "Sélection du patient",
-      "samples": {
-        "addButton": "Ajouter un prélèvement",
-        "removeButton": "Supprimer un prélèvement"
-      },
-      "samplingStepTitle": "Information sur les prélèvements",
-      "treatmentStepTitle": "Informations sur les traitements"
-    },
-    "creationDate": "Date de création",
-    "draft": {
-      "confirm": {
-        "content": "La demande a été enregistrée en tant que brouillon",
-        "title": "Brouillon"
-      },
-      "delete": {
-        "confirm": {
-          "content": "Êtes vous sûr de vouloir supprimer ce brouillon?",
-          "title": "Suppression brouillon"
-        }
       }
-    },
-    "edit": {
-      "title": "Information sur la demande"
-    },
-    "event": {
-      "action": "Action",
-      "author": "Auteur",
-      "date": "Date",
-      "newData": "Nouvelles données",
-      "oldData": "Anciennes données",
-      "oldStatus": "Ancien statut",
-      "status": "Nouveau statut"
-    },
-    "events": {
-      "modification": {
-        "message": "Attention la demande a été modifiée, cliquez sur le bouton suivant pour voir les modifications"
-      },
-      "title": "Historique des évènements"
-    },
-    "history": {
-      "title": "Historique des demandes pour ce patient"
     },
     "indication": {
-      "comment": "Merci de préciser",
       "date": "Date",
-      "name": "Indication",
-      "pathology": "",
-      "transplantation": {
-        "date": "Date de greffe"
-      },
-      "treatment": {
-        "date": "Date de 1ère prise du traitement IS"
-      }
-    },
-    "infoRequest": {
-      "comment": "Commentaires",
-      "confirm": {
-        "content": "Demande d'information envoyée",
-        "title": "Demande d'information"
-      },
-      "content": "Vous pouvez modifier certaines informations de votre demande en cliquant dans le paragraphe \"Informations sur la demande\" sur le bouton d'édition :",
-      "title": "Demande d'information"
-    },
-    "lastComments": {
-      "displayAll": "Voir tous les commentaires",
-      "noComment": "Pas de commentaire",
-      "title": "Historique des commentaires"
-    },
-    "launchCalculation": {
-      "error": {
-        "atLeast3Sample": "Vous devez sélectionner au moins 3 prélèvements"
-      },
-      "selectSample": "Sélection des prélèvements à prendre en compte dans le calcul",
-      "title": "Lancement du calcul:\nAttention le lancement d'un calcul est sous votre entière responsabilité."
+      "name": "Indication"
     },
     "list": {
-      "search": "Recherche",
-      "title": "Liste des demandes"
+      "search": "Recherche"
     },
-    "newRequestButton": "Nouvelle demande",
-    "number": "Numéro",
     "patient": {
       "create": {
         "button": "Créer un patient"
       },
       "label": "Patient"
-    },
-    "prescriber": "Prescripteur (et centre du prescripteur, si différent)",
-    "prescription": {
-      "description": "",
-      "downloadInstruction": "Télécharger le manuel patient",
-      "file": {
-        "dragDrop": "Prendre et déposer une ordonnance ici",
-        "or": "OU"
-      },
-      "patientAccessButton": "Générer les accès patient",
-      "removeButton": "Supprimer",
-      "title": "Ordonnance"
-    },
-    "requester": "Demandeur",
-    "result": {
-      "AUC": "AUC (0-{{hour}}h) estimée par méthode Bayésienne",
-      "best": "Meilleur résultat",
-      "cMax": "C max estimée par méthode Bayésienne",
-      "compare": "Comparaison des résultats",
-      "delai": "Délai post greffe/1ere administration d'IS",
-      "inputData": {
-        "description": "Description",
-        "title": "Données prises en compte dans le calcul"
-      },
-      "log": {
-        "title": "Logs"
-      },
-      "name": "Nom du résultat",
-      "noResult": "Aucun résultat",
-      "numberOfTakens": "Nombre de prises par jour",
-      "popName": "Population",
-      "posologyActual": "Posologie actuelle (par prise)",
-      "posologyEstimate": "Posologie recommandée pour une AUC cible de {{value}}",
-      "posologyTarget1": "1- Cible de C0 {{value}}",
-      "posologyTarget2": "2- AUCs cibles correspondantes  {{value}}",
-      "posologyTarget3": "3- Doses recommandées pour ces cibles",
-      "tauxResiduel": "Taux résiduel estimé par méthode Bayésienne",
-      "title": "Résultats",
-      "validatedby": "Résultats validés par"
-    },
-    "resultGroup": {
-      "date": "Date"
-    },
-    "samples": {
-      "endTreatment": "Fin de la perfusion",
-      "startTreatment": "Début de la perfusion",
-      "subtitle": "Vous devez saisir au moins {{min}} prélèvement(s)",
-      "title": "Prélèvements"
-    },
-    "selectPopulation": {
-      "populations": "Populations"
-    },
-    "status": "Statut",
-    "treatment": {
-      "administrationRoute": "Voie d'administration/forme",
-      "coTreatments": "Autre(s) traitement(s)",
-      "comment": "Merci de préciser",
-      "doses": "Dose",
-      "drug": "Médicament",
-      "drugCommercialName": "Spécialité",
-      "numberOfTakes": "Nombre de prises par jour",
-      "warning": {
-        "dose": {
-          "minmax": "Merci de vérifier la dose renseignée",
-          "step": "La valeur devrait être un multiple de {{step}}"
-        }
-      }
-    },
-    "validate": {
-      "comments": "Commentaire",
-      "populationSelected": "Modèle sélectionné",
-      "predefinedComments": "Commentaire pré-définis",
-      "resultGroupSelected": "Groupe de résultats sélectionné",
-      "title": "Validation de la demande"
     }
   },
   "rights": {
@@ -859,15 +635,6 @@
       "url": "Url"
     },
     "title": "Paramètres"
-  },
-  "tools": {
-    "allSpecialties": "Toutes les spécialités",
-    "description": "Les temps de prélèvements optimaux dépendent de l'indication et de l'IS pour lesquels l'adaptation est demandée.\n\n<p>Vous trouverez ci dessous les temps optimaux pour chaque combinaison indication/IS. Merci de les respecter pour avoir une qualité optimale de résultats.</p>",
-    "specialtyFilter": "Filtrer sur la spécialité",
-    "title": "Temps optimaux"
-  },
-  "unit": {
-    "day": "Jour(s)"
   },
   "uploadFile": {
     "error": {
@@ -961,7 +728,6 @@
     },
     "warning": {
       "licenses": {
-        "TELE_EXPERTISE": "Attention ce centre n'est pas validé pour la téléexpertise. Vérifier qu'il est éligible à la téléexpertise.",
         "TELE_MONITORING": "Attention ce centre n'est pas validé pour la télésurveillance. Ne pas le valider tant que les formalités ne sont pas remplies."
       },
       "noCreatedWithCps": "Attention ce professionnel de santé ne s'est pas authentifié avec sa carte CPS, vérifier la consistance des informations avant de valider.",

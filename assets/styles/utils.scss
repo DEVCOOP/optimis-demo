@@ -138,6 +138,15 @@ mat-icon {
   &.error {
     color: $red-color;
   }
+  &.info {
+    color: $grey-color;
+  }
+  &.warn {
+    color: mat-color($warn);
+  }
+  &.alert {
+    color: $red-color;
+  }
 }
 
 .pointer {
