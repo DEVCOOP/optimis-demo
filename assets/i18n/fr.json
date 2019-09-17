@@ -317,6 +317,7 @@
     },
     "monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
     "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
+    "monitoringClosed": "La télésurveillance de {{patient}} a été clôturée, pensez à télécharger le compte-rendu.",
     "monitoringNotification": "{{patient}} {{description}} {{dataType}}",
     "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
     "monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
