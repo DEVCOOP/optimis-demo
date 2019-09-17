@@ -319,6 +319,8 @@
     "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
     "monitoringNotification": "{{patient}} {{description}} {{dataType}}",
     "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
+    "monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
+    "monitoringFormAnswerAdd": "Le patient {{patient}} a répondu au questionnaire <b>{{dataType}}</b>",
     "noData": "Aucun élément",
     "uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
   },
