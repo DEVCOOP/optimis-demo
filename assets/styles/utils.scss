@@ -153,6 +153,11 @@ mat-icon {
   cursor: pointer;
 }
 
+table.padding tr td.mat-cell {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 .clickable {
   /* Define the hover highlight color for the table row */
   tbody>tr:hover {

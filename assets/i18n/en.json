@@ -98,6 +98,7 @@
 			"country": "Country",
 			"title": "Adress"
 		},
+		"code": "Learning code",
 		"confirm": {
 			"content": "Center information has been updated",
 			"title": "Update center information"
@@ -201,7 +202,7 @@
 		"login": "Log in",
 		"logout": "Log out",
 		"myProfile": "My profile",
-		"notification": "Dose Adjustment: Notifications",
+		"notification": "Telemonitoring: Notifications",
 		"patient": "My patients",
 		"register": "Sign up",
 		"teleexpertise": "IS Dose Adjustment",
@@ -315,8 +316,12 @@
 			"by": "Dealt on {{date}} by {{by}}",
 			"name": "Action taken"
 		},
+		"learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
 		"monitoringAlert": " {{patient}} ' <b>{{dataType}}</b> is {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
+		"monitoringAllDataFilled": "",
+		"monitoringClosed": "",
 		"monitoringEnded": "{{patient}} telemonitoring ends in less than 30 days",
+		"monitoringFormAnswerAdd": "",
 		"monitoringNotification": "",
 		"monitoringUnfilledData": "",
 		"noData": "No data",
@@ -566,7 +571,7 @@
 			"ageRightFilters": "Age of your patients*:",
 			"authentication": {
 				"emailNotification": {
-					"explain": "email for notifications"
+					"explain": "email for alerts/notifications"
 				},
 				"emailOtp": {
 					"explain": "email for one time password"

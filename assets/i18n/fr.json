@@ -28,7 +28,7 @@
         "askNewLink": "Demande nouveau mot de passe temporaire"
       },
       "confirm": {
-        "content": "Votre nouveau mot de passe a bien été enregistré, vous pouvez à présent vous connecter sur l'application",
+        "content": "Votre nouveau mot de passe a bien été enregistré.",
         "title": "Nouveau mot de passe"
       },
       "title": "Nouveau mot de passe"
@@ -98,6 +98,7 @@
       "country": "Pays",
       "title": "Adresse"
     },
+    "code": "Code pour l'apprentissage",
     "confirm": {
       "content": "le centre a été mis à jour",
       "title": "Mise à jour du centre"
@@ -201,7 +202,7 @@
     "login": "Se connecter",
     "logout": "Déconnexion",
     "myProfile": "Mon profil",
-    "notification": "Adaptation de posologie: Notifications",
+    "notification": "Télésurveillance: Notifications",
     "patient": "Mes patients",
     "register": "Créer un compte",
     "teleexpertise": "Adaptation de posologie des IS",
@@ -315,13 +316,14 @@
       "by": "Traitée le {{date}} par {{by}}",
       "name": "Action effectuée"
     },
+    "learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
     "monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
-    "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
+    "monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
     "monitoringClosed": "La télésurveillance de {{patient}} a été clôturée, pensez à télécharger le compte-rendu.",
+    "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
+    "monitoringFormAnswerAdd": "Le patient {{patient}} a répondu au questionnaire <b>{{dataType}}</b>",
     "monitoringNotification": "{{patient}} {{description}} {{dataType}}",
     "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
-    "monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
-    "monitoringFormAnswerAdd": "Le patient {{patient}} a répondu au questionnaire <b>{{dataType}}</b>",
     "noData": "Aucun élément",
     "uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
   },
@@ -681,7 +683,7 @@
       "title": "Modification d'un compte utilisateur"
     },
     "email": "email",
-    "emailNotification": "email pour les notifications",
+    "emailNotification": "email pour les alertes/notifications",
     "emailOtp": "email pour recevoir le mot de passe unique (si vous avez choisi cette option)",
     "firstName": "Prénom",
     "indicationRightFilters": {
