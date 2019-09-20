@@ -291,8 +291,9 @@
 		"verbosity": {
 			"allDataFilled": "Recevoir une notification une fois toutes les données saisies",
 			"eachDataFilled": "Recevoir une notification à chaque nouvelle donnée",
-			"title": "Paramétrage des notifications / alertes",
-			"withAlert": "Recevoir les alertes également par mail"
+      "mailForAlert": "Recevoir un mail pour chaque alerte de l'application",
+      "mailForNotification": "Recevoir un mail pour chaque notification de l'application",
+			"title": "Paramétrage des notifications / alertes"
 		}
 	},
 	"monitoringDelivery": {
