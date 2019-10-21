@@ -170,5 +170,26 @@ table.padding tr td.mat-cell {
   justify-content: flex-start !important;
 }
 
+// slider
+.noUi-tooltip {
+  border: 0;
+  padding: 0;
+}
+.noUi-connect {
+  background: mat-color($primary);
+}
+.noUi-handle:after, .noUi-handle:before {
+  left: 8px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  right: -8px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: 105%;
+}
+
 
 

@@ -476,6 +476,9 @@
         "unit": "Fréquence",
         "value": "tous les"
       },
+      "learning": {
+        "selectData": "Sélectionner les sujets d'apprentissage"
+      },
       "noData": "Aucune donnée",
       "noDataFollowed": "Aucune donnée suivie",
       "ps": {
