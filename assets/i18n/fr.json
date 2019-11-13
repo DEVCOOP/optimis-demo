@@ -276,6 +276,7 @@
       "sharedUser": "Autre professionnel ayant accès au dossier",
       "title": "Professionnels de santé impliqués:"
     },
+    "lastRenewalDate": "Date dernier renouvellement",
     "patient": {
       "label": "Patient"
     },
@@ -293,7 +294,7 @@
       "eachDataFilled": "Recevoir une notification à chaque nouvelle donnée",
       "mailForAlert": "Recevoir un mail pour chaque alerte de l'application",
       "mailForNotification": "Recevoir un mail pour chaque notification de l'application",
-      "title": "Paramétrage des notifications / alertes"
+      "title": " Notifications supplémentaires disponibles"
     }
   },
   "monitoringDelivery": {
@@ -301,7 +302,9 @@
       "title": "Télésurveillance"
     },
     "equipment": {
+      "firstSynch": "1ère synchro",
       "label": "Equipement",
+      "lastSynch": "Dernière synchro",
       "sentDate": "Date d'envoi",
       "serialNumber": "N° série",
       "toSend": "à envoyer"
@@ -422,6 +425,9 @@
     },
     "lastName": "Nom usuel",
     "learning": {
+      "button": {
+        "edit": "Paramétrage de l'apprentissage"
+      },
       "taskTodo": "Tâche(s) à faire",
       "title": "Accompagnement thérapeutique"
     },
