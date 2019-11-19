@@ -393,6 +393,7 @@
         "content": "Le(s) patient(s) suivant(s) sont de possible(s) doublon(s) du patient que vous souhaitez créer. Si c'est le cas cliquez sur le patient pour le sélectionner sinon cliquer sur le bouton 'Créer le patient' pour forcer sa création.",
         "title": "Doublon(s) potentiel(s):"
       },
+      "notAuthorized": "Vous ne disposez pas des droits nécéssaires pour créer ce patient (indication ou catégorie d'age non suivie)",
       "title": "Création d'un patient"
     },
     "delete": {

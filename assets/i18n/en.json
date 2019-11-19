@@ -302,9 +302,9 @@
 			"title": "Telemonitoring"
 		},
 		"equipment": {
-      "firstSynch": "1ère synchro",
-      "label": "Equipement",
-      "lastSynch": "Dernière synchro",
+			"firstSynch": "1ère synchro",
+			"label": "Equipement",
+			"lastSynch": "Dernière synchro",
 			"sentDate": "",
 			"serialNumber": "",
 			"toSend": ""
@@ -393,6 +393,7 @@
 				"content": "The patient you want to create seems to be a already existing, please check in the below list. If the patient is a duplicate, please click on the patient to select him else click on the button \"create a patient\" to confirm his validation.",
 				"title": "Potential duplicate(s):"
 			},
+      "notAuthorized": "Vous ne disposez pas des droits nécéssaires pour créer ce patient (indication ou catégorie d'age non suivie)",
 			"title": "Patient creation"
 		},
 		"delete": {
