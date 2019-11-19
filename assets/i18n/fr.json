@@ -472,7 +472,7 @@
           "title": "Initier la télésurveillance"
         },
         "noRightIndication": {
-          "confirmMessage": "Vous ne pouvez pas initié une télésurveillance pour ce patient car il n'est pas traité pour une indication que vous suivez.",
+          "confirmMessage": "Vous ne pouvez pas initier une télésurveillance pour ce patient car il n'est pas traité pour une indication que vous suivez.",
           "confirmTitle": "Impossible d'initier une télésurveillance"
         },
         "title": "Initier la télésurveillance"
