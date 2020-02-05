@@ -85,6 +85,7 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 $red-color: #eb1730;
 $yellow-color: #ffb865;
 $green-color: #9fce6f;
+$green-light-color: #76ceb5;
 $black-color: #3d404b;
 $grey-color: #757575;
 $grey-light-color: #dedede;
@@ -97,6 +98,26 @@ $learning-color:#8C83E2;
 $optimcare-typography: mat-typography-config(
   $font-family: 'Nunito'
 );
+
+// icon color
+.grey-icon {
+  color: $grey-color;
+}
+.grey-icon svg {
+  fill: $grey-color;
+}
+.green-icon {
+   color: $green-color;
+ }
+.green-icon svg {
+  fill: $green-color;
+}
+.accent-icon {
+  color: mat-color($accent);
+}
+.accent-icon svg {
+  fill: mat-color($accent);
+}
 
 body {
   margin: 0;

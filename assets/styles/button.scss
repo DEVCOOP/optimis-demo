@@ -18,3 +18,27 @@
     }
   }
 }
+
+.roundedButton {
+  border-radius: 19px !important;
+}
+
+.largeButton {
+  width: calc(100% - 1rem);
+  margin: 0.5rem !important;
+}
+
+.filterButton {
+  border-radius: 19px 0 0 19px !important;
+
+  span {
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.spaceArround{
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}

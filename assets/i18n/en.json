@@ -75,7 +75,14 @@
 	},
 	"billing": {
 		"button": {
-			"exportMonitoring": "Export monitoring data"
+			"exportHepaticControl": "",
+			"exportHepaticPayment": "",
+			"exportMonitoring": "Export monitoring data",
+			"fromDate": "",
+			"toDate": ""
+		},
+		"hepathic": {
+			"title": ""
 		},
 		"title": "Billing"
 	},
@@ -87,6 +94,7 @@
 		"createAccount": "Create an account",
 		"edit": "Change",
 		"ok": "OK",
+		"save": "",
 		"submit": "Submit",
 		"uploadFile": "Upload a document",
 		"validate": "Validate"
@@ -199,6 +207,7 @@
 		"alert": "Telemonitoring: Alerts",
 		"backoffice": "Administration",
 		"home": "Home",
+		"learning": "",
 		"login": "Log in",
 		"logout": "Log out",
 		"myProfile": "My profile",
@@ -236,15 +245,186 @@
 		"title": "Information",
 		"userGuide": "User Guide"
 	},
+	"learning": {
+		"article": {
+			"button": {
+				"add": "",
+				"edit": "",
+				"new": "",
+				"remove": "",
+				"share": ""
+			},
+			"categories": "",
+			"categoriesIndications": "",
+			"content": "",
+			"create": {
+				"title": ""
+			},
+			"creationDate": "",
+			"delete": {
+				"confirm": {
+					"content": "",
+					"title": ""
+				}
+			},
+			"edit": {
+				"title": ""
+			},
+			"indications": "",
+			"lastUpdatedDate": "",
+			"name": "",
+			"status": "",
+			"statusTitle": "",
+			"title": ""
+		},
+		"articles": {
+			"title": ""
+		},
+		"button": {
+			"addArticle": "",
+			"addCategory": "",
+			"addForm": ""
+		},
+		"categories": {
+			"delete": {
+				"confirm": {
+					"content": "",
+					"title": ""
+				}
+			},
+			"noData": "",
+			"subCategories": "",
+			"title": ""
+		},
+		"category": {
+			"button": {
+				"add": "",
+				"addImage": "",
+				"edit": "",
+				"new": "",
+				"remove": ""
+			},
+			"creationDate": "",
+			"edit": {
+				"title": ""
+			},
+			"image": "",
+			"indications": "",
+			"name": "",
+			"new": {
+				"title": ""
+			},
+			"parent": "",
+			"sharedPost": "",
+			"status": ""
+		},
+		"dashboard": {
+			"lastArticles": "",
+			"lastCategories": "",
+			"lastForms": "",
+			"subTitle": "",
+			"title": ""
+		},
+		"duplicate": {
+			"button": "",
+			"label": ""
+		},
+		"form": {
+			"button": {
+				"add": "",
+				"edit": "",
+				"new": "",
+				"remove": "",
+				"share": ""
+			},
+			"categories": "",
+			"categoriesIndications": "",
+			"content": "",
+			"create": {
+				"title": ""
+			},
+			"creationDate": "",
+			"delete": {
+				"confirm": {
+					"content": "",
+					"title": ""
+				}
+			},
+			"edit": {
+				"title": ""
+			},
+			"indications": "",
+			"lastUpdatedDate": "",
+			"name": "",
+			"new": {
+				"title": ""
+			},
+			"publishWithoutQuestionError": "",
+			"question": {
+				"answer": "",
+				"button": {
+					"add": ""
+				},
+				"choice": {
+					"addButton": "",
+					"label": "",
+					"optionMultipleError": "",
+					"questionType": {
+						"CHECKBOX": "",
+						"OPTION": ""
+					},
+					"removeButton": "",
+					"result": "",
+					"type": ""
+				},
+				"comment": "",
+				"label": ""
+			},
+			"status": "",
+			"statusTitle": "",
+			"title": ""
+		},
+		"forms": {
+			"title": ""
+		},
+		"list": {
+			"explain": "",
+			"filter": {
+				"button": "",
+				"submit": "",
+				"title": ""
+			},
+			"search": ""
+		},
+		"share": {
+			"confirm": {
+				"content": "",
+				"title": ""
+			},
+			"message": "",
+			"title": ""
+		},
+		"status": {
+			"ARCHIVED": "",
+			"DRAFT": "",
+			"PUBLISHED": ""
+		}
+	},
 	"menu": {
 		"activateTelemonitoring": "Telemonitoring activation",
 		"alertHistory": "Alerts",
 		"billing": "Billing",
 		"center": "Centers",
-		"configuration": "",
 		"currentTelemonitoring": "Patient: Telemonitoring",
 		"forms": "Forms",
 		"informationConfiguration": "Config",
+		"learning": {
+			"articles": "",
+			"categories": "",
+			"dashboard": "",
+			"forms": "",
+			"label": ""
+		},
 		"monitoring-delivery": "",
 		"newPatient": "New patient",
 		"nomenclature": "Nomenclatures",
@@ -262,6 +442,13 @@
 		},
 		"date": "Date",
 		"endDate": "End date",
+		"history": {
+			"author": "",
+			"cause": "",
+			"eventDate": "",
+			"newPeriod": "",
+			"title": ""
+		},
 		"indication": {
 			"label": "Indication"
 		},
@@ -393,7 +580,7 @@
 				"content": "The patient you want to create seems to be a already existing, please check in the below list. If the patient is a duplicate, please click on the patient to select him else click on the button \"create a patient\" to confirm his validation.",
 				"title": "Potential duplicate(s):"
 			},
-      "notAuthorized": "Vous ne disposez pas des droits nécéssaires pour créer ce patient (indication ou catégorie d'age non suivie)",
+			"notAuthorized": "Vous ne disposez pas des droits nécéssaires pour créer ce patient (indication ou catégorie d'age non suivie)",
 			"title": "Patient creation"
 		},
 		"delete": {
@@ -427,16 +614,20 @@
 		"lastName": "Last name",
 		"learning": {
 			"button": {
+				"displayAnswers": "",
 				"edit": "Learning settings"
 			},
+			"taskDone": "",
 			"taskTodo": "To do task(s)",
 			"title": "Therapeutic education"
 		},
 		"learningdata": {
+			"notifyUserByEmail": "",
 			"title": "Learning"
 		},
 		"list": {
 			"search": "Search",
+			"showClosed": "",
 			"title": "List of patients"
 		},
 		"medicalInformation": {
@@ -479,6 +670,7 @@
 				"title": "Activate the telemonitoring"
 			},
 			"frequency": {
+				"label": "",
 				"once": "once",
 				"unit": "Frequency",
 				"value": "every"
@@ -488,6 +680,11 @@
 			},
 			"noData": "No data",
 			"noDataFollowed": "No monitored data",
+			"notifyPatient": {
+				"button": "",
+				"confirmMessage": "",
+				"confirmTitle": ""
+			},
 			"ps": {
 				"followers": "Professionals with read only access",
 				"responsibles": "Médecins ayant les droits de gestion"
@@ -517,13 +714,17 @@
 					"confirmTitle": "Re-opening"
 				}
 			},
-			"threshold": "Data to monitor and alert threshold"
+			"threshold": "Data to monitor and alert threshold",
+			"thresholds": {
+				"label": ""
+			}
 		},
 		"name": "Patient",
 		"nationalId": "Social security number",
 		"newPatientButton": "New Patient",
 		"phone": "Phone",
 		"psychologicaldata": {
+			"history": "",
 			"noData": "No data",
 			"title": "Psychological data"
 		},
@@ -533,30 +734,39 @@
 		}
 	},
 	"prescription": {
+		"archive": {
+			"content": "",
+			"title": ""
+		},
 		"button": {
-			"delete": "Delete the prescription",
+			"add": "",
+			"archive": "",
 			"show": "Show prescription"
 		},
 		"date": "Date",
 		"delete": {
-			"content": "Are you sure you want to delete this prescription?",
-			"title": "Deletion"
+			"content": "",
+			"title": ""
 		},
 		"file": {
 			"dragDrop": "Drag and drop file here",
 			"or": "or"
 		},
+		"kind": "",
 		"list": {
 			"noElement": "No prescription"
 		},
 		"name": "Name",
 		"patient": {
-			"message": "The patient has only access to the last prescription ",
+			"showArchived": "",
 			"title": "Prescription(s) to patient"
 		},
+		"status": "",
 		"supplier": {
-			"message": "",
 			"title": "Prescription(s) for Optim'Care"
+		},
+		"upload": {
+			"title": ""
 		}
 	},
 	"register": {
