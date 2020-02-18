@@ -310,13 +310,19 @@
 			},
 			"image": "Image",
 			"indications": "Indication(s)",
+			"list": {
+				"noElement": "Pas de sous thématique"
+			},
 			"name": "Nom",
 			"new": {
 				"title": "Nouvelle Thématique"
 			},
 			"parent": "Thématique parent",
 			"sharedPost": "Article(s) proposé(s) par un autre centre",
-			"status": "Statut"
+			"status": "Statut",
+			"subCategory": {
+				"name": "Nom sous-thématique"
+			}
 		},
 		"dashboard": {
 			"lastArticles": "Derniers articles",
@@ -330,8 +336,15 @@
 			"label": "Dupliquer l'apprentissage depuis le centre : "
 		},
 		"form": {
+			"archive": {
+				"confirm": {
+					"content": "Etes-vous sûr de vouloir archiver ce questionnaire? Il sera conservé 180 jours dans les archives. Attention si le questionnaire a déjà été assigné à un patient, celui-ci aura accès à ce questionnaire jusqu’à ce qu’il soit réalisé.",
+					"title": "Archivage d'un questionnaire"
+				}
+			},
 			"button": {
 				"add": "Ajouter un questionnaire",
+				"archive": "Archiver un questionnaire",
 				"edit": "Editer un questionnaire",
 				"new": "Créer un nouveau questionnaire",
 				"remove": "Supprimer un questionnaire",
@@ -344,12 +357,6 @@
 				"title": "Nouveau questionnaire"
 			},
 			"creationDate": "Date",
-			"delete": {
-				"confirm": {
-					"content": "Etes-vous sûr de vouloir supprimer ce questionnaire? Il sera conservé 180 jours dans les archives. Attention si le questionnaire a déjà été assigné à un patient, celui-ci aura accès à ce questionnaire jusqu’à ce qu’il soit réalisé.",
-					"title": "Suppression d'un questionnaire"
-				}
-			},
 			"edit": {
 				"title": "Modification d'un questionnaire"
 			},
@@ -545,7 +552,7 @@
 			"label": "Carte vitale"
 		},
 		"biologicaldata": {
-			"alertForNewDataUpload": "Recevoir une notification lorsque le patient partage un rapport d'analyse biologique.",
+			"alertForNewDataUpload": "Recevoir une alerte lorsque le patient partage un rapport d'analyse biologique.",
 			"needAtLeastOneEntry": "Vous devez suivre au moins 1 donnée biologique",
 			"title": "Données biologiques"
 		},
@@ -565,8 +572,7 @@
 			}
 		},
 		"consent": {
-			"Telemonitoring": "le patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance",
-			"docModel": "Modèle de consentement"
+			"Telemonitoring": "le patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance"
 		},
 		"create": {
 			"confirm": {
@@ -653,6 +659,7 @@
 		"medicaldata": {
 			"bloodPressure": "Tension",
 			"bmi": "IMC",
+			"endFollowing": "Fin de suivi",
 			"noData": "Aucune donnée",
 			"title": "Données cliniques",
 			"weight": "Poids"
@@ -724,7 +731,10 @@
 		"newPatientButton": "Nouveau patient",
 		"phone": "Téléphone",
 		"psychologicaldata": {
-			"history": "",
+			"endFollowing": "Fin de suivi",
+			"fillInDate": "Date de saisie",
+			"history": "Voir l'historique",
+			"nexMeasurementDate": "Prochaine saisie",
 			"noData": "Aucune donnée",
 			"title": "Données psychologiques"
 		},

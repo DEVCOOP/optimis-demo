@@ -310,13 +310,19 @@
 			},
 			"image": "",
 			"indications": "",
+			"list": {
+				"noElement": ""
+			},
 			"name": "",
 			"new": {
 				"title": ""
 			},
 			"parent": "",
 			"sharedPost": "",
-			"status": ""
+			"status": "",
+			"subCategory": {
+				"name": ""
+			}
 		},
 		"dashboard": {
 			"lastArticles": "",
@@ -330,8 +336,15 @@
 			"label": ""
 		},
 		"form": {
+			"archive": {
+				"confirm": {
+					"content": "",
+					"title": ""
+				}
+			},
 			"button": {
 				"add": "",
+				"archive": "",
 				"edit": "",
 				"new": "",
 				"remove": "",
@@ -344,12 +357,6 @@
 				"title": ""
 			},
 			"creationDate": "",
-			"delete": {
-				"confirm": {
-					"content": "",
-					"title": ""
-				}
-			},
 			"edit": {
 				"title": ""
 			},
@@ -565,8 +572,7 @@
 			}
 		},
 		"consent": {
-			"Telemonitoring": "Patient has given his/her consent for the processing of his/her personal data needed for telemonitoring",
-			"docModel": "Consent template"
+			"Telemonitoring": "Patient has given his/her consent for the processing of his/her personal data needed for telemonitoring"
 		},
 		"create": {
 			"confirm": {
@@ -653,6 +659,7 @@
 		"medicaldata": {
 			"bloodPressure": "Blood pressure",
 			"bmi": "BMI",
+			"endFollowing": "",
 			"noData": "No data",
 			"title": "Clinical data",
 			"weight": "Weight"
@@ -724,7 +731,10 @@
 		"newPatientButton": "New Patient",
 		"phone": "Phone",
 		"psychologicaldata": {
+			"endFollowing": "",
+			"fillInDate": "",
 			"history": "",
+			"nexMeasurementDate": "",
 			"noData": "No data",
 			"title": "Psychological data"
 		},
