@@ -496,6 +496,7 @@
 			"title": "Telemonitoring"
 		},
 		"equipment": {
+			"askedDate": "",
 			"firstSynch": "1ère synchro",
 			"label": "Equipement",
 			"lastSynch": "Dernière synchro",
@@ -514,6 +515,7 @@
 			"by": "Dealt on {{date}} by {{by}}",
 			"name": "Action taken"
 		},
+		"formShared": "",
 		"learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
 		"monitoringAlert": " {{patient}} ' <b>{{dataType}}</b> is {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
 		"monitoringAllDataFilled": "",
@@ -523,6 +525,7 @@
 		"monitoringNotification": "",
 		"monitoringUnfilledData": "",
 		"noData": "No data",
+		"postShared": "",
 		"uploadedData": "{{patient}} shared a new biological report"
 	},
 	"otherIndication": {
@@ -825,6 +828,7 @@
 				"label": "National ID (RPPS number)"
 			},
 			"indicationRightFilters": "Indications you are in charge of (please select below)*",
+			"learning": "",
 			"licenses": {
 				"label": "Request for an access to solutions (please select below):*"
 			},
@@ -928,6 +932,7 @@
 			"title": "Language"
 		},
 		"lastName": "Last name",
+		"learningReferent": "",
 		"licenses": {
 			"asked": "License"
 		},

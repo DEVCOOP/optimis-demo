@@ -328,7 +328,7 @@
 			"lastArticles": "Derniers articles",
 			"lastCategories": "Dernières thématiques",
 			"lastForms": "Derniers questionnaires",
-			"subTitle": "Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+			"subTitle": "Créer des articles et des questionnaires pour vos patients et partager les, si vous le souhaitez, avec d'autres centres.",
 			"title": "Espace apprentissage"
 		},
 		"duplicate": {
@@ -496,6 +496,7 @@
 			"title": "Télésurveillance"
 		},
 		"equipment": {
+			"askedDate": "Demandé le",
 			"firstSynch": "1ère synchro",
 			"label": "Equipement",
 			"lastSynch": "Dernière synchro",
@@ -514,6 +515,7 @@
 			"by": "Traitée le {{date}} par {{by}}",
 			"name": "Action effectuée"
 		},
+		"formShared": "Le centre {{centerName}} vous a partagé un questionnaire.",
 		"learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
 		"monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
 		"monitoringAllDataFilled": "Toutes les données de télésurveillance demandées pour le patient {{patient}} ont été renseignées",
@@ -523,6 +525,7 @@
 		"monitoringNotification": "{{patient}} {{description}} {{dataType}}",
 		"monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
 		"noData": "Aucun élément",
+		"postShared": "Le centre {{centerName}} vous a partagé un article.",
 		"uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
 	},
 	"otherIndication": {
@@ -825,6 +828,7 @@
 				"label": "Identifiant national (numéro RPPS ou Adeli)"
 			},
 			"indicationRightFilters": "Indications suivies (merci de les sélectionner dans la liste)*",
+			"learning": "Apprentissage",
 			"licenses": {
 				"label": "Demande d'accès aux solutions (merci de les sélectionner dans la liste)*"
 			},
@@ -928,6 +932,7 @@
 			"title": "Langue"
 		},
 		"lastName": "Nom",
+		"learningReferent": "Référent apprentissage",
 		"licenses": {
 			"asked": "Licence"
 		},
