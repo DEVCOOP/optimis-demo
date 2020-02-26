@@ -263,8 +263,8 @@
 			"creationDate": "Date",
 			"delete": {
 				"confirm": {
-					"content": "Etes-vous sûr de vouloir supprimer cet article? Il sera conservé 180 jours dans les archives.",
-					"title": "Suppression d'un article"
+					"content": "Etes-vous sûr de vouloir archiver cet article? Il sera conservé 180 jours dans les archives.",
+					"title": "Archivage d'un article"
 				}
 			},
 			"edit": {
