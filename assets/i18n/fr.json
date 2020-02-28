@@ -403,6 +403,7 @@
 			},
 			"search": "Recherche"
 		},
+		"noEditRight": "Vous n'avez pas les droits de modifier un article/questionnaire publié",
 		"share": {
 			"confirm": {
 				"content": "Votre document a bien été partagé avec le centre sélectionné",

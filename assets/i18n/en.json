@@ -403,6 +403,7 @@
 			},
 			"search": ""
 		},
+		"noEditRight": "",
 		"share": {
 			"confirm": {
 				"content": "",
