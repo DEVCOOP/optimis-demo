@@ -516,6 +516,7 @@
 			"by": "Dealt on {{date}} by {{by}}",
 			"name": "Action taken"
 		},
+		"effIndAlert": "",
 		"formShared": "",
 		"learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
 		"monitoringAlert": " {{patient}} ' <b>{{dataType}}</b> is {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
@@ -636,8 +637,9 @@
 			"title": "Learning"
 		},
 		"list": {
+			"includeCenter": "",
+			"includeClosed": "",
 			"search": "Search",
-			"showClosed": "",
 			"title": "List of patients"
 		},
 		"medicalInformation": {

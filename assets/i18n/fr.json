@@ -516,6 +516,7 @@
 			"by": "Traitée le {{date}} par {{by}}",
 			"name": "Action effectuée"
 		},
+		"effIndAlert": "{{patient}} a au moins un <b>effet indésirable ressenti</b>",
 		"formShared": "Le centre {{centerName}} vous a partagé un questionnaire.",
 		"learningAddForm": "{{patient}} a effectué son accompagnement thérapeutique",
 		"monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
@@ -636,8 +637,9 @@
 			"title": "Apprentissage"
 		},
 		"list": {
+			"includeCenter": "Afficher les télésurveillances de mon centre",
+			"includeClosed": "Afficher les télésurveillances cloturées",
 			"search": "Recherche",
-			"showClosed": "Afficher les télésurveillances cloturées",
 			"title": "Liste des patients"
 		},
 		"medicalInformation": {
@@ -715,9 +717,9 @@
 					"message": "La télésurveillance se clôturera dans {{closedInXDays}} jour(s)"
 				},
 				"postpone": {
-					"button": "Prolonger",
-					"confirmMessage": "Voulez-vous prolonger la télésurveillance jusqu'au {{newDate}}?",
-					"confirmTitle": "Prolongation"
+					"button": "Renouveler",
+					"confirmMessage": "Voulez-vous renouveler la télésurveillance jusqu'au {{newDate}}?",
+					"confirmTitle": "Renouvellement"
 				},
 				"reopen": {
 					"button": "Rouvrir",
