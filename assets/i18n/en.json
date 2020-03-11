@@ -347,7 +347,6 @@
 				"archive": "",
 				"edit": "",
 				"new": "",
-				"remove": "",
 				"share": ""
 			},
 			"categories": "",
@@ -370,7 +369,9 @@
 			"question": {
 				"answer": "",
 				"button": {
-					"add": ""
+					"add": "",
+					"edit": "",
+					"remove": ""
 				},
 				"choice": {
 					"addButton": "",

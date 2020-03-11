@@ -251,7 +251,7 @@
 				"add": "Ajouter un article",
 				"edit": "Editer un article",
 				"new": "Créer un nouvel article",
-				"remove": "Supprimer un article",
+				"remove": "Archiver un article",
 				"share": "Partager un article"
 			},
 			"categories": "Thématique(s)",
@@ -347,7 +347,6 @@
 				"archive": "Archiver un questionnaire",
 				"edit": "Editer un questionnaire",
 				"new": "Créer un nouveau questionnaire",
-				"remove": "Supprimer un questionnaire",
 				"share": "Partager un questionnaire"
 			},
 			"categories": "Thématique(s)",
@@ -370,7 +369,9 @@
 			"question": {
 				"answer": "Réponse",
 				"button": {
-					"add": "Ajouter une question"
+					"add": "Ajouter une question",
+					"edit": "Editer une question",
+					"remove": "Supprimer une question"
 				},
 				"choice": {
 					"addButton": "Ajouter une réponse",
@@ -455,7 +456,7 @@
 			"cause": "Action",
 			"eventDate": "Date",
 			"newPeriod": "Nouvelle période",
-			"title": "Historique"
+			"title": "Historique des télésurveillances"
 		},
 		"indication": {
 			"label": "Indication"
@@ -686,7 +687,7 @@
 				"label": "Fréquence :",
 				"once": "dans",
 				"unit": "Fréquence",
-				"value": "tous les"
+				"value": "tou(te)s les"
 			},
 			"learning": {
 				"selectData": "Sélectionner les sujets d'apprentissage"
